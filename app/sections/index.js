@@ -1,3 +1,4 @@
+"use client"
 import Hero from "./Hero";
 import Intro from "./Intro";
 import Explore from "./Explore";
