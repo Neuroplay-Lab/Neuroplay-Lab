@@ -1,7 +1,7 @@
 import { Intro, Explore, PrimaryResearch, Hero, AboutUs } from "./sections";
 
 const Home = () => (
-    <>
+    <div className="overflow-hidden">
         <Hero />
         <div className="relative">
             <Intro />
@@ -13,7 +13,7 @@ const Home = () => (
             <div className="gradient-04 z-0" />
             <AboutUs />
         </div>
-    </>
+    </div>
 );
 
 export default Home;

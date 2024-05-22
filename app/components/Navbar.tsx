@@ -38,7 +38,7 @@ const Navbar = () => (
                     About Us
                 </Link>
                 <Link
-                    href="/about"
+                    href="/contact"
                     className="text-lg text-white hover:text-gray-300"
                 >
                     Contact
@@ -50,19 +50,19 @@ const Navbar = () => (
                     Press
                 </Link>
                 <Link
-                    href="/about"
+                    href="/publications"
                     className="text-lg text-white hover:text-gray-300"
                 >
                     Publications
                 </Link>
                 <Link
-                    href="/about"
+                    href="/measures-and-code"
                     className="text-lg text-white hover:text-gray-300"
                 >
                     Measures and Code
                 </Link>
                 <Link
-                    href="/about"
+                    href="/reasearch-topics"
                     className="text-lg text-white hover:text-gray-300"
                 >
                     Research Topics
