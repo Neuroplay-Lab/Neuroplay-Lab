@@ -1,6 +1,7 @@
 import "./styles/globals.css";
 import type { Metadata } from "next";
 import localFont from "next/font/local";
+import { Navbar, Footer } from "./components";
 
 const eudoxusSans = localFont({
     src: [
@@ -40,12 +41,18 @@ const eudoxusSans = localFont({
 });
 
 export const metadata: Metadata = {
-    title: "Autoplay Lab",
+    title: "Neuroplay Lab",
 };
 
 const RootLayout = ({ children }) => (
     <html lang="en" className={eudoxusSans.className}>
-        <body>{children}</body>
+        <body className="bg-primary-black">
+            {/* <div className="overflow-hidden"> */}
+            <Navbar />
+            {children}
+            <Footer />
+            {/* </div> */}
+        </body>
     </html>
 );
 

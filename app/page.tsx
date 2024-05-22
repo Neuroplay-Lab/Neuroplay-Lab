@@ -1,9 +1,7 @@
-import { Footer, Navbar } from "./components/index";
 import { Intro, Explore, PrimaryResearch, Hero, AboutUs } from "./sections";
 
 const Home = () => (
-    <div className="bg-primary-black overflow-hidden">
-        <Navbar />
+    <>
         <Hero />
         <div className="relative">
             <Intro />
@@ -15,8 +13,7 @@ const Home = () => (
             <div className="gradient-04 z-0" />
             <AboutUs />
         </div>
-        <Footer />
-    </div>
+    </>
 );
 
 export default Home;

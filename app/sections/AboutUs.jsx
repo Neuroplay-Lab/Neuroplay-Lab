@@ -1,13 +1,17 @@
 import { motion } from 'framer-motion';
 import styles from '../styles';
-import { aboutGray } from '../constants';
-import { aboutLiam } from '../constants';
+import { aboutGray } from '../constants/constants';
+import { aboutLiam } from '../constants/constants';
 
 import { NewFeatures, TitleText, TypingText } from '../components';
 import { staggerContainer, fadeIn } from '../utils/motion';
 
+import Image from 'next/image';
+import grImg from "../../public/gr-image.jpg"
+import liImg from "../../public/li-image.jpg"
+
 const AboutUs = () => (
-  <section className={`${styles.paddings} relative z-10`}>
+  <section className={`${styles.paddings} relative z-10`} id='about-us'>
     <motion.div
       variants={staggerContainer}
       initial="hidden"
@@ -32,8 +36,8 @@ const AboutUs = () => (
       <motion.div
         className={`flex-1 ${styles.flexCenter}`}
       >
-        <img
-          src="/gr-image.jpg"
+        <Image
+          src={grImg}
           alt="get-started"
           className="w-[90%] h-[90%] object-contain"
         />
@@ -63,8 +67,8 @@ const AboutUs = () => (
       <motion.div
         className={`flex-1 ${styles.flexCenter}`}
       >
-        <img
-          src="/li-image.jpg"
+        <Image
+          src={liImg}
           alt="liam-cross"
           className="w-[90%] h-[90%] object-contain"
         />

@@ -3,9 +3,12 @@
 import { motion } from 'framer-motion';
 
 import styles from '../styles';
-import { startingFeatures } from '../constants';
+import { startingFeatures } from '../constants/constants';
 import { StartSteps, TitleText, TypingText } from '../components';
 import { staggerContainer, fadeIn } from '../utils/motion';
+
+import Image from 'next/image';
+import getStartedImg from "../../public/get-started.png"
 
 const PrimaryResearch = () => (
   <section className={`${styles.paddings} relative z-10`}>
@@ -20,8 +23,8 @@ const PrimaryResearch = () => (
 
         className={`flex-1 ${styles.flexCenter}`}
       >
-        <img
-          src="/get-started.png"
+        <Image
+          src={getStartedImg}
           alt="get-started"
           className="w-[90%] h-[90%] object-contain"
         />
