@@ -22,12 +22,12 @@ const ExploreCard = ({ id, imgUrl, title, index, active, handleClick }) => (
       alt={"Generic image card relating to " + title}
     />
     {active !== id ? (
-      <h3 className="font-semibold text-[25px] text-white absolute z-0 lg:bottom-32 lg:rotate-[-90deg] lg:origin-[0,0]  ">
+      <h3 className="font-semibold text-[1rem] text-white absolute z-0 lg:bottom-32 lg:rotate-[-90deg] lg:origin-[0,0]  ">
         {title}
       </h3>
     ) : (
-      <div className="absolute bottom-0 p-8 flex justify-start w-full flex-col bg-[rgba(0,0,0,0.5)] rounded-b-[24px]">
-        <h2 className="mt-[24px] md:text-[20px] font-semibold sm:text-[32px] text-[24px] text-white">
+      <div className="absolute bottom-0 px-8 py-4 flex justify-start w-full flex-col bg-[rgba(0,0,0,0.5)] rounded-b-[24px]">
+        <h2 className="mt-[0.5rem] md:text-[20px] font-semibold sm:text-[32px] text-[24px] text-white">
           {title}
         </h2>
       </div>

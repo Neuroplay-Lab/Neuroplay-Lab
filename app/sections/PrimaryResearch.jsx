@@ -34,7 +34,7 @@ const PrimaryResearch = () => (
         className="flex-[0.75] flex justify-center flex-col"
       >
         <TypingText title="| Primary Research Areas" />
-        <TitleText title={<>We are currently delving into</>} />
+        <TitleText title={<>We are currently delving into</>} textStyles={""} />
         <div className="mt-[31px] flex flex-col max-w-[460px] gap-[24px]">
           {startingFeatures.map((feature, index) => (
             <StartSteps

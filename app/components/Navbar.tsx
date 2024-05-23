@@ -23,7 +23,7 @@ const Navbar = () => (
                 Neuroplay Lab
             </h2>
 
-            <div className="flex items-center gap-8 lg:flex sm:hidden md:hidden">
+            <div className="items-center gap-8 hidden lg:flex">
                 <Link
                     href="/"
                     className="text-lg text-white hover:text-gray-300"
