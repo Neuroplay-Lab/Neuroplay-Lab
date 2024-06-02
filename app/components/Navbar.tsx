@@ -88,11 +88,11 @@ const Navbar = () => {
                 </div>
             </div>
             <AnimatePresence>
-                {isOpen && <motion.ul className="origin-top text-center mt-1" variants={mobileMenuVariants} initial="initial" animate="animate" exit="exit">
+                {isOpen && <motion.ul className="origin-top text-center mt-1 text-xl font-semibold" variants={mobileMenuVariants} initial="initial" animate="animate" exit="exit">
                     <motion.li className="my-1">
                         <Link
                             href="/"
-                            className="text-lg text-white hover:text-gray-300"
+                            className="text-white hover:text-gray-300"
                             onClick={handleMenuClick}
                         >
                             Home
@@ -102,7 +102,7 @@ const Navbar = () => {
                         <Link
                             href="/#about-us"
                             scroll
-                            className="text-lg text-white hover:text-gray-300"
+                            className="text-white hover:text-gray-300"
                             onClick={handleMenuClick}
                         >
                             About Us
@@ -111,7 +111,7 @@ const Navbar = () => {
                     <motion.li className="my-1">
                         <Link
                             href="/contact"
-                            className="text-lg text-white hover:text-gray-300"
+                            className="text-white hover:text-gray-300"
                             onClick={handleMenuClick}
                         >
                             Contact
@@ -120,7 +120,7 @@ const Navbar = () => {
                     <motion.li className="my-1">
                         <Link
                             href="/press"
-                            className="text-lg text-white hover:text-gray-300"
+                            className="text-white hover:text-gray-300"
                             onClick={handleMenuClick}
                         >
                             Press
@@ -129,7 +129,7 @@ const Navbar = () => {
                     <motion.li className="my-1">
                         <Link
                             href="/publications"
-                            className="text-lg text-white hover:text-gray-300"
+                            className="text-white hover:text-gray-300"
                             onClick={handleMenuClick}
                         >
                             Publications
@@ -138,7 +138,7 @@ const Navbar = () => {
                     <motion.li className="my-1">
                         <Link
                             href="/measures-and-code"
-                            className="text-lg text-white hover:text-gray-300"
+                            className="text-white hover:text-gray-300"
                             onClick={handleMenuClick}
                         >
                             Measures and Code
@@ -147,7 +147,7 @@ const Navbar = () => {
                     <motion.li className="my-1">
                         <Link
                             href="/reasearch-topics"
-                            className="text-lg text-white hover:text-gray-300"
+                            className="text-white hover:text-gray-300"
                             onClick={handleMenuClick}
                         >
                             Research Topics
