@@ -1,0 +1,30 @@
+[
+    {
+        "title": "How to Get in Sync With Someone",
+        "publisher": "The New York Times Magazine",
+        "href": "https://www.nytimes.com/2020/11/24/magazine/how-to-get-in-sync-with-someone.html",
+        "image": "/29Mag-Tip-01-superJumbo.png",
+        "imageAlt": "Image from New York Times Article"
+    },
+    {
+        "title": "Study: Autism Diagnosis Later in Life Linked to Worse Mental Health",
+        "publisher": "Verywell Health",
+        "href": "https://www.verywellhealth.com/autism-diagnosis-adulthood-mental-health-5205054",
+        "image": "/GettyImages-1136325345-ad331a79510f47558854475cc70fe874.png",
+        "imageAlt": "Image from Verywell Health Article"
+    },
+    {
+        "title": "Walk in my shoes",
+        "publisher": "The British Psychological Society",
+        "href": "https://www.bps.org.uk/psychologist/walk-my-shoes",
+        "image": "/Screenshot 2024-06-03 at 18-35-16 Walk in my shoes BPS.png",
+        "imageAlt": "Image from The British Psychological Society Article"
+    },
+    {
+        "title": "Neurodivergent And Autistic People Are Better At Reading Cartoon Emotions, Study Finds",
+        "publisher": "IFLScience",
+        "href": "https://www.iflscience.com/neurodivergent-and-autistic-people-are-better-at-reading-cartoon-emotions-study-finds-66225",
+        "image": "/minds-eye-test-l.png",
+        "imageAlt": "An image from the 'Reading the Mind in the Eyes' test. Image credit: Edge Hill University"
+    }
+]
