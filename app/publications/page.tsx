@@ -1,5 +1,5 @@
 import { TitleText } from "../components";
-import Publication from "./publication";
+import DividedListLink from "../components/DividedListLink";
 import publications from "./publications.json";
 
 const Publications = () => {
@@ -11,7 +11,7 @@ const Publications = () => {
             </p>
             <ul>
                 {publications.map(({ title, href }) => (
-                    <Publication title={title} href={href} />
+                    <DividedListLink href={href}>{title}</DividedListLink>
                 ))}
             </ul>
         </>

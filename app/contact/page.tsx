@@ -117,8 +117,8 @@ const Contact = () => {
                         </ul>
                     </DividedListItem>
                 </ul>
-                <div className="pt-4">
-                    <h3 className="text-center font-semibold text-2xl m-4 text-white">
+                <div className="pt-2 md:pt-0 flex-grow max-w-[500px]">
+                    <h3 className="text-center font-semibold text-2xl m-3 text-white">
                         Contact Form
                     </h3>
                     <form method="post" className="m-4" action="">
