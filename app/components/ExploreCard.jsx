@@ -8,10 +8,9 @@ const ExploreCard = ({ id, imgUrl, title, index, active, handleClick }) => (
   <motion.div
     variants={fadeIn('right', 'spring', index * 0.5, 0.75)}
     className={
-      `relative ${active === id ? 'lg:flex-[3.5] flex-[10]' : 'lg:flex-[0.5] flex-[2]'
+      `relative ${active === id ? 'lg:flex-[3.5] flex-[10]' : 'lg:flex-[0.5] flex-[1]'
       } 
-      flex items-center justify-center transition-[flex] duration-[0.7s] ease-out-flex cursor-pointer lg:min-w-[140px] h-[600px]
-    `}
+      flex items-center justify-center transition-[flex] duration-[0.7s] ease-out-flex cursor-pointer lg:min-w-[f ] min-h-fit`}
     onClick={() => handleClick(id)}
   >
     <Image
@@ -22,12 +21,12 @@ const ExploreCard = ({ id, imgUrl, title, index, active, handleClick }) => (
       alt={"Generic image card relating to " + title}
     />
     {active !== id ? (
-      <h3 className="font-semibold text-[1rem] text-white absolute z-0 lg:bottom-32 lg:rotate-[-90deg] lg:origin-[0,0]  ">
+      <h3 className="font-semibold text-[1rem] text-white relative lg:absolute z-0 lg:bottom-80 lg:rotate-[-90deg] lg:origin-[0,0] mx-2 lg:mx-0 lg:w-[500px]">
         {title}
       </h3>
     ) : (
-      <div className="absolute bottom-0 px-8 py-4 flex justify-start w-full flex-col bg-[rgba(0,0,0,0.5)] rounded-b-[24px]">
-        <h2 className="mt-[0.5rem] md:text-[20px] font-semibold sm:text-[32px] text-[24px] text-white">
+      <div className="absolute max-h-[90%] bottom-0 px-8 py-4 flex justify-start w-full flex-col bg-[rgba(0,0,0,0.5)] rounded-b-[24px]">
+        <h2 className="md:text-[20px] font-semibold sm:text-[32px] text-xl text-white">
           {title}
         </h2>
       </div>

@@ -12,8 +12,13 @@ const Navbar = () => {
     const [isOpen, toggleIsOpen] = useState(false);
 
     const handleMenuClick = () => {
+        if (!isOpen) {
+            document.body.classList.add("overflow-y-hidden");
+        } else {
+            document.body.classList.remove("overflow-y-hidden");
+        }
+        console.log(!isOpen);
         toggleIsOpen(!isOpen);
-        console.log(isOpen);
     };
 
     return (
@@ -21,9 +26,9 @@ const Navbar = () => {
             variants={navVariants}
             initial="hidden"
             whileInView="show"
-            className={`${styles.xPaddings} py-8 sm:pr-8 relative`}
+            className={`${styles.xPaddings} py-8 sm:pr-8 z-20 relative`}
         >
-            <div className="absolute w-[50%] inset-0 gradient-01 -z-10" />
+            <div className="absolute w-[50%] max-h-[15vh] inset-0 gradient-01 -z-10" />
             <div
                 className={`${styles.innerWidth} mx-auto flex justify-between gap-8`}
             >
@@ -88,72 +93,83 @@ const Navbar = () => {
                 </div>
             </div>
             <AnimatePresence>
-                {isOpen && <motion.ul className="origin-top text-center mt-1 text-xl font-semibold" variants={mobileMenuVariants} initial="initial" animate="animate" exit="exit">
-                    <motion.li className="my-1">
-                        <Link
-                            href="/"
-                            className="text-white hover:text-gray-300"
-                            onClick={handleMenuClick}
-                        >
-                            Home
-                        </Link>
-                    </motion.li>
-                    <motion.li className="my-1">
-                        <Link
-                            href="/#about-us"
-                            scroll
-                            className="text-white hover:text-gray-300"
-                            onClick={handleMenuClick}
-                        >
-                            About Us
-                        </Link>
-                    </motion.li>
-                    <motion.li className="my-1">
-                        <Link
-                            href="/contact"
-                            className="text-white hover:text-gray-300"
-                            onClick={handleMenuClick}
-                        >
-                            Contact
-                        </Link>
-                    </motion.li>
-                    <motion.li className="my-1">
-                        <Link
-                            href="/press"
-                            className="text-white hover:text-gray-300"
-                            onClick={handleMenuClick}
-                        >
-                            Press
-                        </Link>
-                    </motion.li>
-                    <motion.li className="my-1">
-                        <Link
-                            href="/publications"
-                            className="text-white hover:text-gray-300"
-                            onClick={handleMenuClick}
-                        >
-                            Publications
-                        </Link>
-                    </motion.li>
-                    <motion.li className="my-1">
-                        <Link
-                            href="/measures-and-code"
-                            className="text-white hover:text-gray-300"
-                            onClick={handleMenuClick}
-                        >
-                            Measures and Code
-                        </Link>
-                    </motion.li>
-                    <motion.li className="my-1">
-                        <Link
-                            href="/reasearch-topics"
-                            className="text-white hover:text-gray-300"
-                            onClick={handleMenuClick}
-                        >
-                            Research Topics
-                        </Link>
-                    </motion.li>
-                </motion.ul>}
+                {isOpen && (
+                    <motion.div
+                        className="origin-top absolute overflow-hidden z-20 left-0 h-screen pb-[62px] divide-y grid bg-primary-black w-full text-center text-xl font-light"
+                        variants={mobileMenuVariants}
+                        initial="initial"
+                        animate="animate"
+                        exit="exit"
+                    >
+                        <motion.div className="grid items-center">
+                            <Link
+                                href="/"
+                                className="text-white hover:text-gray-300"
+                                onClick={handleMenuClick}
+                            >
+                                Home
+                            </Link>
+                        </motion.div>
+                        <motion.div className="grid items-center">
+                            <Link
+                                href="/#about-us"
+                                scroll
+                                className="text-white hover:text-gray-300"
+                                onClick={handleMenuClick}
+                            >
+                                About Us
+                            </Link>
+                        </motion.div>
+                        <motion.div className="grid items-center">
+                            <Link
+                                href="/contact"
+                                className="text-white hover:text-gray-300"
+                                onClick={handleMenuClick}
+                            >
+                                Contact
+                            </Link>
+                        </motion.div>
+                        <motion.div className="grid items-center">
+                            <Link
+                                href="/press"
+                                className="text-white hover:text-gray-300"
+                                onClick={handleMenuClick}
+                            >
+                                Press
+                            </Link>
+                        </motion.div>
+                        <motion.div className="grid items-center">
+                            <Link
+                                href="/publications"
+                                className="text-white hover:text-gray-300"
+                                onClick={handleMenuClick}
+                            >
+                                Publications
+                            </Link>
+                        </motion.div>
+                        <motion.div className="grid items-center">
+                            <Link
+                                href="/measures-and-code"
+                                className="text-white hover:text-gray-300"
+                                onClick={handleMenuClick}
+                            >
+                                Measures and Code
+                            </Link>
+                        </motion.div>
+                        <motion.div className="grid items-center">
+                            <Link
+                                href="/reasearch-topics"
+                                className="text-white hover:text-gray-300"
+                                onClick={handleMenuClick}
+                            >
+                                Research Topics
+                            </Link>
+                        </motion.div>
+                        <div className="absolute top-[-32px] max-h-[15vh] w-[50%] inset-0 gradient-01 -z-10" />
+                        <div className="absolute top-40 left-9 max-h-[15vh] w-[50%] inset-0 gradient-01 -z-10" />
+                        <div className="absolute top-96 left-24 max-h-[15vh] w-[50%] inset-0 gradient-01 -z-10" />
+                    </motion.div>
+                )}
             </AnimatePresence>
         </motion.nav>
     );

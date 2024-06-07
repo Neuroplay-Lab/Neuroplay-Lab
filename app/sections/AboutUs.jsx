@@ -13,66 +13,94 @@ import liImg from "../../public/li-image.jpg"
 const AboutUs = () => (
   <section className={`${styles.paddings} relative z-10`} id='about-us'>
     <motion.div
+        variants={fadeIn('right', 'tween', 0.2, 1)}
+        className="flex-[0.95] flex justify-center flex-col"
+        initial="hidden"
+        whileInView="show"
+        viewport={{once: false, amount: 0.1}}
+      >
+        <TypingText title="| About us" />
+    </motion.div>
+    
+    {/* Gray section */}
+    <motion.div
       variants={staggerContainer}
       initial="hidden"
       whileInView="show"
-      viewport={{ once: false, amount: 0.25 }}
-      className={`${styles.innerWidth} mx-auto flex lg:flex-row flex-col gap-8`}
+      viewport={{ once: false, amount: 0.1 }}
+      className={`${styles.innerWidth} mx-auto grid lg:grid-cols-2 gap-4`}
     >
-      <motion.div
+        <motion.div
+            variants={fadeIn('right', 'tween', 0.2, 1)}
+            initial="hidden"
+            whileInView="show"
+        >
+            <TitleText title={<>Dr. Gray Atherton</>} />
+        </motion.div>
+
+        <motion.div
+            className={`flex-1 row-span-2 ${styles.flexCenter}`}
+            variants={fadeIn('left', 'tween', 0.2, 1)}
+            initial="hidden"
+            whileInView="show"
+        >
+            <Image
+            src={grImg}
+            alt="Dr Gray Atherton"
+            className="w-[90%] h-[90%] object-contain"
+            />
+        </motion.div>
+
+        <motion.div 
         variants={fadeIn('right', 'tween', 0.2, 1)}
-        className="flex-[0.95] flex justify-center flex-col"
-      >
-        <TypingText title="| About us" />
-        <TitleText title={<>Dr. Gray Atherton</>} />
-
-        <div className="mt-[34px] justify-end">
-          {aboutGray.map((feature) => (
+        className="justify-end"
+        initial="hidden"
+        whileInView="show">
+            {aboutGray.map((feature) => (
             <NewFeatures key={feature.title} {...feature} />
-          ))}
-        </div>
-      </motion.div>
+            ))}
+        </motion.div>
 
-      <motion.div
-        className={`flex-1 ${styles.flexCenter}`}
-      >
-        <Image
-          src={grImg}
-          alt="get-started"
-          className="w-[90%] h-[90%] object-contain"
-        />
-      </motion.div>
     </motion.div>
 
     <motion.div
       variants={staggerContainer}
       initial="hidden"
       whileInView="show"
-      viewport={{ once: false, amount: 0.25 }}
-      className={`${styles.innerWidth} mx-auto flex lg:flex-row flex-col gap-8 mt-16`}
+      viewport={{ once: false, amount: 0.1 }}
+      className={`${styles.innerWidth} mx-auto grid lg:grid-cols-2 gap-4`}
     >
-      <motion.div
-        variants={fadeIn('right', 'tween', 0.2, 1)}
-        className="flex-[0.95] flex justify-center flex-col"
-      >
-        <TitleText title={<>Dr. Liam Cross</>} />
+        <motion.div
+            variants={fadeIn('right', 'tween', 0.2, 1)}
+            initial="hidden"
+            whileInView="show"
+        >
+            <TitleText title={<>Dr. Liam Cross</>} />
+        </motion.div>
 
-        <div className="mt-[34px] justify-end">
-          {aboutLiam.map((feature) => (
-            <NewFeatures key={feature.title} {...feature} />
-          ))}
-        </div>
-      </motion.div>
-
-      <motion.div
-        className={`flex-1 ${styles.flexCenter}`}
-      >
-        <Image
+        <motion.div
+            className={`flex-1 row-span-2 ${styles.flexCenter}`}
+            variants={fadeIn('left', 'tween', 0.2, 1)}
+            initial="hidden"
+            whileInView="show"
+        >
+            <Image
           src={liImg}
-          alt="liam-cross"
+          alt="Dr Liam Cross"
           className="w-[90%] h-[90%] object-contain"
         />
-      </motion.div>
+        </motion.div>
+
+        <motion.div 
+        variants={fadeIn('right', 'tween', 0.2, 1)}
+        className="justify-end"
+        initial="hidden"
+        whileInView="show">
+            {aboutLiam.map((feature) => (
+            <NewFeatures key={feature.title} {...feature} />
+            ))}
+        </motion.div>
+
     </motion.div>
   </section>
 );

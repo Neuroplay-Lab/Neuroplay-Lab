@@ -8,10 +8,22 @@ export const TypingText = ({ title, textStyles }) => (
     variants={textContainer}
     className={`font-normal text-[40px] text-white ${textStyles}`}
   >
-    {Array.from(title).map((letter, index) => (
+    {title.split(" ").map((el, i) => (
+        <motion.span
+          initial={{ opacity: 0 }}
+          animate={{ opacity: 1 }}
+          transition={{
+            duration: 0.25,
+            delay: i / 10
+          }}
+          key={i}
+        >
+          {Array.from(el).map((letter, index) => (
       <motion.span variants={textVariant2} key={index}>
         {letter === ' ' ? '\u00A0' : letter}
       </motion.span>
+    ))}{" "}
+        </motion.span>
     ))}
   </motion.p>
 );

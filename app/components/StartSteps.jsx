@@ -1,11 +1,11 @@
 import styles from '../styles';
 
 const StartSteps = ({ number, text }) => (
-  <div className={`${styles.flexCenter} flex-row`}>
+  <div className={`${styles.flexCenter}`}>
     <div
-      className={`${styles.flexCenter} w-[70px] h-[70px] rounded-[24px] bg-[#323F5D]`}
+      className={`${styles.flexCenter} rounded-[24px] bg-[#323F5D] self-start md:self-center`}
     >
-      <p className="font-bold text-[20px] text-white">
+      <p className="font-bold text-[20px] text-white m-3">
         {number}
       </p>
     </div>

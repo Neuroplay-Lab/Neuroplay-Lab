@@ -24,7 +24,7 @@ const Explore = () => {
           title={<>We are interested in <br className="md:block hidden" /> exploring...</>}
           textStyles="text-center"
         />
-        <div className="mt-[50px] flex lg:flex-row flex-col min-h-[70vh] gap-5">
+        <div className="mt-5 flex lg:flex-row flex-col min-h-[80vh] gap-5">
           {exploreWorlds.map((world, index) => (
             <ExploreCard
               key={world.id}
