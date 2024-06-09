@@ -32,7 +32,7 @@ const Navbar = () => {
             <div
                 className={`${styles.innerWidth} mx-auto flex justify-between gap-8`}
             >
-                <h2 className="font-extrabold text-[24px] leading-[30.24px] text-white uppercase">
+                <h2 className="font-extrabold min-w-fit text-[24px] leading-[30.24px] text-white uppercase">
                     Neuroplay Lab
                 </h2>
                 <div className="flex items-center gap-8 md:show lg:hidden">
@@ -46,47 +46,47 @@ const Navbar = () => {
                         />
                     </button>
                 </div>
-                <div className="items-center gap-8 hidden lg:flex">
+                <div className="items-center gap-4 min-[1108px]:gap-8 hidden lg:flex">
                     <Link
                         href="/"
-                        className="text-lg text-white hover:text-gray-300"
+                        className="min-[1180px]:text-lg text-white hover:text-gray-300"
                     >
                         Home
                     </Link>
                     <Link
                         href="/#about-us"
                         scroll
-                        className="text-lg text-white hover:text-gray-300"
+                        className="min-[1180px]:text-lg text-white hover:text-gray-300"
                     >
                         About Us
                     </Link>
                     <Link
                         href="/contact"
-                        className="text-lg text-white hover:text-gray-300"
+                        className="min-[1180px]:text-lg text-white hover:text-gray-300"
                     >
                         Contact
                     </Link>
                     <Link
                         href="/press"
-                        className="text-lg text-white hover:text-gray-300"
+                        className="min-[1180px]:text-lg text-white hover:text-gray-300"
                     >
                         Press
                     </Link>
                     <Link
                         href="/publications"
-                        className="text-lg text-white hover:text-gray-300"
+                        className="min-[1180px]:text-lg text-white hover:text-gray-300"
                     >
                         Publications
                     </Link>
                     <Link
                         href="/measures-and-code"
-                        className="text-lg text-white hover:text-gray-300"
+                        className="min-[1180px]:text-lg text-white hover:text-gray-300"
                     >
                         Measures and Code
                     </Link>
                     <Link
                         href="/research-topics"
-                        className="text-lg text-white hover:text-gray-300"
+                        className="min-[1180px]:text-lg text-white hover:text-gray-300"
                     >
                         Research Topics
                     </Link>
