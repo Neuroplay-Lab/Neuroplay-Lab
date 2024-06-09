@@ -11,7 +11,7 @@ import grImg from "../../public/gr-image.jpg"
 import liImg from "../../public/li-image.jpg"
 
 const AboutUs = () => (
-  <section className={`${styles.paddings} relative z-10`} id='about-us'>
+  <section className={`p-4 md:p-8 relative z-10`} id='about-us'>
     <motion.div
         variants={fadeIn('right', 'tween', 0.2, 1)}
         className="flex-[0.95] flex justify-center flex-col"
