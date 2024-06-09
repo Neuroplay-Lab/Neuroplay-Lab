@@ -85,7 +85,7 @@ const Navbar = () => {
                         Measures and Code
                     </Link>
                     <Link
-                        href="/reasearch-topics"
+                        href="/research-topics"
                         className="text-lg text-white hover:text-gray-300"
                     >
                         Research Topics
@@ -158,7 +158,7 @@ const Navbar = () => {
                         </motion.div>
                         <motion.div className="grid items-center">
                             <Link
-                                href="/reasearch-topics"
+                                href="/research-topics"
                                 className="text-white hover:text-gray-300"
                                 onClick={handleMenuClick}
                             >
