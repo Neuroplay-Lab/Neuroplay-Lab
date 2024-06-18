@@ -1,14 +1,400 @@
 [
     {
-        "title": "Brickhill, R., Atherton, G., Piovesan, A., & Cross, L. (2023). Autism, thy name is man: Exploring implicit and explicit gender bias in autism perceptions. PLOS ONE. https://doi.org/10.1371/journal.pone.0284013",
-        "href": "https://doi.org/10.1371/journal.pone.0284013"
+        "id": "e91e3055412fb197b7f8e51414ea3975",
+        "title": "DragonIce, an Initial Full-Body Mixed Reality Experience to Facilitate Interpersonal Synchrony in Children",
+        "year": 2024,
+        "url": "https://dl.acm.org/doi/abs/10.1145/3613905.3651069",
+        "abstract": "This study introduces DragonIce, an initial full-body interactive Mixed Reality experience designed, in collaboration with children, to facilitate Interpersonal Synchrony (IPS) among groups of four children. Through an iterative usability study, involving 48 children (8-10 years old), and a mix-method approach to triangulate findings, the research evaluates the system's effectiveness in (i) user-system interaction; (ii) guiding users' movements for IPS; and (iii) overall satisfaction. This iterative design process unveiled insights into synchronization mechanics, informing the development of more sophisticated and enriched interactive experiences. The findings suggest a promising trajectory for assessing the potential impact of IPS on prosocial behavior in the future. Moreover, the study anticipates future exploration of DragonIce's benefits in creating a supportive social environment, particularly for children facing difficulties in \u2026"
     },
     {
-        "title": "Cross, L., Piovesan, A., Sousa, M., Wright, P. & Atherton, G. (2023). Your move: An open access dataset of over 1500 board gamer’s demographics, preferences and motivations. Simulation & Gaming. https://doi.org/10.1177/10468781231189493",
-        "href": "https://doi.org/10.1177/10468781231189493"
+        "id": "416d8170afdeb013347fc25ace26953b",
+        "title": "Game changer: Exploring the role of board games in the lives of autistic people",
+        "year": 2024,
+        "url": "https://autism.org/wp-content/uploads/2024/03/ARI-game-changer.pdf",
+        "journal": "Journal of Autism and Developmental Disorders",
+        "publisher": "Springer New York",
+        "abstract": "We are with them all the time, and sometimes we forget that they are actually capable of doing stuff on their own. So we always sort of take over and say like \u2018well I\u2019ll do this\u2019, but with this game they\u2019ve had to do it themselves and its been a bit of a learning curve for us to know that they are actually capable of doing it."
     },
     {
-        "title": "Atherton, G., Piovesan, A. & Cross, L. Autism, pets, and the importance of seeing human. (2023). Autism Research. https://doi.org/10.1002/aur.2975",
-        "href": "https://doi.org/10.1002/aur.2975"
+        "id": "ebdf3a2086a10dfeeeb2bc483a48efa6",
+        "title": "Gendered violence and sexualized representations in video games:(Lack of) effect on gender-related attitudes",
+        "year": 2024,
+        "url": "https://journals.sagepub.com/doi/abs/10.1177/14614448221075736",
+        "journal": "new media & society",
+        "publisher": "SAGE Publications",
+        "tags": ["gamification"],
+        "abstract": "This research explored how gender portrayals in video games affect gender-related attitudes. Two hundred participants from the United Kingdom and Malaysia participated across three experiments, where the appearance and behaviour of video game characters were manipulated with regard to target (enemy) gender (Study 1), sexually explicit attire (Study 2) and level of character agency (Study 3). We found minimal evidence that exposure to gender-stereotyped content resulted in differential gender-related attitudes (implicit associations, hostile and benevolent sexism, or rape myth acceptance). However, Study 1 findings showed that individuals who played a first-person shooter with male enemies showed lower endorsement of some (benevolent) sexist attitudes (cf. control) and showed difference in game behaviour (cf. female enemies). Together, our results suggest that short-term exposure to video games \u2026"
+    },
+    {
+        "id": "7378fe02cc9da7674a3e8b3e96d02d23",
+        "title": "Autism, pets, and the importance of seeing human",
+        "year": 2023,
+        "url": "https://onlinelibrary.wiley.com/doi/abs/10.1002/aur.2975",
+        "journal": "Autism Research",
+        "publisher": "John Wiley & Sons, Inc.",
+        "tags": ["autism", "anthropomorphism", "theory of mind"],
+        "abstract": "People often see the human in the nonhuman, a process called anthropomorphism. Anthropomorphism is particularly prolific regarding the humanization of pets. Some research suggests that people with autism may not anthropomorphize to the same degree as neurotypicals. In this study, we explored whether there were differences in how autistic and neurotypical pet owners anthropomorphized their pets. We also examined differences in levels of connectedness to nature and experiences of loneliness and how this corresponded to autistic traits in the entire sample. We found anthropomorphism was as common among autistic pet owners as in neurotypicals. However, autistic pet owners reported greater loneliness and were more likely to substitute pets for people. We also found that neurotypical pet owners rated pets more highly on physical, non\u2010anthropomorphic traits (i.e., muscular, active). In contrast, autistic \u2026"
+    },
+    {
+        "id": "a9c72ccea29d4d88da1579a14c22cdc3",
+        "title": "Autism, thy name is man: Exploring implicit and explicit gender bias in autism perceptions",
+        "year": 2023,
+        "url": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0284013&utm_source=nationaltribune&utm_medium=nationaltribune&utm_campaign=news",
+        "journal": "PLoS One",
+        "publisher": "Public Library of Science",
+        "abstract": "Males are around three times more likely to possess an autism diagnosis than females. For years this was explained by accounts that considered the male gender more compatible with the autistic phenotype. However, new research suggests that a lack of understanding and recognition of the female autistic phenotype, and a predisposition to associate males with autistic traits, could lead to structural inequalities that hinder the identification of autistic females. To explore how autism and gender are more widely perceived, the present study tested implicit and explicit associations between autism and binary gender using the Implicit Association Test (IAT) and the Autism Quotient (AQ) presented alongside a male or female vignette. A significant association was found on the IAT, identifying an implicit bias towards males and autistic traits. The vignette AQ pairing also revealed some specific items perceived as explicitly male traits, while only reverse-scored items were perceived as female. These findings suggest that current perceptions and even metrics of autism are skewed towards males, which may hinder the identification and understanding of the female autistic phenotype."
+    },
+    {
+        "id": "95a759817479d99a1141722df9939d23",
+        "title": "Does the study of culture enrich our understanding of autism? A cross-cultural exploration of life on the spectrum in Japan and the West",
+        "year": 2023,
+        "url": "https://journals.sagepub.com/doi/abs/10.1177/00220221231169945",
+        "journal": "Journal of Cross-Cultural Psychology",
+        "publisher": "Sage Publications",
+        "abstract": "Autism spectrum condition is a neurodevelopmental condition in which people are characterized by their social differences. As such, autistic behaviors are often identified as deviating from what is considered normal or neurotypical ways of interacting with the world as dictated by a particular culture. This theoretical article explores a cultural model of disability concerning autism spectrum condition and how Western ideals of \u201cnormality\u201d dominate autism-related discourses. To illustrate this point, the Diagnostic and Statistical Manual of Mental Disorders (5th ed.; DSM-5; American Psychiatric Association [APA]) descriptors are discussed concerning Western and, in contrast, Japanese cultural practices. Cross-cultural research from several domains reveals the subjectivity inherent to what is considered \u201cnormal\u201d across cultures. In addition, research into the prevalence and lived experiences of autistic people and their \u2026"
+    },
+    {
+        "id": "28511d8e705843035e2c817bf0a9b230",
+        "title": "Mediating Interpersonal Synchronization in Children through a Full-Body Mixed Reality System: Analysis of the Pre-Interactive Mandala Experience",
+        "year": 2023,
+        "url": "https://direct.mit.edu/pvar/article-abstract/doi/10.1162/pres_a_00386/116424",
+        "journal": "PRESENCE: Virtual and Augmented Reality",
+        "publisher": "MIT Press",
+        "abstract": "Interpersonal entrainment (IPE), motor synchronization to a common rhythm, can be used to strengthen the ability to communicate and coordinate actions between citizens. Different studies show how children's and adults\u2019 behaviors changed positively by increasing their cooperation, helpfulness, and affiliation levels after performing activities in synchrony. However, those activities are often affected by the mediation of a researcher. This problem can be addressed by using new technologies such as mixed reality (MR) full-body systems. The aim of this study was to develop a playful MR pre-interactive (noninteractive visual/auditory cues) experience, the Mandala, to promote IPE. Sixty-six children were presented, in groups of four, with one of the conditions: async movements and ambient music (control) or sync movements accompanied by rhythmic (experimental 1) or ambient music (experimental 2). We \u2026"
+    },
+    {
+        "id": "b0dfabcef748cf2cfd0a779200ec4498",
+        "title": "Your move: An open access dataset of over 1500 board gamer\u2019s demographics, preferences and motivations",
+        "year": 2023,
+        "url": "https://journals.sagepub.com/doi/abs/10.1177/10468781231189493",
+        "journal": "Simulation & Gaming",
+        "publisher": "Sage Publications",
+        "tags": ["gamification"],
+        "abstract": "This paper reports the demographics of a large sample of board gamers and their in-game motivations and preferences.We report the specific preferences of 1603 board gamers (i.e. preferred platform, mechanics, style, theme, player count and game length) and player demographics, i.e. age, gender, education level as well as neurodivergence in this population. Participants were sampled via board game groups and game distributor mailing lists.Findings confirmed previous assumptions that board gamers are primarily middle-aged, university/college-educated, white males. We show that most gamers identify as mid-core/core with a preference for shorter, competitive Euro games. They tend to prefer in-person play with 3-4 players. However, a sizeable portion of the sample did not fit this description, showing a more complex picture.Results describe the population's demographics \u2026"
+    },
+    {
+        "id": "68801a126d3e57ec7b0333ddbe051aec",
+        "title": "\u2018They ask no questions and pass no criticism\u2019: A mixed-methods study exploring pet ownership in autism",
+        "year": 2023,
+        "url": "https://link.springer.com/article/10.1007/s10803-022-05622-y",
+        "journal": "Journal of Autism and Developmental Disorders",
+        "publisher": "Springer US",
+        "tags": ["autism", "wellbeing"],
+        "abstract": "Many autistic people cite a strong attachment to animals, and some studies suggest they may even show a bias towards animals over people. This mixed-methods study explored companion animal attachment in the adult autistic community. In a quantitative study with 735 people, we found that autistic adults were equally attached to their pets as neurotypicals but were less likely to own them, even though pet ownership corresponded with better mental health outcomes. Substituting pets for people also served as a compensatory mechanism for social contact in the autistic sample. In a second qualitative study, we explored the lived experiences of 16 autistic pet owners. The interpretive phenomenological analysis highlighted the benefits and the barriers to animal companionship. Together these mixed methods findings underline how pets improve the lives of their autistic owners. We conclude with specific \u2026"
+    },
+    {
+        "id": "e6bf50133d1061aa9c041c707377b2f2",
+        "title": "Autism through the ages: A mixed methods approach to understanding how age and age of diagnosis affect quality of life",
+        "year": 2022,
+        "url": "https://link.springer.com/article/10.1007/s10803-021-05235-x",
+        "journal": "Journal of Autism and Developmental Disorders",
+        "publisher": "Springer US",
+        "tags": ["autism", "wellbeing"],
+        "abstract": "A significant proportion of autistic adults today were not diagnosed until later in life, a group referred to as the \u2018lost generation,\u2019 which may affect mental health. In Study 1 we explored quality of life and autistic trait levels in 420 autistic and TD adults, and in Study 2 we explored the experiences of 8 autistic adults diagnosed as adults. We found that autistic adults had lower quality of life outcomes and higher autistic trait levels which related to age of diagnosis, and qualitative findings indicated that while adults were empowered by their new diagnosis, they still require specialized supports. Our findings are discussed, emphasizing future directions and implications for the current care system in place for autistic adults."
+    },
+    {
+        "id": "de811cce9e9eb9bb0e1d64b6ff35e7a4",
+        "title": "Autistic people outperform neurotypicals in a cartoon version of the Reading the Mind in the Eyes",
+        "year": 2022,
+        "url": "https://onlinelibrary.wiley.com/doi/abs/10.1002/aur.2782",
+        "journal": "Autism Research",
+        "publisher": "John Wiley & Sons, Inc.",
+        "tags": ["autism", "anthropomorphism", "theory of mind"],
+        "abstract": "Prior research suggests that while autistic people may demonstrate poorer facial emotion recognition when stimuli are human, these differences lessen when stimuli are anthropomorphic. To investigate this further, this work explores emotion recognition in autistic and neurotypical adults (n = 196). Groups were compared on a standard and a cartoon version of the Reading the Mind in the Eyes test. Results indicated that autistic individuals were not significantly different from neurotypicals on the standard version. However, autistic people outperformed neurotypicals on the cartoon version. The implications for these findings regarding emotion recognition deficits and the social motivation account of autism are discussed and support the view of socio\u2010cognitive differences rather than deficits in this population.The Reading the Mind in the Eyes test and a cartoon version were tested on autistic and \u2026"
+    },
+    {
+        "id": "d3693977e8859a2796326573329d7650",
+        "title": "In-person and remote workshops for people with neurocognitive disorders: Recommendations from a Delphi panel",
+        "year": 2022,
+        "url": "https://www.frontiersin.org/articles/10.3389/fnagi.2021.747804/full",
+        "journal": "Frontiers in Aging Neuroscience",
+        "publisher": "Frontiers Media SA",
+        "tags": ["gamification"],
+        "abstract": "Workshops using arts and board games are forms of non-pharmacological intervention widely employed in seniors with neurocognitive disorders. However, clear guidelines on how to conduct these workshops are missing. The objective of the Art and Game project (AGAP) was to draft recommendations on the structure and content of workshops for elderly people with neurocognitive disorders and healthy seniors, with a particular focus on remote/hybrid workshops, in which at least a part of the participants is connected remotely. Recommendations were gathered using a Delphi methodology. The expert panel (N = 18) included experts in the health, art and/or board games domains. They answered questions via two rounds of web-surveys, and then discussed the results in a plenary meeting. Some of the questions were also shared with the general public (N = 101). Both the experts and the general public suggested that organizing workshops in a hybrid format (some face-to-face sessions, some virtual session) is feasible and interesting for people with neurocognitive disorders. We reported guidelines on the overall structure of workshops, practical tips on how to organize remote workshops, and a SWOT analysis of the use of remote/hybrid workshops. The guidelines may be employed by clinicians to decide, based on their needs and constraints, what interventions and what kind of workshop format to employ, as well as by researcher to standardize procedures to assess the effectiveness of non-pharmacological treatments for people with neurocognitive disorders."
+    },
+    {
+        "id": "bb94ca954a22730a78efc5543f6a6437",
+        "title": "Reading the mind in cartoon eyes: Comparing human versus cartoon emotion recognition in those with high and low levels of autistic traits",
+        "year": 2022,
+        "url": "https://journals.sagepub.com/doi/abs/10.1177/0033294120988135",
+        "journal": "Psychological Reports",
+        "publisher": "SAGE Publications",
+        "tags": ["autism", "anthropomorphism", "theory of mind"],
+        "abstract": "People who have a high degree of autistic traits often underperform on theory of mind tasks such as perspective-taking or facial emotion recognition compared to those with lower levels of autistic traits. However, some research suggests that this may not be the case if the agent they are evaluating is anthropomorphic (i.e. animal or cartoon) rather than typically human. The present studies examined the relation between facial emotion recognition and autistic trait profiles in over 750 adults using either a standard or cartoon version of the Reading the Mind in the Eyes (RME) test. Results showed that those scoring above the clinical cut off for autistic traits on the Autism Quotient performed significantly worse than those with the lowest levels of autistic traits on the standard RME, while scores across these groups did not differ substantially on the cartoon version of the task. These findings add further evidence that theory \u2026"
+    },
+    {
+        "title": "INTERNET EXPLORER WORDT NIET LANGER ONDERSTEUND",
+        "id": "9d1c16abc576a9ccfc6659edca227a8b",
+        "year": 2021,
+        "url": "https://mijn.bsl.nl/autism-through-the-ages-a-mixed-methods-approach-to-understandin/19634208",
+        "abstract": "A significant proportion of autistic adults today were not diagnosed until later in life, a group referred to as the \u2018lost generation,\u2019which may affect mental health. In Study 1 we explored quality of life and autistic trait levels in 420 autistic and TD adults, and in Study 2 we explored the experiences of 8 autistic adults diagnosed as adults. We found that autistic adults had lower quality of life outcomes and higher autistic trait levels which related to age of diagnosis, and qualitative findings indicated that while adults were empowered by their new diagnosis, they still require specialized supports. Our findings are discussed, emphasizing future directions and implications for the current care system in place for autistic adults."
+    },
+    {
+        "id": "9a744f69a848b1a997029e57bfaa4a3b",
+        "title": "Intentional synchronisation affects automatic imitation and source memory",
+        "year": 2021,
+        "url": "https://www.nature.com/articles/s41598-020-79796-9",
+        "journal": "Scientific reports",
+        "publisher": "Nature Publishing Group UK",
+        "tags": ["synchrony", "social cognition"],
+        "abstract": "Acting in synchrony is a fundamental part of many social interactions and can have pro-social consequences. Explanations for this relationship were investigated here using implicit measures of imitation (automatic imitation task) and memory (preference overlap task). In Study 1, participants performed an intentional synchronisation task where they moved sliders in or out of time with another person while a third person observed. Those who had moved in synchrony showed a stronger tendency to imitate their partner\u2019s actions than those who had moved in a non-synchronous way. Similarly, coordinated partners were also more likely to share object preferences. Results also showed that rather than memory blurring between co-actors, participants had improved memories for the self. Study 2 exchanged intentional for incidental coordination (coordinating with a synchronous metronome). None of the findings from \u2026"
+    },
+    {
+        "id": "161140c84ead2d83899f2b3af98bad88",
+        "title": "Lost in the crowd: Imagining walking in synchrony with a crowd increases affiliation and deindividuation",
+        "year": 2021,
+        "url": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0254017",
+        "journal": "PloS one",
+        "publisher": "Public Library of Science",
+        "tags": ["synchrony", "social cognition"],
+        "abstract": "Moving in time with others\u2014interpersonal coordination\u2014increases affiliation, helping behaviours and gives rise to a host of other prosocial outcomes. Recent research suggests that merely imagining coordination may lead to similar social effects. In the present study, participants were asked to imagine walking with a crowd in a coordinated (versus uncoordinated) way to explore the effects of imagined coordination on individuals\u2019 perceptions of themselves and the crowd. Imagined coordination led to greater levels of deindividuation and affiliation. That is, participants were less likely to report seeing themselves as unique individuals, instead viewing themselves as a part of a group (deindividuation) and more likely to report a sense of emotional closeness (affiliation) with the imagined group. Deindividuation partially mediated the effect of imagined coordination on affiliation. This work establishes that imagined synchrony can be employed online to foster prosocial attitudes towards groups of people, and that a process of deindividuation might mediate this effect."
+    },
+    {
+        "id": "d8cd62afc3a46adf56a66dd245bd7459",
+        "title": "Moving From Me to We: Interpersonal Coordination\u2019s Effects on Self-Construal",
+        "year": 2021,
+        "url": "https://www.degruyter.com/document/doi/10.1515/psych-2020-0110/html",
+        "journal": "Open Psychology",
+        "publisher": "De Gruyter",
+        "tags": ["synchrony", "social cognition"],
+        "abstract": "We all move in time together throughout our lives, and doing so has been shown to lead to more pro-social attitudes and behaviors towards co-actors. However, little research has investigated how coordinated movement affects how individuals feel about themselves. This mixed-methods study took self-generated qualitative responses of how participants construed their own identities after either coordinated movement or a carefully matched control task. Responses were analysed qualitatively using thematic analyses, and quantitatively using content analysis. Four themes were identified from thematic analysis, and inferential statistical testing showed significant differences in how participants construed their identities post coordination (cf. control). Participants in the coordinated condition generated a higher proportion of interdependent (social) rather than independent (personal) self-construals, driven by differences \u2026"
+    },
+    {
+        "id": "d954be44a06fd69d3a76edc60bd20911",
+        "title": "Moving with the in-crowd: Cooperation and interpersonal entrainment in in-vs. out-groups",
+        "year": 2021,
+        "url": "https://link.springer.com/article/10.1007/s12144-019-00283-0",
+        "journal": "Current Psychology",
+        "publisher": "Springer US",
+        "abstract": "Interpersonal entrainment or moving together in time, has been shown to cultivate pro-social behaviours amongst those who take part. Converging evidence suggests that its pro-social effects may be intertwined with how we classify ourselves and our co-actor in group terms. However, it is not currently clear if a well-established collective identity, such as national identities, influences entrainment\u2019s effects on our actual behaviours, such as cooperation. The current studies tested whether greater cooperation was seen following synchronous versus asynchronous movements when people were moving with somebody of the same vs. a different nationality. As expected, results showed greater cooperation following synchronous vs asynchronous movements amongst people of different socio-cultural backgrounds, but not amongst those with a common socio-cultural background. Potential explanations for these \u2026"
+    },
+    {
+        "id": "f3bd1d7c50950fc679ff6171b0645435",
+        "title": "The use of analog and digital games for autism interventions",
+        "year": 2021,
+        "url": "https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2021.669734/full",
+        "publisher": "Frontiers",
+        "tags": ["gamification"],
+        "abstract": "Many interventions that target improvements in social communication and other cognitive, learning, and physical issues have been developed to help autistic people. The gamification of interventions offers an alternative approach to fostering and assessing desired behaviors and cognitions in a more naturalistic and emergent setting. In this scoping review aimed at educators, practitioners, and parents of those with autism, we detail studies that have tested game-based approaches to improving the lives of autistic children, adolescents, and adults, focusing on how research into gamification and autism can both progress and can be progressed and implemented. We offer parents, professionals and academics resources to incorporate game-based psycho-educational programs into their current practice."
+    },
+    {
+        "id": "30dbb09153e1cccc1ccf1d0f23a3ff09",
+        "title": "The wild west of measurement: Exploring problematic technology use cut off scores and their relation to psychosocial and behavioural outcomes in adolescence",
+        "year": 2021,
+        "url": "https://www.sciencedirect.com/science/article/pii/S0747563221002880",
+        "journal": "Computers in Human Behavior",
+        "publisher": "Pergamon",
+        "tags": ["gamification"],
+        "abstract": "A plethora of research explores \u201cproblematic use\u201d of technologies, but conceptualising what \u201cproblematic\u201d refers to and how it is operationalized remains an ongoing issue. There is a lack of consistency in how cut-offs are used to distinguish \u201cproblematic\u201d users and how this is then handled in subsequent analyses. We compared various scoring strategies common to \u201cproblematic\u201d use research and how this impacted prevalence rates and impacts on psychosocial and behavioural variables amongst high school students. Adolescents (N = 446) completed measures of \u201cproblematic\u201d use of smartphones, online gaming and social media, as well as self-esteem and problematic school behaviour. For each \u201cproblematic\u201d technology use questionnaire, we divided the sample into high and low \u201cproblematic\u201d technology use groups, using both a polythetic and a monothetic scoring method. Prevalence rates varied \u2026"
+    },
+    {
+        "id": "5393a01ae2dddd6206b849f3fa8ec407",
+        "title": "A psychometric investigation into the structure of deception strategy use",
+        "year": 2020,
+        "url": "https://link.springer.com/article/10.1007/s11896-020-09380-4",
+        "journal": "Journal of Police and Criminal Psychology",
+        "publisher": "Springer US",
+        "abstract": "This paper uses a data-driven approach to identify the psychological factors that underlie the array of strategies that people use to hide their deceit. Two hundred and nine participants told two lies and two truths and then completed a self-report scale that elicited their experiences when deceiving. A factor analysis of responses produced four factors, three of which were strategic in nature: Nonverbal behaviour control, which relates to attempts to monitor and control nonverbal behaviour when lying; Detail, which relates to attempts to produce detailed, engaging lies; Cognitive difficulty, which relates to the cognitive difficulties experienced when lying and their strategic consequences; and Anxiety, which relates to the negative emotions experienced when deceiving. The results further our understanding of the psychological processes that underpin deception and suggest several potentially fruitful avenues for \u2026"
+    },
+    {
+        "id": "6791a7e506c0d69b52cfe2afa5ef4737",
+        "title": "I\u2019ll just watch: Do the pro-social effects of coordination really generalize to non-actors?",
+        "year": 2020,
+        "url": "https://www.tandfonline.com/doi/abs/10.1080/00224545.2019.1623161",
+        "journal": "The Journal of Social Psychology",
+        "publisher": "Routledge",
+        "tags": ["synchrony", "social cognition"],
+        "abstract": "Moving in time together has been shown to cultivate pro-social effects in co-actors, such as cooperation and helping. But less is known about who these effects apply to \u2013 whether they are restricted only to co-actors, or whether they generalize to those not involved in the coordination. One difference between past work finding generalized vs. restricted effects is whether these \u201coutsiders\u201d were present for the coordination or not. The present study explores whether the pro-social effects of coordination are seen towards observers as well as co-actors, and whether the absence or presence of observers during the coordination is a determining factor. Results show that greater cooperation following coordination is only seen amongst co- actors, regardless of whether the observers were present during the task or not. Findings are discussed in the context of the literature and alternative explanations for research showing \u2026"
+    },
+    {
+        "id": "9d4adcc8b654734db458591bacb5608b",
+        "title": "Still want to help? Interpersonal coordination's effects on helping behaviour after a 24 hour delay",
+        "year": 2020,
+        "url": "https://www.sciencedirect.com/science/article/pii/S0001691819303968",
+        "journal": "Acta Psychologica",
+        "publisher": "North-Holland",
+        "tags": ["synchrony", "social cognition"],
+        "abstract": "A fast-growing literature is establishing how moving in time together has pro-social consequences, though no work to date has explored the persistence of these effects over time. Across two studies, people who had previously performed coordinated movements were over three times more likely to give their time to help their co-actor when asked 24 hours later than those who had performed a similar but uncoordinated task. Findings showed that group-level categorisation, but not social affiliation, partially mediated helping behaviour. This provides preliminary evidence that the pro-social effects of coordination are sustainable over a longer period than previously reported, and that the effects of coordination upon pro-social motivation may be more related to changes in group level categorisations than increased social affiliations."
+    },
+    {
+        "id": "8b2b19b41a84657b8ea0bb2f67798757",
+        "title": "Walk in my shoes",
+        "year": 2020,
+        "url": "https://research.edgehill.ac.uk/en/publications/walk-in-my-shoes",
+        "journal": "Psychologist",
+        "publisher": "British Psychological Society",
+        "tags": ["synchrony", "social cognition"],
+        "abstract": "Walk in my shoes \u2014 Edge Hill University Skip to main navigation Skip to search Skip to main \ncontent Edge Hill University Home Edge Hill University Logo Help & FAQ Home Profiles \nResearch units Research output Projects Student theses Activities Prizes Impacts Datasets \nSearch by expertise, name or affiliation Walk in my shoes Liam Cross * * Corresponding author \nfor this work Psychology Research output: Contribution to journal \u203a Letter 7 Citations (Scopus) \nOverview Original language English Pages (from-to) 24-27 Number of pages 4 Journal \nPsychologist Volume 34 Issue number 6 Publication status Published - 1 Jun 2020 Access to \nDocument https://thepsychologist.bps.org.uk/volume-33/june-2020/walk-my-shoes Other files and \nlinks Link to publication in Scopus Link to the citations in Scopus Cite this APA Author BIBTEX \nHarvard Standard RIS Vancouver Powered by Pure, Scopus & Elsevier Fingerprint Engine\u2026"
+    },
+    {
+        "id": "2ab7e2e3c9d216040fc40dd485526d29",
+        "title": "Walking in my shoes: Imagined coordination\u2019s effects on attitudes towards refugees. Psychological Studies.",
+        "year": 2020,
+        "url": "https://research.edgehill.ac.uk/en/publications/walking-in-my-shoes-imagined-coordinations-effects-on-attitudes-t",
+        "journal": "Psychological Studies",
+        "publisher": "Springer International Publishing AG",
+        "abstract": "People are prone to dividing others into the categories of \u2018us\u2019 and \u2018them\u2019. This can be particularly detrimental to minorities who may experience social exclusion, prejudice, and reduced access to equal opportunities. One method of improving intergroup relations is to create opportunities for contact. Common contact interventions have members of different groups meet and engage in conversation. There are also non-verbal embodied intergroup activities that produce the same effects. Previous work has shown that the pro-social effects of coordination may be linked to whether co-actors are classed as in or out-group members. The current study explored whether imagining walking in synchrony with inor out-group members changed majority members\u2019 attitudes towards those individuals. Imagining walking in synchrony fostered greater increases in empathy and decreases in negative attitudes only towards minority group members following imagined coordination (not ingroups)."
+    },
+    {
+        "id": "26bb33ed433505fd6e83ccdb140ade6f",
+        "title": "Walking in my shoes: Imagined synchrony improves attitudes towards out-groups",
+        "year": 2020,
+        "url": "https://link.springer.com/article/10.1007/s12646-020-00568-6",
+        "journal": "Psychological Studies",
+        "publisher": "Springer India",
+        "tags": ["synchrony", "social cognition"],
+        "abstract": "People are prone to dividing others into the categories of \u2018us\u2019 and \u2018them\u2019. This can be particularly detrimental to minorities who may experience social exclusion, prejudice, and reduced access to equal opportunities. One method of improving intergroup relations is to create opportunities for contact. Common contact interventions have members of different groups meet and engage in conversation. There are also non-verbal embodied intergroup activities that produce the same effects. Previous work has shown that the pro-social effects of coordination may be linked to whether co-actors are classed as in or out-group members. The current study explored whether imagining walking in synchrony with in- or out-group members changed majority members\u2019 attitudes towards those individuals. Imagining walking in synchrony fostered greater increases in empathy and decreases in negative attitudes only towards \u2026"
+    },
+    {
+        "id": "fdb7507f9c6b47d02ec083d65ee28f97",
+        "title": "Animal faux pas: Two legs good four legs bad for theory of mind, but not in the broad autism spectrum",
+        "year": 2019,
+        "url": "https://www.tandfonline.com/doi/abs/10.1080/00221325.2019.1593100",
+        "journal": "The Journal of Genetic Psychology",
+        "publisher": "Routledge",
+        "tags": ["autism", "anthropomorphism", "theory of mind"],
+        "abstract": "Research shows that the general population varies with regard to both autistic traits and theory of mind (ToM) ability. Other work has shown that autistic individuals may not underperform on ToM tests when the agent of evaluation is anthropomorphic rather than typically human. Two studies examined the relation between ToM and autistic trait profiles in over 650 adults using either the standard Faux Pas Recognition Test (FPT) or an anthropomorphized version of the FPT (FPTa). Results showed that autistic trait profiles were related to faux pas detection ability in the FPT but not the FPTa. Furthermore, while those with the broad autism phenotype scored significantly worse than those who were typically developed on the FPT, scores did not significantly differ on the FPTa. These findings add to a growing body of work suggesting that ToM ability is not at a global deficit in those on the autistic spectrum, but may relate to \u2026"
+    },
+    {
+        "id": "df414d2eacbfe3bd51616ef108afd41a",
+        "title": "Are you what you read? Predicting implicit attitudes to immigration based on linguistic distributional cues from newspaper readership; a pre-registered study",
+        "year": 2019,
+        "url": "https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2019.00842/full",
+        "journal": "Frontiers in Psychology",
+        "publisher": "Frontiers",
+        "abstract": "The implicit association test (IAT) measures bias towards often controversial topics (e.g., race, religion), while newspapers typically take strong positive/negative stances on such issues. In a pre-registered study, we developed and administered an immigration IAT to readers of the Daily Mail (a typically anti-immigration publication) and the Guardian (a typically pro-immigration publication) newspapers. IAT materials were constructed based on co-occurrence frequencies from each newspapers\u2019 website for immigration-related terms (migrant/immigrant) and positive/negative attributes (skilled/unskilled). Target stimuli showed stronger negative associations with immigration concepts in the Daily Mail compared to the Guardian, and stronger positive associations in the Guardian corpus compared to the Daily Mail corpus. Consistent with these linguistic distributional differences, Daily Mail readers exhibited a larger IAT bias, revealing stronger negative associations to immigration concepts compared to Guardian readers. This difference in overall bias was not fully explained by other variables, and raises the possibility that exposure to biased language contributes to biased implicit attitudes."
+    },
+    {
+        "id": "1a35908fa64ab05dd7f1c1328adef9e5",
+        "title": "Beyond neurodiversity?",
+        "year": 2019,
+        "url": "https://research.edgehill.ac.uk/en/publications/beyond-neurodiversity",
+        "journal": "The Psychologist",
+        "publisher": "British Psychological Society",
+        "abstract": "Beyond neurodiversity? \u2014 Edge Hill University Skip to main navigation Skip to search Skip to \nmain content Edge Hill University Home Edge Hill University Logo Help & FAQ Home Profiles \nResearch units Research output Projects Student theses Activities Prizes Impacts Datasets \nSearch by expertise, name or affiliation Beyond neurodiversity? LIAM CROSS, GRAY \nATHERTON Psychology Research output: Contribution to journal \u203a Letter Overview Fingerprint \nAbstract Letters Original language English Pages (from-to) 2-3 Journal The Psychologist \nVolume 32 Publication status Published - 1 Oct 2019 Keywords neurodiversity Access to \nDocument https://thepsychologist.bps.org.uk/volume-32/october/beyond-neurodiversityLicence: \nCC BY-NC-ND Fingerprint Dive into the research topics of 'Beyond neurodiversity?'. Together \nthey form a unique fingerprint. Neurodiversity Neuroscience 100% View full fingerprint Cite this \u2026"
+    },
+    {
+        "id": "a93676dc358fbc9e46f82e0e1847c5e1",
+        "title": "Beyond tokenism in autism research, and more Reply",
+        "year": 2019,
+        "url": "https://scholar.google.com/scholar?cluster=803287599801134927&hl=en&oi=scholarr",
+        "journal": "PSYCHOLOGIST",
+        "publisher": "BRITISH PSYCHOLOGICAL SOC"
+    },
+    {
+        "id": "cde91fd6722cc11da2e2e09dbacf5d60",
+        "title": "Correction: Imagine all the synchrony: The effects of actual and imagined synchronous walking on attitudes towards marginalised groups (PLoS One (2019) 14: 5 (e0216585",
+        "year": 2019,
+        "url": "https://research.edgehill.ac.uk/en/publications/correction-imagine-all-the-synchrony-the-effects-of-actual-and-im",
+        "journal": "PLoS One",
+        "publisher": "PLOS",
+        "tags": ["synchrony", "social cognition"],
+        "abstract": "In the Introduction, there is an error in the last sentence of the first paragraph; due to a typesetting error, the word \u201cacceptable\u201d appears as \u201caccep1\u201d. The publisher apologizes for this error. The complete, correct sentence is: When negative stereotypes about a certain group become pervasive in society, it may be more acceptable for those in the majority to express overt prejudice towards minority groups, leading to persecutions [1]. As a result of the typesetting process, the placement of Figs 1\u20138 and Tables 2\u20138 in the PDF version of the article differs from the XML version of the published article. The publisher apologizes for this difference in content placement. In the Discussion section, there is an error in the second sentence of the second paragraph; the \u201cD change scores\u201d should not include a capital \u201cD\u201d. The correct sentence is: These participants also showed some evidence for decreased implicit negative attitudes, as demonstrated by the significant IAT change scores in the Synchronous but not Uncoordinated conditions (though it is worth noting that no significant differences in d change scores between conditions were observed). In addition, there is an error in the second sentence of the third paragraph of the Discussion, in which \u201cportrayed\u201d appears as \u201cpportrayed.\u201d The correct sentence is: For instance, implicit biases for outgroup members are reduced when they are categorized by occupation rather than race [64] or when portrayed within positive (family barbecue) rather than negative (gang) settings [65]. In Tables 2 and 6, an extra grid line is included in the first column of the \u201cOverlap\u201d row. Please see the correct Table 2 and Table 6 here \u2026"
+    },
+    {
+        "id": "abdeba10d92d1a0cacd75cddb66328d8",
+        "title": "How moving together binds us together: the social consequences of interpersonal entrainment and group processes",
+        "year": 2019,
+        "url": "https://www.degruyter.com/document/doi/10.1515/psych-2018-0018/html",
+        "publisher": "Sciendo",
+        "tags": ["synchrony", "social cognition"],
+        "abstract": "Interpersonal entrainment has been shown to have a wide variety of social consequences which span far beyond those that could be considered purely pro-social. This work reviews all of the social effects of entrainment and the various explanations for them. The group formation framework emerges as a parsimonious account claiming that as we entrain our sense of self is temporarily diluted as an interdependent identity becomes more salient, thus leading to a range of social and psychological consequences which are pro-group. The sense of belonging arising from moving together is conducive towards pro-social behaviours; yet, it also makes the individual more susceptible to adopting the ideology of the group without critical thinking. We argue that the wide landscape of interpersonal entrainment\u2019s effects reflects its primary effect, de-individuation, and the formation of a common group identity amongst co-actors."
+    },
+    {
+        "id": "a0191d60922edaf61408472f479b66d7",
+        "title": "Imagine All The Synchrony: The effects of actual and imagined synchronous walking on attitudes towards marginalised groups",
+        "year": 2019,
+        "url": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0216585",
+        "journal": "PloS one",
+        "publisher": "Public Library of Science",
+        "tags": ["synchrony", "social cognition"],
+        "abstract": "Stereotyping is a pervasive societal problem that impacts not only minority groups but subserves individuals who perpetuate stereotypes, leading to greater distance between groups. Social contact interventions have been shown to reduce prejudice and stereotyping, but optimal contact conditions between groups are often out of reach in day to day life. Therefore, we investigated the effects of a synchronous walking intervention, a non-verbal embodied approach to intergroup contact that may reduce the need for optimal contact conditions. We studied attitude change towards the Roma group in Hungary following actual and imagined walking, both in a coordinated and uncoordinated manner. Results showed that coordinated walking, both imagined and in vivo, led to explicit and implicit reductions in prejudice and stereotyping towards both the Roma individual and the wider Roma social group. This suggests that coordinated movement could be a valuable addition to current approaches towards prejudice reduction."
+    },
+    {
+        "id": "df5b0b78536367c19174e7940ee555c0",
+        "title": "Moving with the in-crowd: Interpersonal entrainment and cooperation in in vs. out-groups",
+        "year": 2019,
+        "url": "https://scholar.google.com/scholar?cluster=7534214994099991898&hl=en&oi=scholarr",
+        "journal": "Current Psychology",
+        "tags": ["synchrony", "social cognition"]
+    },
+    {
+        "id": "94eff344e9b51e5a8407d5fbe56bd1e2",
+        "title": "The animal in me: Enhancing emotion recognition in adolescents with autism using animal filters",
+        "year": 2019,
+        "url": "https://link.springer.com/article/10.1007/s10803-019-04179-7",
+        "journal": "Journal of Autism and Developmental Disorders",
+        "publisher": "Springer US",
+        "tags": ["autism", "anthropomorphism", "theory of mind"],
+        "abstract": "People with autism are often characterized as having difficulties with theory of mind abilities such as emotion recognition. However, rather than being a pervasive deficit of \u2018mindblindness,\u2019 a number of studies suggests these difficulties vary by context, and when people with autism mindread non-human agents, such as animals or cartoons, these abilities improve. To replicate this effect, 15 adolescents with both autism and intellectual disability participated in a test of facial emotion recognition, with both human and animal faces. Participants performed significantly better on the animal version of the assessment compared to the human version, and human rather than animal scores were the strongest predictor of symptom severity. These results were shown to be primarily driven by improvement in recognition of the emotions happiness and anger in animal rather than human faces. Implications with regards to \u2026"
+    },
+    {
+        "id": "2ba89e41a40d7ddb664dd4cd0ab8dbc7",
+        "title": "What am I thinking? Perspective-taking from the perspective of adolescents with autism",
+        "year": 2019,
+        "url": "https://journals.sagepub.com/doi/abs/10.1177/1362361318793409",
+        "journal": "Autism",
+        "publisher": "Sage Publications",
+        "tags": ["autism", "anthropomorphism", "theory of mind"],
+        "abstract": "Autistic people are often described as being impaired with regard to theory of mind, though more recent literature finds flaws in the theory of mind deficit paradigm. In addition, the predominant methods for examining theory of mind often rely on \u201cobservational\u201d modes of assessment and do not adequately reflect the dynamic process of real-life perspective taking. Thus, it is imperative that researchers continue to test the autistic theory of mind deficit paradigm and explore theory of mind experiences through more naturalistic approaches. This study qualitatively examined theory of mind in 12 autistic adolescents through a series of semi-structured interviews. Interpretive phenomenological analysis of the data revealed four core themes in participants\u2019 theory of mind experiences and strategies, all of which highlighted how a more accurate representation of autistic theory of mind is one of difference rather than deficit. For \u2026"
+    },
+    {
+        "id": "9b2996a321260cb7a7a33e4bfd8a8256",
+        "title": "Musik: Von der Koordination zur Kooperation",
+        "year": 2018,
+        "url": "https://www.thieme-connect.com/products/ejournals/pdf/10.1055/s-0038-1667401.pdf",
+        "journal": "Nervenheilkunde",
+        "publisher": "Schattauer GmbH",
+        "abstract": "1 Ob es Kultur bei Tieren (Primaten und Nichtprimaten) gibt, wird diskutiert. Wenn ja, dann sind die\u2013jeweils von \u00e4lteren Artgenossen gelernten\u2013Ges\u00e4nge der Singv\u00f6gel und Buckelwale herausragende Beispiele daf\u00fcr (neben dem Werkzeuggebrauch von Kr\u00e4hen, die \u00fcbrigens auch singen, und manchen nicht menschlichen Primaten; 5, 13)."
+    },
+    {
+        "id": "a9a190f767e9e99ce7c162455f7a74bc",
+        "title": "Seeing more than human: Autism and anthropomorphic theory of mind",
+        "year": 2018,
+        "url": "https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2018.00528/full",
+        "publisher": "Frontiers",
+        "tags": ["autism", "anthropomorphism", "theory of mind"],
+        "abstract": "Theory of mind (ToM) is defined as the process of taking another\u2019s perspective. Anthropomorphism can be seen as the extension of ToM to non-human entities. This review examines the literature concerning ToM and anthropomorphism in relation to individuals with Autism Spectrum Disorder (ASD), specifically addressing the questions of how and why those on the spectrum both show an increased interest for anthropomorphism and may even show improved ToM abilities when judging the mental states of anthropomorphic characters. This review highlights that while individuals with ASD traditionally show deficits on a wide range of ToM tests, such as recognizing facial emotions, such ToM deficits may be ameliorated if the stimuli presented is cartoon or animal-like rather than in human form. Individuals with ASD show a greater interest in anthropomorphic characters and process the features of these characters using methods typically reserved for human stimuli. Personal accounts of individuals with ASD also suggest they may identify more closely with animals than other humans. It is shown how the social motivations hypothesized to underlie the anthropomorphizing of non-human targets may lead those on the spectrum to seek social connections and therefore gain ToM experience and expertise amongst unlikely sources."
+    },
+    {
+        "id": "8af72dc89c1365406a2ed0c33f38143e",
+        "title": "Guardian and Daily Mail Readers' Implicit Attitudes to Immigration.",
+        "year": 2017,
+        "url": "https://scholar.google.com/scholar?cluster=5402762234511437534&hl=en&oi=scholarr",
+        "abstract": "The implicit association test (IAT) measures bias towards often controversial topics (race/religion), while newspapers typically take strong positive/negative stances on such issues. In a pre-registered study, we developed and administered an immigration IAT to readers of the Daily Mail (typically anti-immigration) and Guardian (typically pro-immigration) newspapers. IAT Materials were constructed based on co-occurrence frequencies from each newspapers\u2019 website for immigration-related terms (migrant) and positive/negative attributes (skilled/unskilled). Target stimuli showed stronger negative associations with immigration concepts in the Daily Mail corpus compared to the Guardian corpus, and stronger positive associations in the Guardian corpus compared to the Daily Mail. Consistent with these linguistic distributional differences, Daily Mail readers exhibited a larger IAT bias, revealing stronger negative \u2026"
+    },
+    {
+        "id": "6c5fa6b13a71fe5533fd27f8d26bdea4",
+        "title": "Imagined steps: Mental simulation of coordinated rhythmic movements effects on pro-sociality",
+        "year": 2017,
+        "url": "https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2017.01798",
+        "journal": "Frontiers in psychology",
+        "publisher": "Frontiers",
+        "tags": ["synchrony", "social cognition"],
+        "abstract": "Rhythmically coordinating with a partner can increase pro-sociality, but pro-sociality does not appear to change in proportion to coordination success, or particular classes of coordination. Pro-social benefits may have more to do with simply coordinating in a social context than the details of the actual coordination . This begs the question, how stripped down can a coordination task be and still affect pro-sociality? Would it be sufficient simply to imagine coordinating with others? Imagining a social interaction can lead to many of the same effects as actual interaction . We report the first experiments to explore whether imagined coordination affects pro-sociality similarly to actual coordination. Across two experiments and over 450 participants, mentally simulated coordination is shown to promote some, but not all, of the pro-social consequences of actual coordination. Imagined coordination significantly increased group cohesion and de-individuation, but did not consistently affect cooperation."
+    },
+    {
+        "id": "181656abc364dd5d2d07658691e49989",
+        "title": "Thinking About You\u2026 Thinking About Me\u2026 Thinking About Traits and Social Cognition",
+        "year": 2017,
+        "url": "https://uh-ir.tdl.org/uh-ir/handle/10657/2956",
+        "abstract": "Adults in the general population have been shown to struggle with social perspective taking, also known as theory of mind (ToM). Research has struggled to identify aspects of cognition that explain ToM development in adult populations. One promising area of study relates to the discovery that personality traits have considerable explanatory power in regard to cognitive ability, as presumably a person\u2019s preferences affect their subsequent skill development. In order to better understand adult ToM variance, an investigation of personality traits and their relation to ToM ability was conducted. In an effort to find an appropriate model, traits related to autism spectrum disorder (ASD), a disorder characterized by ToM deficits, were explored. This study analyzed responses of 359 participants drawn from a university sample using an online assessment platform. Participants\u2019 ToM was tested using the Faux Pas Recognition Test (FPT), and ASD related traits were identified using the Autism Spectrum Quotient (AQ). All traits were entered in a linear regression to determine which were predictive of ToM performance. Two traits, Communication and Imagination, were found to be significantly predictive of ToM ability in the general population. The literature suggests that both traits underlie ToM at multiple points in development. The ToM difficulties in the general population are significantly related to challenges understanding communicative intent, as well as problems simulating lived experiences of others. Future research could focus on exploring the role of personal self-efficacy in communication and imagination during ToM development, and the relation \u2026"
+    },
+    {
+        "id": "9b2a95f87190f336b205b5c5866ec6ea",
+        "title": "How moving together brings us together: When coordinated rhythmic movement affects cooperation",
+        "year": 2016,
+        "url": "https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2016.01983/full",
+        "journal": "Frontiers in psychology",
+        "publisher": "Frontiers",
+        "tags": ["synchrony", "social cognition"],
+        "abstract": "Although it is well established that rhythmically coordinating with a social partner can increase cooperation, it is as yet unclear when and why intentional coordination has such effects. We distinguish three dimensions along which explanations might vary. First, pro-social effects might require in-phase synchrony or simply coordination. Second, the effects of rhythmic movements on cooperation might be direct or mediated by an intervening variable. Third, the pro-social effects might occur in proportion to the quality of the coordination, or occur once some threshold amount of coordination has occurred. We report an experiment and two follow-ups which sought to identify which classes of models are required to account for the positive effects of coordinated rhythmic movement on cooperation. Across the studies, we found evidence (1) that coordination, and not just synchrony, can have pro-social consequences (so long as the social nature of the task is perceived), (2) that the effects of intentional coordination are direct, not mediated, and (3) that the degree of the coordination did not predict the degree of cooperation. The fact of inter-personal coordination (moving together in time and in a social context) is all that's required for pro-social effects. We suggest that future research should use the kind of carefully controllable experimental task used here to continue to develop explanations for when and why coordination affects pro-social behaviors."
+    },
+    {
+        "id": "c0403c9723738ef3440ad81ebdd778dc",
+        "title": "What Am I Thinking? Theory of Mind Development in Autism",
+        "year": 2014,
+        "url": "https://uh-ir.tdl.org/items/43bf51bf-3e07-4c49-99d0-9d3ce4f069c3",
+        "abstract": "Seventeen adolescent students from The Monarch School of Neurological Differences with a diagnosis of autism spectrum disorder (ASD) were tested for mentalizing deficits often found in individuals with ASD using the theory of mind (ToM) battery (Baron-Cohen, 1985). Test results revealed that twelve of the seventeen students were found to have a more advanced ToM than original research suggested. These qualifying students were administered the Strange Stories Test (Happ\u00e9, 1994), a series of short vignettes in which characters must interpret contradictory statements. During Strange Stories testing, students were asked to provide explanations for their answer choices. This semi-structured interview was designed to clarify specific theories surrounding ToM acquisition as well as to uncover similarities in the experiences students have had related to mentalization. All interviews were recorded and transcribed, and two researchers applied a system of consensual qualitative coding which yielded an interrater reliability of 1.0. The primary researcher determined five overarching themes yielded post-coding. Results are explained in the context of current mentalizing theories, and implications for future research are additionally discussed."
     }
 ]

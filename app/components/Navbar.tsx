@@ -46,47 +46,47 @@ const Navbar = () => {
                         />
                     </button>
                 </div>
-                <div className="items-center gap-4 min-[1108px]:gap-8 hidden lg:flex">
+                <div className="items-center gap-4 min-[1125px]:gap-8 hidden lg:flex">
                     <Link
                         href="/"
-                        className="min-[1180px]:text-lg text-white hover:text-gray-300"
+                        className="min-[1195px]:text-lg text-white hover:text-gray-300"
                     >
                         Home
                     </Link>
                     <Link
                         href="/#about-us"
                         scroll
-                        className="min-[1180px]:text-lg text-white hover:text-gray-300"
+                        className="min-[1195px]:text-lg text-white hover:text-gray-300"
                     >
                         About Us
                     </Link>
                     <Link
                         href="/contact"
-                        className="min-[1180px]:text-lg text-white hover:text-gray-300"
+                        className="min-[1195px]:text-lg text-white hover:text-gray-300"
                     >
                         Contact
                     </Link>
                     <Link
                         href="/press"
-                        className="min-[1180px]:text-lg text-white hover:text-gray-300"
+                        className="min-[1195px]:text-lg text-white hover:text-gray-300"
                     >
                         Press
                     </Link>
                     <Link
                         href="/publications"
-                        className="min-[1180px]:text-lg text-white hover:text-gray-300"
+                        className="min-[1195px]:text-lg text-white hover:text-gray-300"
                     >
                         Publications
                     </Link>
                     <Link
                         href="/measures-and-code"
-                        className="min-[1180px]:text-lg text-white hover:text-gray-300"
+                        className="min-[1195px]:text-lg text-white hover:text-gray-300"
                     >
                         Measures and Code
                     </Link>
                     <Link
                         href="/research-topics"
-                        className="min-[1180px]:text-lg text-white hover:text-gray-300"
+                        className="min-[1195px]:text-lg text-white hover:text-gray-300"
                     >
                         Research Topics
                     </Link>
