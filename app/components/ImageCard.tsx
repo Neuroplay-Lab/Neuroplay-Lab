@@ -7,14 +7,18 @@ interface Props {
     href: string;
     image: string;
     altTag: string;
+    styles?: string;
 }
 
-const ImageCard = ({ title, subtext, href, image, altTag }: Props) => {
+const ImageCard = ({ title, subtext, href, image, altTag, styles }: Props) => {
     return (
         <>
             <Link
                 href={href}
-                className="max-w-sm rounded overflow-hidden shadow-lg bg-slate-400 bg-opacity-10 hover:bg-opacity-25"
+                className={
+                    "max-w-sm rounded overflow-hidden shadow-lg bg-slate-400 bg-opacity-10 hover:bg-opacity-25 " +
+                    styles
+                }
             >
                 <div className="relative h-[120px] md:h-[200px]">
                     {image && (

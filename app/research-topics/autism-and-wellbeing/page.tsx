@@ -1,9 +1,12 @@
 import Image from "next/image";
-import { TitleText } from "../../components";
+import { TitleText, TypingText } from "../../components";
 import headerImg from "../../../public/autism-qol-main.png";
+import gameImg from "../../../public/rpg-468917_960_720.jpg";
+import superImg from "../../../public/image.png";
 
 import publications from "../../publications/publications.json";
 import DividedListLink from "../../components/DividedListLink";
+import Link from "next/link";
 
 const SynchronyAndSocialCognition = () => {
     return (
@@ -36,21 +39,59 @@ const SynchronyAndSocialCognition = () => {
                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                     allowFullScreen
                 />
+                <TypingText
+                    title={"Current Projects"}
+                    textStyles={"mx-8 my-4 text-3xl"}
+                />
+                <Image
+                    src={gameImg}
+                    alt="A close up of 3 20-sided dice"
+                    className="p-3 md:max-w-lg self-center"
+                />
+                <p className="my-2">
+                    We are exploring hobbies that may be particularly engaging
+                    for autistic people, including board gaming and role-playing
+                    games (please see our work on{" "}
+                    <Link
+                        href={"/research-topics/gamification"}
+                        className="underline text-secondary-white hover:text-white"
+                    >
+                        gamification
+                    </Link>{" "}
+                    for more information).
+                </p>
+                <Image
+                    src={superImg}
+                    alt="A man and woman in superhero cosplay"
+                    className="p-3 md:max-w-lg self-center"
+                />
+                <p className="my-2">
+                    We are also exploring autistic people’s special interests
+                    and how these can be harnessed to better include autistic
+                    people in the community and even improve the social
+                    connection between autistic and non-autistic people.
+                </p>
             </main>
             <aside className="px-8 py-4 lg:bg-slate-400 lg:bg-opacity-10 lg:max-h-screen sticky top-0">
                 <h4 className="text-white italic font-medium mb-3 ml-3 lg:my-6">
                     Links to papers:
                 </h4>
                 <ul className="overflow-y-scroll overflow-x-clip lg:h-[90%]">
-                    {(publications.filter((x)=>x.tags?.includes("autism") && x.tags?.includes("wellbeing"))).map(({ title, url, id }) => (
-                        <DividedListLink
-                            lKey={id}
-                            href={url}
-                            extraStyles="text-secondary-white text-start text-sm mx-0 mb-4 lg:[&:not(:last-child)]:after:my-8 [&:not(:last-child)]:after:my-4 [&:not(:last-child)]:after:w-1/2 [&:not(:last-child)]:after:right-10 [&:not(:last-child)]:after:mx-auto"
-                        >
-                            {title}
-                        </DividedListLink>
-                    ))}
+                    {publications
+                        .filter(
+                            (x) =>
+                                x.tags?.includes("autism") &&
+                                x.tags?.includes("wellbeing")
+                        )
+                        .map(({ title, url, id }) => (
+                            <DividedListLink
+                                lKey={id}
+                                href={url}
+                                extraStyles="text-secondary-white text-start text-sm mx-0 mb-4 lg:[&:not(:last-child)]:after:my-8 [&:not(:last-child)]:after:my-4 [&:not(:last-child)]:after:w-1/2 [&:not(:last-child)]:after:right-10 [&:not(:last-child)]:after:mx-auto"
+                            >
+                                {title}
+                            </DividedListLink>
+                        ))}
                 </ul>
             </aside>
         </div>

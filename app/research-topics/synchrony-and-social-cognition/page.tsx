@@ -4,6 +4,7 @@ import headerImg from "../../../public/crowd-2152653_960_720.jpg";
 
 import publications from "../../publications/publications.json";
 import DividedListLink from "../../components/DividedListLink";
+import Link from "next/link";
 
 const SynchronyAndSocialCognition = () => {
     return (
@@ -52,24 +53,115 @@ const SynchronyAndSocialCognition = () => {
                     allowFullScreen
                 />
                 <p className="my-2">
-                    {" "}
-                    {/* TODO: there are links in this p that need adding */}
-                    Our work shows that it’s not only strict in-phase synchrony
+                    Our work shows that it’s{" "}
+                    <Link
+                        href={
+                            "https://www.frontiersin.org/articles/10.3389/fpsyg.2016.01983/full"
+                        }
+                        className="underline hover:text-white"
+                    >
+                        not only strict in-phase synchrony
+                    </Link>
                     that’s capable of having pro-social effects but also other
-                    forms of coordination and even imagined coordination, though
-                    incidental coordination, which is not intentional, does not
-                    lead to the same effects. These pro-social effects persist
-                    outside the lab for at least 24 hours and may be mediated by
-                    deindividuation. Greater pro-sociality is only seen towards
-                    those who engage in the coordination, not observers.
-                    Equally, greater pro-sociality is not seen when people
-                    coordinate with common group members. Together these
-                    findings suggest that coordination may be fostering a common
-                    group mentality amongst co-actors, which explains the board
-                    myriad of effects coordination has. After coordinating,
-                    people are more likely to view their identities in more
-                    social ways, and both actual and imagined coordination can
-                    even reduce prejudice towards disenfranchised groups.
+                    forms of coordination and even{" "}
+                    <Link
+                        href={
+                            "https://www.frontiersin.org/articles/10.3389/fpsyg.2017.01798/full"
+                        }
+                        className="underline hover:text-white"
+                    >
+                        imagined coordination
+                    </Link>
+                    , though{" "}
+                    <Link
+                        href={
+                            "https://www.nature.com/articles/s41598-020-79796-9"
+                        }
+                        className="underline hover:text-white"
+                    >
+                        incidental coordination
+                    </Link>
+                    , which is not intentional, does not lead to the same
+                    effects. These pro-social effects persist outside the lab
+                    for{" "}
+                    <Link
+                        href={
+                            "https://www.sciencedirect.com/science/article/pii/S0001691819303968"
+                        }
+                        className="underline hover:text-white"
+                    >
+                        at least 24 hours
+                    </Link>{" "}
+                    and{" "}
+                    <Link
+                        href={
+                            "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0254017#:~:text=This%20study%20has%20demonstrated%20that,of%20imagined%20coordination%20on%20affiliation."
+                        }
+                        className="underline hover:text-white"
+                    >
+                        may be mediated by deindividuation
+                    </Link>
+                    . Greater pro-sociality is only seen towards those who
+                    engage in the coordination,{" "}
+                    <Link
+                        href={
+                            "https://www.tandfonline.com/doi/full/10.1080/00224545.2019.1623161"
+                        }
+                        className="underline hover:text-white"
+                    >
+                        not observers
+                    </Link>
+                    . Equally, greater pro-sociality is{" "}
+                    <Link
+                        href={
+                            "https://link.springer.com/article/10.1007/s12144-019-00283-0"
+                        }
+                        className="underline hover:text-white"
+                    >
+                        not seen when people coordinate with common group
+                        members
+                    </Link>
+                    . Together these findings suggest that coordination may be
+                    fostering a common group mentality amongst co-actors,{" "}
+                    <Link
+                        href={
+                            "https://www.degruyter.com/document/doi/10.1515/psych-2018-0018/html"
+                        }
+                        className="underline hover:text-white"
+                    >
+                        which explains the board myriad of effects coordination
+                        has
+                    </Link>
+                    . After coordinating,{" "}
+                    <Link
+                        href={
+                            "https://www.degruyter.com/document/doi/10.1515/psych-2020-0110/html"
+                        }
+                        className="underline hover:text-white"
+                    >
+                        people are more likely to view their identities in more
+                        social ways
+                    </Link>
+                    , and both{" "}
+                    <Link
+                        href={
+                            "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0216585"
+                        }
+                        className="underline hover:text-white"
+                    >
+                        actual
+                    </Link>{" "}
+                    and{" "}
+                    <Link
+                        href={
+                            "https://link.springer.com/article/10.1007/s12646-020-00568-6"
+                        }
+                        className="underline hover:text-white"
+                    >
+                        imagined
+                    </Link>{" "}
+                    coordination can even reduce prejudice towards
+                    disenfranchised groups.
                 </p>
             </main>
             <aside className="px-8 py-4 lg:bg-slate-400 lg:bg-opacity-10 lg:max-h-screen sticky top-0">

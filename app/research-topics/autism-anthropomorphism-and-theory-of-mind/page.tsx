@@ -6,6 +6,7 @@ import articleImg2 from "../../../public/anthro-2.png";
 
 import publications from "../../publications/publications.json";
 import DividedListLink from "../../components/DividedListLink";
+import Link from "next/link";
 
 const SynchronyAndSocialCognition = () => {
     return (
@@ -39,17 +40,33 @@ const SynchronyAndSocialCognition = () => {
                     that they may be better at taking the perspective of
                     anthropomorphic agents.
                 </p>
-                {/* TODO: Add links */}
                 <p className="my-2">
-                    Our work in this area started with a qualitative study
+                    Our work in this area started with a{" "}
+                    <Link
+                        href={
+                            "https://journals.sagepub.com/doi/10.1177/1362361318793409"
+                        }
+                        className="underline hover:text-white"
+                    >
+                        qualitative study
+                    </Link>
                     investigating how autistic adolescents engaged in a theory
                     of mind (or social perspective-taking) task. We found that
                     interviewees often described their experiences in
-                    anthropomorphic ways. Our review of this topic uncovered a
-                    clear link between autism and anthropomorphism. We found
-                    that autistic individuals showed a penchant for
-                    anthropomorphic characters and agents, suggesting a possible
-                    strength in interacting with and evaluating these agents.
+                    anthropomorphic ways.{" "}
+                    <Link
+                        href={
+                            "https://www.frontiersin.org/articles/10.3389/fpsyg.2018.00528/full"
+                        }
+                        className="underline hover:text-white"
+                    >
+                        Our review
+                    </Link>{" "}
+                    of this topic uncovered a clear link between autism and
+                    anthropomorphism. We found that autistic individuals showed
+                    a penchant for anthropomorphic characters and agents,
+                    suggesting a possible strength in interacting with and
+                    evaluating these agents.
                 </p>
                 <p className="my-2">
                     From here, we investigated how autistic people and those
@@ -57,15 +74,67 @@ const SynchronyAndSocialCognition = () => {
                     theory of mind and perspective-taking tasks with
                     anthropomorphic agents. To do this, we developed
                     anthropomorphic versions of popular theory of mind tasks
-                    like a cartoon version of the reading the mind in the eyes
-                    task and an animal version of the faux pas task.
+                    like{" "}
+                    <Link
+                        href={
+                            "https://journals.sagepub.com/doi/10.1177/0033294120988135"
+                        }
+                        className="underline hover:text-white"
+                    >
+                        a cartoon version of the reading the mind in the eyes
+                        task
+                    </Link>{" "}
+                    and{" "}
+                    <Link
+                        href={
+                            "https://www.tandfonline.com/doi/full/10.1080/00221325.2019.1593100"
+                        }
+                        className="underline hover:text-white"
+                    >
+                        an animal version of the faux pas task
+                    </Link>
+                    .
                 </p>
                 <p className="my-2">
-                    Our results show that autistic children and adults perform
-                    better on these anthropomorphic versions of the task than
-                    the standard one, as do people with higher levels of
-                    autistic traits. In some cases, autistic people even
-                    outperform their neurotypical counterparts.
+                    Our results show that{" "}
+                    <Link
+                        href={
+                            "https://link.springer.com/article/10.1007/s10803-019-04179-7"
+                        }
+                        className="underline hover:text-white"
+                    >
+                        autistic children
+                    </Link>{" "}
+                    and{" "}
+                    <Link
+                        href={
+                            "https://onlinelibrary.wiley.com/doi/full/10.1002/aur.2782"
+                        }
+                        className="underline hover:text-white"
+                    >
+                        adults
+                    </Link>{" "}
+                    perform better on these anthropomorphic versions of the task
+                    than the standard one,{" "}
+                    <Link
+                        href={
+                            "https://journals.sagepub.com/doi/10.1177/0033294120988135"
+                        }
+                        className="underline hover:text-white"
+                    >
+                        as do people with higher levels of autistic traits
+                    </Link>
+                    . In some cases,{" "}
+                    <Link
+                        href={
+                            "https://onlinelibrary.wiley.com/doi/full/10.1002/aur.2782"
+                        }
+                        className="underline hover:text-white"
+                    >
+                        autistic people even outperform their neurotypical
+                        counterparts
+                    </Link>
+                    .
                 </p>
                 <div className="m-2 flex flex-col gap-2 max-w-xl self-center md:m-6">
                     <Image src={articleImg1} alt="" />
