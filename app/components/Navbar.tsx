@@ -101,7 +101,7 @@ const Navbar = () => {
             <AnimatePresence>
                 {isOpen && (
                     <motion.div
-                        className="origin-top absolute overflow-hidden z-20 left-0 h-screen pb-[62px] divide-y grid bg-primary-black w-full text-center text-xl font-light"
+                        className="origin-top absolute overflow-hidden z-20 left-0 h-[100dvh] pb-[62px] divide-y grid bg-primary-black w-full text-center text-xl font-light"
                         variants={mobileMenuVariants}
                         initial="initial"
                         animate="animate"
