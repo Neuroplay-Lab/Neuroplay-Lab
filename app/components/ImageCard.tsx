@@ -5,7 +5,7 @@ interface Props {
     title: string;
     subtext: string;
     href: string;
-    image: string;
+    image: StaticImageData | string;
     altTag: string;
     styles?: string;
 }
@@ -21,7 +21,8 @@ const ImageCard = ({ title, subtext, href, image, altTag, styles }: Props) => {
                 }
             >
                 <div className="relative h-[120px] md:h-[200px]">
-                    {image && (
+                    {typeof image === "string" && <img src={image} className="img-card" alt={altTag}/>}
+                    {typeof image != "string" && image && (
                         <Image
                             src={image}
                             alt={altTag}

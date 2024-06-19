@@ -1,10 +1,10 @@
 "use client";
 
 import { motion } from "framer-motion";
-import { socials } from "../constants/constants";
 import styles from "../styles";
 import { footerVariants } from "../utils/motion";
 import Image from "next/image";
+import brainImg from "../../public/icons8-brain-64.png";
 
 const Footer = () => (
     <motion.footer
@@ -15,7 +15,6 @@ const Footer = () => (
     >
         <div className="footer-gradient" />
         <div className={`${styles.innerWidth} mx-auto flex flex-col gap-8`}>
-
             {/* TODO: No longer needed? */}
             {/* <div className="flex items-center justify-between flex-wrap gap-5">
                 <h4 className="font-bold md:text-[64px] text-[44px] text-white">
@@ -58,7 +57,7 @@ const Footer = () => (
                             ))}
                         </div> */}
                         <Image
-                            src="/icons8-brain-64.png"
+                            src={brainImg}
                             alt="Brain icon"
                             width={24}
                             height={24}
@@ -66,7 +65,8 @@ const Footer = () => (
                         />
                     </div>
                     <p className="font-normal text-xs text-white opacity-50">
-                        Copyright © 2024 {""} Neuroplay Lab. All rights reserved.
+                        Copyright © 2024 {""} Neuroplay Lab. All rights
+                        reserved.
                     </p>
                 </div>
             </div>

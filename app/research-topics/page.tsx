@@ -1,5 +1,9 @@
 import { TitleText } from "../components";
 import ImageCard from "../components/ImageCard";
+import synchImg from "../../public/crowd-2152653_960_720.jpg";
+import anthImg from "../../public/planet-06.jpg";
+import autImg from "../../public/autism-qol.jpg";
+import gameImg from "../../public/image-1.png";
 
 const ResearchTopics = () => {
     return (
@@ -17,16 +21,15 @@ const ResearchTopics = () => {
                     subtext=""
                     href="/research-topics/synchrony-and-social-cognition"
                     altTag="A crowd of people walking together in synchrony"
-                    image="/crowd-2152653_960_720.jpg"
+                    image={synchImg}
                     styles="w-full"
-                    
                 />
                 <ImageCard
                     title="Autism, Anthropomorphism and Theory of Mind"
                     subtext=""
                     href="/research-topics/autism-anthropomorphism-and-theory-of-mind"
                     altTag="A dog wearing a smart buisness suit"
-                    image="/planet-06.jpg"
+                    image={anthImg}
                     styles="w-full"
                 />
                 <ImageCard
@@ -34,7 +37,7 @@ const ResearchTopics = () => {
                     subtext=""
                     href="/research-topics/autism-and-wellbeing"
                     altTag="A couple with linked arms and holding hands"
-                    image="/autism-qol.jpg"
+                    image={autImg}
                     styles="w-full"
                 />
                 <ImageCard
@@ -42,7 +45,7 @@ const ResearchTopics = () => {
                     subtext=""
                     href="/research-topics/gamification"
                     altTag="Close up of board game pieces on a table during a game"
-                    image="/image-1.png"
+                    image={gameImg}
                     styles="w-full"
                 />
             </div>

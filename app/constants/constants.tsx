@@ -1,31 +1,37 @@
 export const exploreWorlds = [
     {
         id: "world-1",
+        imgNo: 1,
         imgUrl: "/planet-01.jpg",
         title: "Group Dynamics & Processes",
     },
     {
         id: "world-2",
+        imgNo: 2,
         imgUrl: "/planet-02.jpg",
         title: "Prejudice Discrimination & Stereotype",
     },
     {
         id: "world-3",
+        imgNo: 3,
         imgUrl: "/planet-03.jpg",
         title: "Pro- And Anti-Social Behavior",
     },
     {
         id: "world-4",
+        imgNo: 4,
         imgUrl: "/planet-04.jpg",
         title: "Self & Other Perceptions",
     },
     {
         id: "world-5",
+        imgNo: 5,
         imgUrl: "/planet-06.jpg",
         title: "Anthropomorphism",
     },
     {
         id: "world-6",
+        imgNo: 6,
         imgUrl: "/planet-07.jpg",
         title: "Autism",
     },
