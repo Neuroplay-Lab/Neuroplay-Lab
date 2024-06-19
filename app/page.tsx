@@ -2,7 +2,7 @@ import { Intro, Explore, PrimaryResearch, Hero, AboutUs } from "./sections";
 
 const Home = () => (
     <main className="overflow-hidden">
-        <Hero />
+        {/* <Hero /> */}
         <div className="relative">
             <Intro />
             <div className="gradient-03 z-0" />
