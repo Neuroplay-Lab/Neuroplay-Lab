@@ -21,8 +21,7 @@ const ImageCard = ({ title, subtext, href, image, altTag, styles }: Props) => {
                 }
             >
                 <div className="relative h-[120px] md:h-[200px]">
-                    {typeof image === "string" && <img src={image} className="img-card" alt={altTag}/>}
-                    {typeof image != "string" && image && (
+                    {image && (
                         <Image
                             src={image}
                             alt={altTag}
