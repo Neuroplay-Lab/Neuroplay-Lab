@@ -16,12 +16,12 @@ const Navbar = () => {
             document.body.classList.add("overflow-y-hidden");
             document.body.classList.add("fixed");
             document.body.classList.add("w-[100%]");
-            document.body.classList.add("h-[100%]");
+            document.body.classList.add("h-[100dvh]");
         } else {
             document.body.classList.remove("overflow-y-hidden");
             document.body.classList.remove("fixed");
             document.body.classList.remove("w-[100%]");
-            document.body.classList.remove("h-[100%]");
+            document.body.classList.remove("h-[100dvh]");
         }
         console.log(!isOpen);
         toggleIsOpen(!isOpen);
