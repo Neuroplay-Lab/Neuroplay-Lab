@@ -16,7 +16,7 @@ const Press = () => {
                                 title={title}
                                 subtext={publisher}
                                 href={href}
-                                image={image}
+                                image={"/./" + image}
                                 altTag={imageAlt}
                                 key={href}
                             />
