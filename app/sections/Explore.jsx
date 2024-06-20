@@ -29,13 +29,13 @@ const Explore = () => {
 
     return (
         <section className={`${styles.paddings}`} id="explore">
-            <motion.div
-                variants={fadeIn("right", "spring", 0, 1)}
+            {/* <motion.div
+                // variants={staggerContainer}
                 initial="hidden"
                 whileInView="show"
                 viewport={{ once: false, amount: 0.25 }}
                 className={`${styles.innerWidth} mx-auto flex flex-col`}
-            >
+            > */}
                 <TitleText
                     title={
                         <>
@@ -45,7 +45,11 @@ const Explore = () => {
                     }
                     textStyles="text-center"
                 />
-                <div className="mt-5 flex lg:flex-row flex-col min-h-[80vh] gap-5">
+                <motion.div variants={fadeIn("right", "spring", 0, 1)}
+                initial="hidden"
+                whileInView="show"
+                viewport={{ once: false, amount: 0.25 }}
+                className="mt-5 flex lg:flex-row flex-col min-h-[80vh] gap-5">
                     {exploreWorlds.map((world, index) => (
                         <ExploreCard
                             key={world.id}
@@ -57,8 +61,8 @@ const Explore = () => {
                             handleClick={setActive}
                         />
                     ))}
-                </div>
-            </motion.div>
+                </motion.div>
+            {/* </motion.div> */}
         </section>
     );
 };
