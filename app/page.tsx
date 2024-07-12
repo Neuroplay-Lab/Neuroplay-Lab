@@ -5,10 +5,14 @@ const Home = () => (
         <div className="relative">
             <Intro />
             <Hero />
-            <div className="gradient-03 z-0" />
+            <div className="gradient-03 -z-10" />
+            <div className="relative right-72 -z-10">
+                <div className="gradient-02 z-0" />
+            </div>
+            <div className="relative top-[500px]">
+                <div className="gradient-04 z-0" />
+            </div>
             <Explore />
-        </div>
-        <div className="relative">
             <PrimaryResearch />
             {/* <AboutUs /> */}
         </div>
