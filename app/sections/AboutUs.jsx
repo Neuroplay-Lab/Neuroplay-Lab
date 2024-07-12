@@ -19,7 +19,10 @@ const AboutUs = () => (
         whileInView="show"
         viewport={{once: false, amount: 0.1}}
       >
-        <TypingText title="| About us" />
+        <TitleText
+                title={"About Us"}
+                textStyles={"text-center mx-4"}
+            />
     </motion.div>
     
     {/* Gray section */}

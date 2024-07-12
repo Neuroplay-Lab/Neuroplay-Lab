@@ -32,6 +32,7 @@ const Navbar = () => {
             variants={navVariants}
             initial="hidden"
             whileInView="show"
+            viewport={{ once: true }}
             className={`${styles.xPaddings} py-8 sm:pr-8 z-20 relative`}
         >
             <div className="absolute w-[50%] max-h-[15vh] inset-0 gradient-01 -z-10" />
@@ -60,7 +61,7 @@ const Navbar = () => {
                         Home
                     </Link>
                     <Link
-                        href="/#about-us"
+                        href="/about-us"
                         scroll
                         className="min-[1195px]:text-lg text-white hover:text-gray-300"
                     >
