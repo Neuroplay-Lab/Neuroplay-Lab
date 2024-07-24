@@ -53,6 +53,7 @@ const Navbar = () => {
                     </button>
                 </div>
                 <div className="items-center gap-4 min-[1125px]:gap-8 hidden lg:flex">
+                    //TODO: fix spacing
                     <Link
                         href="/"
                         className="min-[1195px]:text-lg text-white hover:text-gray-300"

@@ -49,7 +49,7 @@ const Explore = () => {
                 initial="hidden"
                 whileInView="show"
                 viewport={{ once: false, amount: 0.25 }}
-                className="mt-5 flex lg:flex-row flex-col min-h-[80vh] gap-5 xl:px-[10vw]">
+                className="mt-5 flex lg:flex-row flex-col min-h-[80vh] gap-5 xl:px-[5vw]">
                     {exploreWorlds.map((world, index) => (
                         <ExploreCard
                             key={world.id}

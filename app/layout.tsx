@@ -49,6 +49,8 @@ const RootLayout = ({ children }) => (
         <body className="bg-primary-black">
             {/* <div className="overflow-hidden"> */}
             <Navbar />
+            <div className="absolute w-[50%] max-h-[15vh] inset-0 gradient-01 -z-10" />
+
             {children}
             <Footer />
             {/* </div> */}
