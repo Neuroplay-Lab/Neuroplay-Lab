@@ -35,7 +35,6 @@ const Navbar = () => {
             viewport={{ once: true }}
             className={`${styles.xPaddings} py-8 sm:pr-8 z-20 relative`}
         >
-            <div className="absolute w-[50%] max-h-[15vh] inset-0 gradient-01 -z-10" />
             <div
                 className={`${styles.innerWidth} mx-auto flex justify-between gap-8`}
             >
@@ -78,6 +77,12 @@ const Navbar = () => {
                         className="min-[1195px]:text-lg text-white hover:text-gray-300"
                     >
                         Press
+                    </Link>
+                    <Link
+                        href="/seminars"
+                        className="min-[1195px]:text-lg text-white hover:text-gray-300"
+                    >
+                        Seminars
                     </Link>
                     <Link
                         href="/publications"
@@ -143,6 +148,15 @@ const Navbar = () => {
                                 onClick={handleMenuClick}
                             >
                                 Press
+                            </Link>
+                        </motion.div>
+                        <motion.div className="grid items-center">
+                            <Link
+                                href="/seminars"
+                                className="text-white hover:text-gray-300"
+                                onClick={handleMenuClick}
+                            >
+                                Seminars
                             </Link>
                         </motion.div>
                         <motion.div className="grid items-center">
