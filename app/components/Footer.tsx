@@ -14,7 +14,6 @@ const Footer = () => (
         viewport={{once: true}}
         className={`${styles.xPaddings} py-8 relative overflow-x-clip`}
     >
-        <div className="footer-gradient" />
         <div className={`${styles.innerWidth} mx-auto flex flex-col gap-8`}>
             {/* TODO: No longer needed? */}
             {/* <div className="flex items-center justify-between flex-wrap gap-5">

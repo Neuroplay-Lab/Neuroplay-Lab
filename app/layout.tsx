@@ -53,6 +53,9 @@ const RootLayout = ({ children }) => (
 
             {children}
             <Footer />
+            <div className="relative">
+                <div className="footer-gradient -z-10" />
+            </div>
             {/* </div> */}
         </body>
     </html>

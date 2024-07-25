@@ -53,7 +53,7 @@ const Navbar = () => {
                     </button>
                 </div>
                 <div className="items-center gap-4 min-[1125px]:gap-8 hidden lg:flex">
-                    //TODO: fix spacing
+                    {/* TODO: fix spacing */}
                     <Link
                         href="/"
                         className="min-[1195px]:text-lg text-white hover:text-gray-300"
@@ -108,7 +108,7 @@ const Navbar = () => {
             <AnimatePresence>
                 {isOpen && (
                     <motion.div
-                        className="origin-top absolute overflow-hidden z-20 left-0 h-[100dvh] pb-[62px] divide-y grid bg-primary-black w-full text-center text-xl font-light"
+                        className="origin-top absolute overflow-hidden z-20 left-0 h-[100dvh] pb-[95px] top-full divide-y grid bg-primary-black w-full text-center text-xl font-light"
                         variants={mobileMenuVariants}
                         initial="initial"
                         animate="animate"
