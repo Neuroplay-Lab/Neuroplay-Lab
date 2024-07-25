@@ -52,54 +52,53 @@ const Navbar = () => {
                         />
                     </button>
                 </div>
-                <div className="items-center gap-4 min-[1125px]:gap-8 hidden lg:flex">
+                <div className="items-center gap-4 hidden min-[1300px]:gap-8 text-sm min-[1150px]:text-base lg:flex xl:text-lg text-white">
                     {/* TODO: fix spacing */}
                     <Link
                         href="/"
-                        className="min-[1195px]:text-lg text-white hover:text-gray-300"
+                        className="hover:text-secondary-white"
                     >
                         Home
                     </Link>
                     <Link
                         href="/about-us"
-                        scroll
-                        className="min-[1195px]:text-lg text-white hover:text-gray-300"
+                        className="hover:text-secondary-white"
                     >
                         About Us
                     </Link>
                     <Link
                         href="/contact"
-                        className="min-[1195px]:text-lg text-white hover:text-gray-300"
+                        className="hover:text-secondary-white"
                     >
                         Contact
                     </Link>
                     <Link
                         href="/press"
-                        className="min-[1195px]:text-lg text-white hover:text-gray-300"
+                        className="hover:text-secondary-white"
                     >
                         Press
                     </Link>
                     <Link
                         href="/seminars"
-                        className="min-[1195px]:text-lg text-white hover:text-gray-300"
+                        className="hover:text-secondary-white"
                     >
                         Seminars
                     </Link>
                     <Link
                         href="/publications"
-                        className="min-[1195px]:text-lg text-white hover:text-gray-300"
+                        className="hover:text-secondary-white"
                     >
                         Publications
                     </Link>
                     <Link
                         href="/measures-and-code"
-                        className="min-[1195px]:text-lg text-white hover:text-gray-300"
+                        className="hover:text-secondary-white"
                     >
                         Measures and Code
                     </Link>
                     <Link
                         href="/research-topics"
-                        className="min-[1195px]:text-lg text-white hover:text-gray-300"
+                        className="hover:text-secondary-white"
                     >
                         Research Topics
                     </Link>
