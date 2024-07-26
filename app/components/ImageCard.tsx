@@ -5,8 +5,8 @@ interface Props {
     title: string;
     subtext: string;
     href: string;
-    image: StaticImageData | string;
-    altTag: string;
+    image?: StaticImageData | string;
+    altTag?: string;
     styles?: string;
 }
 
@@ -35,7 +35,7 @@ const ImageCard = ({ title, subtext, href, image, altTag, styles }: Props) => {
                     <h3 className="text-white font-bold text-xl mb-1">
                         {title}
                     </h3>
-                    <h4 className="text-secondary-white">{subtext}</h4>
+                    <div className="text-secondary-white">{subtext}</div>
                 </div>
             </Link>
         </>
