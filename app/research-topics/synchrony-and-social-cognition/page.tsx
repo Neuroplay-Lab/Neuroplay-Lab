@@ -172,8 +172,8 @@ const SynchronyAndSocialCognition = () => {
                     {publications
                         .filter(
                             (x) =>
-                                x.tags?.includes("synchrony") &&
-                                x.tags?.includes("social cognition")
+                                x.tags?.includes("synchrony") ||
+                                x.tags?.includes("social")
                         )
                         .map(({ title, url, id }) => (
                             <DividedListLink

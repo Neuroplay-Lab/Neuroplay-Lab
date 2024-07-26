@@ -150,7 +150,7 @@ const SynchronyAndSocialCognition = () => {
                         .filter(
                             (x) =>
                                 x.tags?.includes("autism") &&
-                                x.tags?.includes("anthropomorphism") &&
+                                x.tags?.includes("anthropomorphism") ||
                                 x.tags?.includes("theory of mind")
                         )
                         .map(({ title, url, id }) => (

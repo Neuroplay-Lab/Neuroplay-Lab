@@ -27,7 +27,7 @@ const Contact = () => {
                         </span>
                         <Link
                             href="https://twitter.com/CrossAtherton"
-                            className="text-secondary-white underline"
+                            className="text-secondary-white underline hover:text-white"
                         >
                             @CrossAtherton
                         </Link>
@@ -45,7 +45,7 @@ const Contact = () => {
                             </span>
                             <a
                                 href="mailto: gray.s.atherton@vanderbilt.edu"
-                                className="text-secondary-white underline"
+                                className="text-secondary-white underline hover:text-white"
                             >
                                 gray.s.atherton@vanderbilt.edu
                             </a>
@@ -56,7 +56,7 @@ const Contact = () => {
                             </span>
                             <a
                                 href="mailto: drliamcross@gmail.com"
-                                className="text-secondary-white underline"
+                                className="text-secondary-white underline hover:text-white"
                             >
                                 drliamcross@gmail.com
                             </a>
@@ -74,17 +74,17 @@ const Contact = () => {
                                 <h4 className="text-white text-lg m-1">
                                     Gray Atherton
                                 </h4>
-                                <p className="my-1 text-secondary-white underline">
+                                <p className="my-1 text-secondary-white underline hover:text-white">
                                     <Link href="https://www.plymouth.ac.uk/staff/gray-atherton">
                                         University
                                     </Link>
                                 </p>
-                                <p className="my-1 text-secondary-white underline">
+                                <p className="my-1 text-secondary-white underline hover:text-white">
                                     <Link href="https://edgehill.academia.edu/GrayAtherton">
                                         Academia.edu
                                     </Link>
                                 </p>
-                                <p className="my-1 text-secondary-white underline">
+                                <p className="my-1 text-secondary-white underline hover:text-white">
                                     <Link href="https://www.researchgate.net/profile/Gray_Atherton">
                                         ResearchGate
                                     </Link>
@@ -98,17 +98,17 @@ const Contact = () => {
                                 <h4 className="text-white text-lg m-1">
                                     Liam Cross
                                 </h4>
-                                <p className="my-1 text-secondary-white underline">
+                                <p className="my-1 text-secondary-white underline hover:text-white">
                                     <Link href="https://www.plymouth.ac.uk/staff/liam-cross">
                                         University
                                     </Link>
                                 </p>
-                                <p className="my-1 text-secondary-white underline">
+                                <p className="my-1 text-secondary-white underline hover:text-white">
                                     <Link href="https://edgehill.academia.edu/LiamCross">
                                         Academia.edu
                                     </Link>
                                 </p>
-                                <p className="my-1 text-secondary-white underline">
+                                <p className="my-1 text-secondary-white underline hover:text-white">
                                     <Link href="https://www.researchgate.net/profile/Liam_Cross2">
                                         ResearchGate
                                     </Link>
