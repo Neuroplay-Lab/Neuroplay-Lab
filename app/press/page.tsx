@@ -10,16 +10,18 @@ const Press = () => {
             <section className="m-4 md:mx-8">
                 <TypingText title={"Articles"} textStyles={"m-4 text-3xl"} />
                 <div className="grid justify-center m-2 gap-4 md:grid-cols-2 lg:grid-cols-4">
-                    {pressArticles.map(({ id, title, publisher, url, image, date }) => (
-                        <ImageCard
-                            title={title}
-                            subtext={publisher + ", " + date}
-                            href={url}
-                            image={"/" + image}
-                            altTag={"Image from " + publisher + " article"}
-                            key={id}
-                        />
-                    ))}
+                    {pressArticles.map(
+                        ({ id, title, publisher, url, image, date }) => (
+                            <ImageCard
+                                title={title}
+                                subtext={publisher + ", " + date}
+                                href={url}
+                                image={"/" + image.substring(2)}
+                                altTag={"Image from " + publisher + " article"}
+                                key={id}
+                            />
+                        )
+                    )}
                 </div>
             </section>
             <span className="m-8 w-1/2 mx-auto block border-b border-b-[#b0b0b0]"></span>
