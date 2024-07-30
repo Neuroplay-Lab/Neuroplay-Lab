@@ -53,7 +53,7 @@ const RootLayout = ({ children }) => (
 
             {children}
             <Footer />
-            <div className="relative">
+            <div className="relative w-full overflow-x-clip">
                 <div className="footer-gradient -z-10" />
             </div>
             {/* </div> */}
