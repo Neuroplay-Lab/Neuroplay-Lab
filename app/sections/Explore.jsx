@@ -14,6 +14,7 @@ import planetImg3 from "../../public/planet-03.jpg";
 import planetImg4 from "../../public/planet-04.jpg";
 import planetImg6 from "../../public/anthropomorphism.png";
 import planetImg7 from "../../public/autism_child.png";
+import planetImg8 from "../../public/Untitled design-2.png"
 
 const Explore = () => {
     const [active, setActive] = useState("world-2");
@@ -25,6 +26,7 @@ const Explore = () => {
         planetImg4,
         planetImg6,
         planetImg7,
+        planetImg8,
     ];
 
     return (

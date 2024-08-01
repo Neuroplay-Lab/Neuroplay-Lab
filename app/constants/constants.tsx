@@ -35,6 +35,12 @@ export const exploreWorlds = [
         imgUrl: "/planet-07.jpg",
         title: "Autism",
     },
+    {
+        id: "world-7",
+        imgNo: 7,
+        imgUrl: "/Untitled design-2.png",
+        title: "Gamification",
+    },
 ];
 
 export const startingFeatures = [
