@@ -1,28 +1,16 @@
 import Link from "next/link";
 import { TitleText, TypingText } from "../components";
 
-const Seminars = () => {
+const TalksAndVideos = () => {
     return (
         <>
-            <TitleText title={"Seminars"} textStyles={"text-center mx-4"} />
+            <TitleText title={"Talks and Videos"} textStyles={"text-center mx-4"} />
+            <p className="text-center max-w-prose mx-auto text-lg text-secondary-white">Below is a collection of videos showing various talks we have given on the topics of Austism, Anthropomorphism, Gamification and Synchrony.</p>
             <section className="m-4 md:mx-8">
                 <TypingText
-                    title={"Autism Research Institute"}
-                    textStyles={"mx-4 mb-2 text-3xl"}
+                    title={"Autism"}
+                    textStyles={"mx-4 mb-6 font-semibold text-3xl"}
                 />
-                <p className="flex-1 font-normal text-[18px] text-[#B0B0B0] leading-[32.4px] mb-4">
-                    Here are a few seminars Gray did for the Autism Research
-                    Institute, write ups for these talks can also be found{" "}
-                    <Link
-                        href={
-                            "https://autism.org/webinar-author/gray-atherton-phd/"
-                        }
-                        className="underline hover:text-white"
-                    >
-                        here
-                    </Link>
-                    .
-                </p>
                 <div className="grid gap-4 lg:grid-cols-2 justify-center justify-items-center">
                     <iframe
                         className="max-w-full aspect-video"
@@ -48,6 +36,15 @@ const Seminars = () => {
                         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                         allowFullScreen
                     ></iframe>
+                </div>
+            </section>
+            <span className="m-8 mt-12 w-1/2 mx-auto block border-b border-b-[#b0b0b0]"></span>
+            <section className="m-4 md:mx-8">
+                <TypingText
+                    title={"Anthropomorphism"}
+                    textStyles={"mx-4 mb-6 font-semibold text-3xl"}
+                />
+                <div className="grid gap-4 lg:grid-cols-2 justify-center justify-items-center">
                     <iframe
                         className="max-w-full aspect-video"
                         width={560}
@@ -56,21 +53,6 @@ const Seminars = () => {
                         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                         allowFullScreen
                     ></iframe>
-                </div>
-                <p className="flex-1 font-normal text-[18px] text-[#B0B0B0] leading-[32.4px] my-4">
-                    Below is also a talk for the Autism Research Institute
-                    involving both Gray and Liam, a write up of this talk can be
-                    found{" "}
-                    <Link
-                        href={
-                            "https://autism.org/how-games-can-help-teach-social-skills/"
-                        }
-                        className="underline hover:text-white"
-                    >
-                        here
-                    </Link>
-                </p>
-                <div className="grid gap-4 lg:grid-cols-2 justify-center justify-items-center">
                     <iframe
                         className="max-w-full aspect-video"
                         width={560}
@@ -81,16 +63,12 @@ const Seminars = () => {
                     ></iframe>
                 </div>
             </section>
-            <span className="m-8 w-1/2 mx-auto block border-b border-b-[#b0b0b0]"></span>
+            <span className="m-8 mt-12 w-1/2 mx-auto block border-b border-b-[#b0b0b0]"></span>
             <section className="m-4 md:mx-8">
                 <TypingText
-                    title={"Canada Plays"}
-                    textStyles={"mx-4 mb-2 text-3xl"}
+                    title={"Gamification"}
+                    textStyles={"mx-4 mb-6 font-semibold text-3xl"}
                 />
-                <p className="flex-1 font-normal text-[18px] text-[#B0B0B0] leading-[32.4px] mb-4">
-                    Below are seminars we gave in Canada as part of the Game In
-                    Lab research program.
-                </p>
                 <div className="grid gap-4 lg:grid-cols-2 justify-center justify-items-center">
                     <iframe
                         className="max-w-full aspect-video"
@@ -126,16 +104,12 @@ const Seminars = () => {
                     ></iframe>
                 </div>
             </section>
-            <span className="m-8 w-1/2 mx-auto block border-b border-b-[#b0b0b0]"></span>
-            <section className="m-4 md:mx-8">
+            <span className="m-8 mt-12 w-1/2 mx-auto block border-b border-b-[#b0b0b0]"></span>
+            <section className="m-4 md:mx-8 mb-10">
                 <TypingText
-                    title={"Social Bridges E-Conferences"}
-                    textStyles={"mx-4 mb-2 text-3xl"}
+                    title={"Synchrony"}
+                    textStyles={"mx-4 mb-6 font-semibold text-3xl"}
                 />
-                <p className="flex-1 font-normal text-[18px] text-[#B0B0B0] leading-[32.4px] mb-4">
-                    Here are some conferences Liam has given on the topic of
-                    synchrony.
-                </p>
                 <div className="grid gap-4 lg:grid-cols-2 justify-center justify-items-center">
                     <iframe
                         className="max-w-full aspect-video"
@@ -155,9 +129,9 @@ const Seminars = () => {
                     ></iframe>
                 </div>
             </section>
-            <span className="m-8 w-1/2 mx-auto block border-b border-b-[#b0b0b0]"></span>
+            {/* <span className="m-8 mt-12 w-1/2 mx-auto block border-b border-b-[#b0b0b0]"></span> */}
         </>
     );
 };
 
-export default Seminars;
+export default TalksAndVideos;

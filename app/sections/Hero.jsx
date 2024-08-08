@@ -8,7 +8,7 @@ import Image from 'next/image';
 import heroImg from "../../public/Screenshot 2024-07-10 at 1.31.28 PM.png"
 
 const Hero = () => (
-  <section className={`${styles.yPaddings} sm:px-16 px-6`}>
+  <section className={`pt-8 sm:px-16 px-6 pb-0`}>
     <motion.div
       variants={staggerContainer}
       initial="hidden"
@@ -25,7 +25,7 @@ const Hero = () => (
         <Image
           src={heroImg}
           alt="hero_cover"
-          className="w-full sm:h-[800px] h-[350px] object-cover rounded-tl-[100px] rounded-b-lg z-10 relative"
+          className="w-full h-[375px] object-cover rounded-tl-[100px] rounded-b-lg z-10 relative"
         />
       </motion.div>
     </motion.div>

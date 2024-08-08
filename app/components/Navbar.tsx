@@ -52,7 +52,7 @@ const Navbar = () => {
                         />
                     </button>
                 </div>
-                <div className="items-center gap-4 hidden min-[1300px]:gap-8 text-sm min-[1150px]:text-base lg:flex xl:text-lg text-white">
+                <div className="items-center gap-2 min-[1050px]:gap-4 hidden min-[1310px]:gap-8 text-sm min-[1133px]:text-base lg:flex xl:text-lg text-white">
                     <Link href="/" className="hover:text-secondary-white">
                         Home
                     </Link>
@@ -72,10 +72,10 @@ const Navbar = () => {
                         Press
                     </Link>
                     <Link
-                        href="/seminars"
+                        href="/talks-and-videos"
                         className="hover:text-secondary-white"
                     >
-                        Seminars
+                        Talks/Videos
                     </Link>
                     <Link
                         href="/publications"
@@ -145,11 +145,11 @@ const Navbar = () => {
                         </motion.div>
                         <motion.div className="grid items-center">
                             <Link
-                                href="/seminars"
+                                href="/talks-and-videos"
                                 className="text-white hover:text-gray-300"
                                 onClick={handleMenuClick}
                             >
-                                Seminars
+                                Talks/Videos
                             </Link>
                         </motion.div>
                         <motion.div className="grid items-center">
