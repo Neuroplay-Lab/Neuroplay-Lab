@@ -37,14 +37,15 @@ const Intro = () => (
                 variants={fadeIn("up", "tween", 0.2, 1)}
                 className="mt-8 font-normal sm:text-[32px] text-[20px] text-center text-secondary-white"
             >
-                We are psychologists at University of Plymouth, United Kingdom. We
-                delve into various facets of social and embodied cognition,
+                We are psychologists at University of Plymouth, United Kingdom.
+                We delve into various facets of social and embodied cognition,
                 exploring topics such as group dynamics, stereotypes, and
                 pro-social behavior. Our keen interest lies in understanding
                 autism spectrum disorder, examining social cognition and
-                well-being enhancement strategies. We have also begun to delve into
-                the area of Gamification, covering both modern board games, as well
-                as a range of digital games, including the use of VR technology.
+                well-being enhancement strategies. We also undertake research in
+                the area of Gamification, covering both modern board games, as
+                well as a range of digital games, including the use of VR
+                technology.
             </motion.p>
         </motion.div>
     </section>
