@@ -16,7 +16,7 @@ const Press = () => {
                                 title={title}
                                 subtext={publisher + ", " + date}
                                 href={url}
-                                image={"/Neuroplay-Lab/" + image.substring(2)}
+                                image={image}
                                 altTag={"Image from " + publisher + " article"}
                                 key={id}
                             />

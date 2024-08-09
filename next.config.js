@@ -1,6 +1,6 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-    basePath: "/Neuroplay-Lab",
+    basePath: "",
     reactStrictMode: true,
 };
 
