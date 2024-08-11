@@ -1,8 +1,6 @@
-import Link from "next/link";
-import { TitleText, TypingText } from "../components";
-import DividedListItem from "../components/DividedListItem";
+import { TitleText } from "../components";
 import publications from "./publications.json";
-import Abstract from "./abstract";
+import Publication from "./publication";
 
 const Publications = () => {
     return (
@@ -26,80 +24,21 @@ const Publications = () => {
                             year,
                             abstract,
                         }) => (
-                            <>
-                                {journal &&
-                                <DividedListItem
-                                    listKey={id}
-                                    extraStyles={
-                                        "[&:not(:last-child)]:after:w-1/2 [&:not(:last-child)]:after:right-10 [&:not(:last-child)]:after:mx-auto"
-                                    }
-                                >
-                                        <Link
-                                            key={id + "_list"}
-                                            href={url}
-                                            className="justify-self-center"
-                                        >
-                                            <div className="bg-slate-400 bg-opacity-0 hover:bg-opacity-10 p-4 rounded-xl">
-                                                <p className="text-lg italic text-secondary-white pl-4">
-                                                    {year}
-                                                </p>
-                                                <h3 className="text-white text-lg font-semibold ">
-                                                    {title}
-                                                </h3>
-                                                <div className="text-secondary-white text-base">
-                                                    <p>
-                                                        {author.map(
-                                                            (author, index) => (
-                                                                <span
-                                                                    key={
-                                                                        "author" +
-                                                                        index
-                                                                    }
-                                                                    className="[&:not(:last-child)]:after:content-[',\00a0']"
-                                                                >
-                                                                    {author}
-                                                                </span>
-                                                            )
-                                                        )}
-                                                    </p>
-                                                    {journal && <p>
-                                                        {journal && (
-                                                            <span>
-                                                                {journal}
-                                                            </span>
-                                                        )}
-                                                        {volume && (
-                                                            <span>
-                                                                {" "}
-                                                                {volume}
-                                                            </span>
-                                                        )}
-                                                        {number && (
-                                                            <span>
-                                                                {" "}
-                                                                ({number})
-                                                            </span>
-                                                        )}
-                                                        {pages && (
-                                                            <span>
-                                                                , {pages}
-                                                            </span>
-                                                        )}
-                                                    </p>}
-                                                </div>
-                                            </div>
-                                        </Link>
-                                        {abstract && (
-                                            <Abstract>{abstract}</Abstract>
-                                        )}
-                                </DividedListItem>
-                                }
-                            </>
+                            <Publication
+                                key={id + "_root"}
+                                title={title}
+                                url={url}
+                                id={id}
+                                author={author}
+                                journal={journal}
+                                volume={volume}
+                                number={number}
+                                pages={pages}
+                                year={year}
+                                abstract={abstract}
+                            />
                         )
                     )}
-                    {/* {publications.map(({ title, url, id }) => (
-                        <DividedListLink href={url} lKey={id}>{title}</DividedListLink>
-                    ))} */}
                 </ul>
             </section>
         </>

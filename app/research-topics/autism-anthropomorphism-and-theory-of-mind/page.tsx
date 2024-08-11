@@ -5,8 +5,8 @@ import articleImg1 from "../../../public/anthro-1.png";
 import articleImg2 from "../../../public/anthro-2.png";
 
 import publications from "../../publications/publications.json";
-import DividedListLink from "../../components/DividedListLink";
 import Link from "next/link";
+import Publication from "../../publications/publication";
 
 const SynchronyAndSocialCognition = () => {
     return (
@@ -149,18 +149,19 @@ const SynchronyAndSocialCognition = () => {
                     {publications
                         .filter(
                             (x) =>
-                                x.tags?.includes("autism") &&
-                                x.tags?.includes("anthropomorphism") ||
+                                (x.tags?.includes("autism") &&
+                                    x.tags?.includes("anthropomorphism")) ||
                                 x.tags?.includes("theory of mind")
                         )
-                        .map(({ title, url, id }) => (
-                            <DividedListLink
-                                lKey={id}
-                                href={url}
-                                extraStyles="text-secondary-white text-start text-sm mx-0 mb-4 lg:[&:not(:last-child)]:after:my-8 [&:not(:last-child)]:after:my-4 [&:not(:last-child)]:after:w-1/2 [&:not(:last-child)]:after:right-10 [&:not(:last-child)]:after:mx-auto"
-                            >
-                                {title}
-                            </DividedListLink>
+                        .map(({ title, url, id, abstract }) => (
+                            <Publication
+                                key={id + "_root"}
+                                title={title}
+                                url={url}
+                                id={id}
+                                abstract={abstract}
+                                extraStyles="mx-0 [&:not(:last-child)]:after:my-1 [&:not(:last-child)]:after:mt-5 mb-0"
+                            />
                         ))}
                 </ul>
             </aside>
