@@ -23,10 +23,12 @@ const ExploreCard = ({
     >
         <Link
             href={relevantPageLink ? relevantPageLink : ""}
-            className={
-                `${active === id ? "absolute z-10 bg-slate-400 bg-opacity-0 hover:bg-opacity-10 w-full h-full rounded-[24px]" : ""}
-                ${relevantPageLink ? "" : "pointer-events-none"}`
+            className={`${
+                active === id
+                    ? "absolute z-10 bg-slate-400 bg-opacity-0 hover:bg-opacity-10 w-full h-full rounded-[24px]"
+                    : ""
             }
+                ${relevantPageLink ? "" : "pointer-events-none"}`}
         />
         <Image
             src={imgUrl}
@@ -36,8 +38,10 @@ const ExploreCard = ({
             alt={"Generic image card relating to " + title}
         />
         {active !== id ? (
-            <h3 className="font-semibold text-[1rem] text-white relative lg:absolute z-0 lg:bottom-80 lg:rotate-[-90deg] lg:origin-[0,0] mx-2 lg:mx-0 lg:w-[500px]">
-                {title}
+            <h3 className="font-semibold text-[1rem] text-white relative lg:absolute z-0 lg:bottom-[17rem] lg:rotate-[-90deg] lg:origin-[0,0] mx-2 lg:mx-0 lg:w-[500px]">
+                <span className="bg-[rgba(0,0,0,0.25)] rounded-md p-2">
+                    {title}
+                </span>
             </h3>
         ) : (
             <div className="absolute max-h-[90%] bottom-0 px-8 py-4 flex justify-start w-full flex-col bg-[rgba(0,0,0,0.5)] rounded-b-[24px]">
