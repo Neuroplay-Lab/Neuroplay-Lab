@@ -1,11 +1,17 @@
-import Link from "next/link";
 import { TitleText, TypingText } from "../components";
 
 const TalksAndVideos = () => {
     return (
         <>
-            <TitleText title={"Talks and Videos"} textStyles={"text-center mx-4"} />
-            <p className="text-center max-w-prose mx-auto text-lg text-secondary-white">Below is a collection of videos showing various talks we have given on the topics of Austism, Anthropomorphism, Gamification and Synchrony.</p>
+            <TitleText
+                title={"Talks and Videos"}
+                textStyles={"text-center mx-4"}
+            />
+            <p className="text-center max-w-prose mx-auto text-lg text-secondary-white">
+                Below is a collection of videos showing various talks we have
+                given on the topics of Austism, Anthropomorphism, Gamification
+                and Synchrony.
+            </p>
             <section className="m-4 md:mx-8">
                 <TypingText
                     title={"Autism"}
@@ -102,6 +108,14 @@ const TalksAndVideos = () => {
                         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                         allowFullScreen
                     ></iframe>
+                    <iframe
+                        className="max-w-full aspect-video"
+                        width={560}
+                        src="https://www.youtube.com/embed/pGyHYireQCs?si=fC1iTyh9kqHAS7Or"
+                        title="EDUCATORS‘ DAY - Asmodee Research: Boardgames as an education and care practice (EN) | SPIEL 2022"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        allowFullScreen
+                    ></iframe>
                 </div>
             </section>
             <span className="m-8 mt-12 w-1/2 mx-auto block border-b border-b-[#b0b0b0]"></span>
@@ -129,7 +143,6 @@ const TalksAndVideos = () => {
                     ></iframe>
                 </div>
             </section>
-            {/* <span className="m-8 mt-12 w-1/2 mx-auto block border-b border-b-[#b0b0b0]"></span> */}
         </>
     );
 };

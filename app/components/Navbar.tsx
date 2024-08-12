@@ -52,7 +52,7 @@ const Navbar = () => {
                         />
                     </button>
                 </div>
-                <div className="items-center gap-2 min-[1050px]:gap-4 hidden min-[1310px]:gap-8 text-sm min-[1133px]:text-base lg:flex xl:text-lg text-white">
+                <div className="items-center gap-2 min-[1050px]:gap-4 hidden min-[1320px]:gap-8 text-sm min-[1133px]:text-base lg:flex xl:text-lg text-white">
                     <Link href="/" className="hover:text-secondary-white">
                         Home
                     </Link>

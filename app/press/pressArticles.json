@@ -7,7 +7,7 @@
         "date": "16 Jul 2024",
         "datetime": "2024-07-16T09:45:33Z",
         "summary": "video suggerito 16 Luglio 2024 11:45 Una ricerca dell\u2019Universit\u00e0 di Plymouth ha dimostrato la grande attrazione esercitata dai\u2026",
-        "image": "./press-images/giochi-tavolo-1200x675.png",
+        "image": "/press-images/giochi-tavolo-1200x675.png",
         "imageheight": 321,
         "imagewidth": 570
     },
@@ -19,7 +19,7 @@
         "date": "15 Jul 2024",
         "datetime": "2024-07-15T18:04:07Z",
         "summary": "It\u2019s no coincidence that board games are popular among people with autism. And yet, we are only just learning about how they\u2026",
-        "image": "./press-images/Autism-Study-Reveals.png",
+        "image": "/press-images/Autism-Study-Reveals.png",
         "imageheight": 257,
         "imagewidth": 513
     },
@@ -31,9 +31,10 @@
         "date": "15 Jul 2024",
         "datetime": "2024-07-15T17:55:51Z",
         "summary": "It's no coincidence that board games are popular among people with autism. And yet, we are only just learning about how they\u2026",
-        "image": "./press-images/autistic-child-playing-board-games.png",
+        "image": "/press-images/autistic-child-playing-board-games.png",
         "imageheight": 507,
-        "imagewidth": 760
+        "imagewidth": 760,
+        "tags": ["featured"]
     },
     {
         "id": "0f0a9cb8340cae7397bb2a07d1f03ea0",
@@ -43,7 +44,7 @@
         "date": "15 Jul 2024",
         "datetime": "2024-07-15T00:00:00Z",
         "summary": "Board gaming is a growing industry and is anecdotally popular among individuals with autistic traits.",
-        "image": "./press-images/board-games.png",
+        "image": "/press-images/board-games.png",
         "imageheight": 592,
         "imagewidth": 710
     },
@@ -55,7 +56,7 @@
         "date": "15 Jul 2024",
         "datetime": "2024-07-15T00:00:00Z",
         "summary": "Listen with Speechify Register for free to listen to this article Thank you. Listen to this article using the player above.",
-        "image": "./press-images/researchers-discover-why-board-games-are-popular-among-many-people-with-autism-388690-960x540.png",
+        "image": "/press-images/researchers-discover-why-board-games-are-popular-among-many-people-with-autism-388690-960x540.png",
         "imageheight": 448,
         "imagewidth": 796
     },
@@ -67,7 +68,7 @@
         "date": "14 Jul 2024",
         "datetime": "2024-07-14T12:12:54Z",
         "summary": "Board gaming is a growing industry popular among people with autistic traits. New research from the University of Plymouth\u2026",
-        "image": "./press-images/playing-board-game-696x390.png",
+        "image": "/press-images/playing-board-game-696x390.png",
         "imageheight": 363,
         "imagewidth": 647
     },
@@ -79,7 +80,7 @@
         "date": "13 Jul 2024",
         "datetime": "2024-07-13T01:52:00Z",
         "summary": "Board gaming is a growing industry, and anecdotally popular among people who display autistic traits.",
-        "image": "./press-images/nm-logo-4.png.webp",
+        "image": "/press-images/nm-logo-4.png.webp",
         "imageheight": 110,
         "imagewidth": 110
     },
@@ -91,7 +92,7 @@
         "date": "13 Jul 2024",
         "datetime": "2024-07-13T09:09:10Z",
         "summary": "Board gaming is a growing industry, and anecdotally popular among people who display autistic traits.",
-        "image": "./press-images/cropped-logo-transparent-1.png",
+        "image": "/press-images/cropped-logo-transparent-1.png",
         "imageheight": 51,
         "imagewidth": 460
     },
@@ -103,7 +104,7 @@
         "date": "12 Jul 2024",
         "datetime": "2024-07-12T09:36:25Z",
         "summary": "Board gaming is a growing industry, and anecdotally popular among people who display autistic traits.Now new research has\u2026",
-        "image": "./press-images/mirage.webp",
+        "image": "/press-images/mirage.webp",
         "imageheight": 145,
         "imagewidth": 260
     },
@@ -115,7 +116,7 @@
         "date": "12 Jul 2024",
         "datetime": "2024-07-12T17:27:04Z",
         "summary": "Board gaming is a growing industry, and anecdotally popular among people who display autistic traits.",
-        "image": "./press-images/playing-board-games.png",
+        "image": "/press-images/playing-board-games.png",
         "imageheight": 358,
         "imagewidth": 540
     },
@@ -127,9 +128,20 @@
         "date": "12 Jul 2024",
         "datetime": "2024-07-12T16:41:13Z",
         "summary": "Board gaming is a growing industry, and anecdotally popular among people who display autistic traits.",
-        "image": "./press-images/sd-logo.png",
+        "image": "/press-images/sd-logo.png",
         "imageheight": 0,
         "imagewidth": 0
+    },
+    {
+        "id": "",
+        "title": "Full Mandi Hutchinson's interview of Drs Liam Cross and Gray Atherton about autism and board games",
+        "url": "https://www.youtube.com/watch?v=sETDcjN08b8",
+        "publisher": "Game in Lab",
+        "date": "07 May 2024",
+        "datetime": "2024-05-07T00:00:00Z",
+        "summary": "On May 7, 2024, Asmodee Group’s research program, #GameinLab held, as part of its 2024 Conference Series, a presentation in Canada by Doctors Gray Atherton and Liam Cross from the University of Plymouth. They were both invited to discuss their findings from a series of studies examining the overlap between autism and hobbyist board gaming. The conference took place on Tuesday, May 7, during Canada Plays, the Canadian board game industry’s foremost trade event and conference experience, hosted by Asmodee Canada and Lion Rampant Imports. Drs Liam Cross and Gray Atherton was also interviewed by Mandi Hutchinson.",
+        "image": "/press-images/mandi-hutchinson-interview.jpg",
+        "tags": ["featured"]
     },
     {
         "id": "9a6f1bfaab026fce42ee2c1aa6b1f420",
@@ -139,7 +151,7 @@
         "date": "16 Apr 2024",
         "datetime": "2024-04-16T13:22:41Z",
         "summary": "In recent years, the prevalence of ASD has been markedly increasing, and the demographics of those diagnosed with ASD has been\u2026",
-        "image": "./press-images/Autism-Concept_G_1335977829.png",
+        "image": "/press-images/Autism-Concept_G_1335977829.png",
         "imageheight": 405,
         "imagewidth": 800
     },
@@ -151,7 +163,7 @@
         "date": "15 Apr 2024",
         "datetime": "2024-04-15T21:16:20Z",
         "summary": "This essay was co-authored by Artemisia O'bi and Fan Yang As we travel along life, we encounter lots of ups and downs, and at\u2026",
-        "image": "./press-images/2024-07.png.png",
+        "image": "/press-images/2024-07.png.png",
         "imageheight": 295,
         "imagewidth": 225
     },
@@ -163,7 +175,7 @@
         "date": "09 Apr 2024",
         "datetime": "2024-04-09T18:00:00Z",
         "summary": "Autism spectrum disorder (ASD) is a neurodevelopmental disorder characterized by deficits in social communication/interaction\u2026",
-        "image": "./press-images/DDI_Neuro_Autism_Apr2024_720pxwide_F-290x1024.png",
+        "image": "/press-images/DDI_Neuro_Autism_Apr2024_720pxwide_F-290x1024.png",
         "imageheight": 1024,
         "imagewidth": 290
     },
@@ -175,7 +187,7 @@
         "date": "07 Nov 2023",
         "datetime": "2023-11-07T00:00:00Z",
         "summary": "Listen with Speechify Register for free to listen to this article Thank you. Listen to this article using the player above.",
-        "image": "./press-images/gender-bias-may-affect-female-autism-diagnosis-380765-960x540.png",
+        "image": "/press-images/gender-bias-may-affect-female-autism-diagnosis-380765-960x540.png",
         "imageheight": 448,
         "imagewidth": 796
     },
@@ -187,7 +199,8 @@
         "date": "31 Aug 2023",
         "datetime": "2023-08-31T00:16:00Z",
         "summary": "pm EDT| Boys and men are at least three times more likely to receive an autism diagnosis than their female counterparts.",
-        "image": "./press-images/960x0.jpg.webp"
+        "image": "/press-images/960x0.jpg.webp",
+        "tags": ["featured"]
     },
     {
         "id": "9234be7bdd35b0ed315a3c6b70af5161",
@@ -197,7 +210,7 @@
         "date": "28 Aug 2023",
         "datetime": "2023-08-28T10:22:00Z",
         "summary": "Medisite : actualit\u00e9 sant\u00e9, bien-\u00eatre, maladieSe connecter Actualit\u00e9s Bien-\u00eatre et beaut\u00e9 Sant\u00e9 A-Z Grossesse et famille La\u2026",
-        "image": "./press-images/vignette-focus.png",
+        "image": "/press-images/vignette-focus.png",
         "imageheight": 350,
         "imagewidth": 700
     },
@@ -209,7 +222,7 @@
         "date": "24 Aug 2023",
         "datetime": "2023-08-24T15:06:03Z",
         "summary": "Fewer females may be diagnosed with autism due to misconceptions that autism is a male condition, new research has found.",
-        "image": "./press-images/autism-1.png",
+        "image": "/press-images/autism-1.png",
         "imageheight": 358,
         "imagewidth": 540
     },
@@ -221,7 +234,7 @@
         "date": "24 Aug 2023",
         "datetime": "2023-08-24T11:39:53Z",
         "summary": "Fewer females may be diagnosed with autism due to misconceptions that autism is a male condition, new research has found.",
-        "image": "./press-images/mirage.webp",
+        "image": "/press-images/mirage.webp",
         "imageheight": 145,
         "imagewidth": 260
     },
@@ -233,7 +246,7 @@
         "date": "23 Aug 2023",
         "datetime": "2023-08-23T18:18:55Z",
         "summary": "image: Many traits of autism are perceived as \"male traits\", which may hinder the diagnosis and understanding of women with\u2026",
-        "image": "./press-images/articleImage19.png",
+        "image": "/press-images/articleImage19.png",
         "imageheight": 181,
         "imagewidth": 272
     },
@@ -245,7 +258,7 @@
         "date": "23 Aug 2023",
         "datetime": "2023-08-23T18:57:39Z",
         "summary": "Credit: StockSnap, Pixabay, CC0 (https://creativecommons.org/publicdomain/zero/1.0/) Many traits of autism are perceived as \u201cmale\u2026",
-        "image": "./press-images/Many-traits-of-autism-are-perceived-as-male-traits-which.png",
+        "image": "/press-images/Many-traits-of-autism-are-perceived-as-male-traits-which.png",
         "imageheight": 440,
         "imagewidth": 660
     },
@@ -257,7 +270,7 @@
         "date": "07 Jul 2023",
         "datetime": "2023-07-07T21:19:56Z",
         "summary": "Last month, in the pages of an academic journal, British and Japanese psychologists posed an intriguing question: Is life\u2026",
-        "image": "./press-images/2024-07.png.png",
+        "image": "/press-images/2024-07.png.png",
         "imageheight": 295,
         "imagewidth": 225
     },
@@ -269,7 +282,7 @@
         "date": "26 Mar 2023",
         "datetime": "2023-03-26T18:39:44Z",
         "summary": "(1) Biocca, F. The Cyborg\u2019s Dilemma: Progressive Embodiment in Virtual Environments [1].",
-        "image": "./press-images/2024-07.png.png",
+        "image": "/press-images/2024-07.png.png",
         "imageheight": 295,
         "imagewidth": 225
     },
@@ -281,7 +294,7 @@
         "date": "18 Nov 2022",
         "datetime": "2022-11-18T12:00:00Z",
         "summary": "Segundo um artigo publicado na revista Autism Research, pessoas com autismo t\u00eam mais facilidade em reconhecer emo\u00e7\u00f5es, pelo\u2026",
-        "image": "./press-images/i648679.png",
+        "image": "/press-images/i648679.png",
         "imageheight": 262,
         "imagewidth": 465
     },
@@ -293,7 +306,7 @@
         "date": "15 Nov 2022",
         "datetime": "2022-11-15T17:28:17Z",
         "summary": "One of the characteristics thought to be common in neurodivergent people is a struggle to recognize emotions.",
-        "image": "./press-images/minds-eye-test-m.png",
+        "image": "/press-images/minds-eye-test-m.png",
         "imageheight": 386,
         "imagewidth": 682
     },
@@ -305,7 +318,7 @@
         "date": "07 Nov 2022",
         "datetime": "2022-11-07T13:15:51Z",
         "summary": "Atherton, G., Edisbury, E., Piovesan, A.,",
-        "image": "./press-images/2024-07.png.png",
+        "image": "/press-images/2024-07.png.png",
         "imageheight": 295,
         "imagewidth": 225
     },
@@ -317,7 +330,7 @@
         "date": "04 Nov 2022",
         "datetime": "2022-11-04T02:27:00Z",
         "summary": "Findings from a new study indicate that pets are often helpful for adults with autism.",
-        "image": "./press-images/DSC_7666.png",
+        "image": "/press-images/DSC_7666.png",
         "imageheight": 1093,
         "imagewidth": 729
     },
@@ -329,7 +342,7 @@
         "date": "24 Sep 2022",
         "datetime": "2022-09-24T20:35:36Z",
         "summary": "Source: sabina fratila/Unsplash Dogs meet our needs in so many ways\u2014acting as our eyes, helping with livestock, locating bombs\u2026",
-        "image": "./press-images/2024-07.png.png",
+        "image": "/press-images/2024-07.png.png",
         "imageheight": 295,
         "imagewidth": 225
     },
@@ -341,7 +354,7 @@
         "date": "23 Aug 2022",
         "datetime": "2022-08-23T11:00:00Z",
         "summary": "Illustration by Laur\u00e8ne Boglio Last month, an editorial advocating for open research in autism called for scientists to publish\u2026",
-        "image": "./press-images/844_Null2_01.png",
+        "image": "/press-images/844_Null2_01.png",
         "imageheight": 384,
         "imagewidth": 575
     },
@@ -353,7 +366,7 @@
         "date": "04 Aug 2022",
         "datetime": "2022-08-04T20:08:17Z",
         "summary": "Credit: Liam Cross et al, Autism Research (2022). DOI: 10.1002/aur.2782 New research carried out by psychologists at Edge Hill\u2026",
-        "image": "./press-images/new-research-shows-tha-3.png",
+        "image": "/press-images/new-research-shows-tha-3.png",
         "imageheight": 446,
         "imagewidth": 540
     },
@@ -365,7 +378,7 @@
         "date": "16 Jun 2022",
         "datetime": "2022-06-16T00:25:31Z",
         "summary": "Scientists from Edge Hill University found that animal ownership has multiple benefits for adults diagnosed with autism.",
-        "image": "./press-images/Pets-could-benefit-health-in-people-with-autism-696x464.png",
+        "image": "/press-images/Pets-could-benefit-health-in-people-with-autism-696x464.png",
         "imageheight": 464,
         "imagewidth": 696
     },
@@ -377,7 +390,7 @@
         "date": "14 Jun 2022",
         "datetime": "2022-06-14T17:38:02Z",
         "summary": "Credit: Unsplash/CC0 Public Domain New research led by psychologists at Edge Hill University has shown that animal ownership\u2026",
-        "image": "./press-images/dog-1.png",
+        "image": "/press-images/dog-1.png",
         "imageheight": 358,
         "imagewidth": 540
     },
@@ -389,7 +402,7 @@
         "date": "12 May 2022",
         "datetime": "2022-05-12T18:00:02Z",
         "summary": "Over the last decade or so, there\u2019s been an uptick in the number of adults being diagnosed with autism and ADHD.",
-        "image": "./press-images/michiel-annaert-Nnx3FaXdcq0-unsplash-e1651857295926.png",
+        "image": "/press-images/michiel-annaert-Nnx3FaXdcq0-unsplash-e1651857295926.png",
         "imageheight": 977,
         "imagewidth": 1170
     },
@@ -401,7 +414,7 @@
         "date": "30 Apr 2022",
         "datetime": "2022-04-30T05:00:00Z",
         "summary": "Nearly 80% of women with autism are misdiagnosed Over the last decade or so, there\u2019s been an uptick in the number of adults\u2026",
-        "image": "./press-images/0_blonde-1867768_1920.png",
+        "image": "/press-images/0_blonde-1867768_1920.png",
         "imageheight": 448,
         "imagewidth": 673
     },
@@ -413,7 +426,7 @@
         "date": "30 Apr 2022",
         "datetime": "2022-04-30T05:00:00Z",
         "summary": "Nearly 80% of women with autism are misdiagnosed Over the last decade or so, there\u2019s been an uptick in the number of adults\u2026",
-        "image": "./press-images/0_blonde-1867768_1920.png",
+        "image": "/press-images/0_blonde-1867768_1920.png",
         "imageheight": 448,
         "imagewidth": 673
     },
@@ -425,7 +438,7 @@
         "date": "30 Apr 2022",
         "datetime": "2022-04-30T05:00:00Z",
         "summary": "Nearly 80% of women with autism are misdiagnosed Over the last decade or so, there\u2019s been an uptick in the number of adults\u2026",
-        "image": "./press-images/0_blonde-1867768_1920.png",
+        "image": "/press-images/0_blonde-1867768_1920.png",
         "imageheight": 448,
         "imagewidth": 673
     },
@@ -437,7 +450,7 @@
         "date": "30 Apr 2022",
         "datetime": "2022-04-30T05:00:00Z",
         "summary": "Nearly 80% of women with autism are misdiagnosed Over the last decade or so, there\u2019s been an uptick in the number of adults\u2026",
-        "image": "./press-images/0_people-1492052_1920.png",
+        "image": "/press-images/0_people-1492052_1920.png",
         "imageheight": 448,
         "imagewidth": 673
     },
@@ -449,7 +462,7 @@
         "date": "30 Apr 2022",
         "datetime": "2022-04-30T05:00:00Z",
         "summary": "Nearly 80% of women with autism are misdiagnosed Over the last decade or so, there\u2019s been an uptick in the number of adults\u2026",
-        "image": "./press-images/0_blonde-1867768_1920.png",
+        "image": "/press-images/0_blonde-1867768_1920.png",
         "imageheight": 448,
         "imagewidth": 673
     },
@@ -461,7 +474,7 @@
         "date": "30 Apr 2022",
         "datetime": "2022-04-30T05:00:00Z",
         "summary": "Nearly 80% of women with autism are misdiagnosed Over the last decade or so, there\u2019s been an uptick in the number of adults\u2026",
-        "image": "./press-images/0_people-1492052_1920.png",
+        "image": "/press-images/0_people-1492052_1920.png",
         "imageheight": 448,
         "imagewidth": 673
     },
@@ -473,7 +486,7 @@
         "date": "30 Apr 2022",
         "datetime": "2022-04-30T05:00:00Z",
         "summary": "Nearly 80% of women with autism are misdiagnosed Over the last decade or so, there\u2019s been an uptick in the number of adults\u2026",
-        "image": "./press-images/0_blonde-1867768_1920.png",
+        "image": "/press-images/0_blonde-1867768_1920.png",
         "imageheight": 448,
         "imagewidth": 673
     },
@@ -485,7 +498,7 @@
         "date": "30 Apr 2022",
         "datetime": "2022-04-30T05:00:00Z",
         "summary": "Nearly 80% of women with autism are misdiagnosed Over the last decade or so, there\u2019s been an uptick in the number of adults\u2026",
-        "image": "./press-images/0_blonde-1867768_1920.png",
+        "image": "/press-images/0_blonde-1867768_1920.png",
         "imageheight": 448,
         "imagewidth": 673
     },
@@ -497,7 +510,7 @@
         "date": "30 Apr 2022",
         "datetime": "2022-04-30T05:00:00Z",
         "summary": "Nearly 80% of women with autism are misdiagnosed Over the last decade or so, there\u2019s been an uptick in the number of adults\u2026",
-        "image": "./press-images/0_blonde-1867768_1920.png",
+        "image": "/press-images/0_blonde-1867768_1920.png",
         "imageheight": 448,
         "imagewidth": 673
     },
@@ -509,7 +522,7 @@
         "date": "30 Apr 2022",
         "datetime": "2022-04-30T05:00:00Z",
         "summary": "Nearly 80% of women with autism are misdiagnosed Over the last decade or so, there\u2019s been an uptick in the number of adults\u2026",
-        "image": "./press-images/0_blonde-1867768_1920.png",
+        "image": "/press-images/0_blonde-1867768_1920.png",
         "imageheight": 448,
         "imagewidth": 673
     },
@@ -521,7 +534,7 @@
         "date": "30 Apr 2022",
         "datetime": "2022-04-30T05:00:00Z",
         "summary": "Nearly 80% of women with autism are misdiagnosed Over the last decade or so, there\u2019s been an uptick in the number of adults\u2026",
-        "image": "./press-images/0_blonde-1867768_1920.png",
+        "image": "/press-images/0_blonde-1867768_1920.png",
         "imageheight": 448,
         "imagewidth": 673
     },
@@ -533,7 +546,7 @@
         "date": "30 Apr 2022",
         "datetime": "2022-04-30T05:00:00Z",
         "summary": "Nearly 80% of women with autism are misdiagnosed Over the last decade or so, there\u2019s been an uptick in the number of adults\u2026",
-        "image": "./press-images/0_blonde-1867768_1920.png",
+        "image": "/press-images/0_blonde-1867768_1920.png",
         "imageheight": 448,
         "imagewidth": 673
     },
@@ -545,7 +558,7 @@
         "date": "30 Apr 2022",
         "datetime": "2022-04-30T05:00:00Z",
         "summary": "Nearly 80% of women with autism are misdiagnosed Over the last decade or so, there\u2019s been an uptick in the number of adults\u2026",
-        "image": "./press-images/0_people-1492052_1920.png",
+        "image": "/press-images/0_people-1492052_1920.png",
         "imageheight": 448,
         "imagewidth": 673
     },
@@ -557,7 +570,7 @@
         "date": "30 Apr 2022",
         "datetime": "2022-04-30T05:00:00Z",
         "summary": "Nearly 80% of women with autism are misdiagnosed Over the last decade or so, there\u2019s been an uptick in the number of adults\u2026",
-        "image": "./press-images/0_blonde-1867768_1920.png",
+        "image": "/press-images/0_blonde-1867768_1920.png",
         "imageheight": 448,
         "imagewidth": 673
     },
@@ -569,7 +582,7 @@
         "date": "30 Apr 2022",
         "datetime": "2022-04-30T05:00:00Z",
         "summary": "Nearly 80% of women with autism are misdiagnosed Over the last decade or so, there\u2019s been an uptick in the number of adults\u2026",
-        "image": "./press-images/0_blonde-1867768_1920.png",
+        "image": "/press-images/0_blonde-1867768_1920.png",
         "imageheight": 448,
         "imagewidth": 673
     },
@@ -581,7 +594,7 @@
         "date": "29 Apr 2022",
         "datetime": "2022-04-29T00:01:33Z",
         "summary": "News Release Published on: 29 April 2022 Last updated on: 29 April 2022 News Release, (2022, April 29).",
-        "image": "./press-images/game-controller.png",
+        "image": "/press-images/game-controller.png",
         "imageheight": 550,
         "imagewidth": 808
     },
@@ -593,7 +606,7 @@
         "date": "25 Apr 2022",
         "datetime": "2022-04-25T14:26:45Z",
         "summary": "Over the last decade or so, there\u2019s been an uptick in the number of adults being diagnosed with autism and ADHD.",
-        "image": "./press-images/Why-many-women-with-autism-and-ADHD.png",
+        "image": "/press-images/Why-many-women-with-autism-and-ADHD.png",
         "imagewidth": 696
     },
     {
@@ -604,7 +617,7 @@
         "date": "22 Apr 2022",
         "datetime": "2022-04-22T15:10:01Z",
         "summary": "Many women have to wait years for a diagnosis. Credit: Roman Kosolapov/Shutterstock Over the last decade or so, there's been an\u2026",
-        "image": "./press-images/many-women-with-autism.png",
+        "image": "/press-images/many-women-with-autism.png",
         "imageheight": 308,
         "imagewidth": 540
     },
@@ -616,7 +629,7 @@
         "date": "22 Apr 2022",
         "datetime": "2022-04-22T12:01:22Z",
         "summary": "Over the last decade or so, there\u2019s been an uptick in the number of adults being diagnosed with autism and ADHD.",
-        "image": "./press-images/walkingAgainstWall.png",
+        "image": "/press-images/walkingAgainstWall.png",
         "imageheight": 475,
         "imagewidth": 724
     },
@@ -628,7 +641,7 @@
         "date": "22 Apr 2022",
         "datetime": "2022-04-22T11:34:57Z",
         "summary": "Many women have to wait years for a diagnosis. Roman Kosolapov/ Shutterstock Over the last decade or so, there\u2019s been an uptick\u2026",
-        "image": "./press-images/ComplexPeople-640x427.png",
+        "image": "/press-images/ComplexPeople-640x427.png",
         "imageheight": 410,
         "imagewidth": 615
     },
@@ -640,7 +653,7 @@
         "date": "22 Apr 2022",
         "datetime": "2022-04-22T11:34:57Z",
         "summary": "Over the last decade or so, there\u2019s been an uptick in the number of adults being diagnosed with autism and ADHD.",
-        "image": "./press-images/yahoo_frontpage_en-US_s_f_p_bestfit_frontpage.png",
+        "image": "/press-images/yahoo_frontpage_en-US_s_f_p_bestfit_frontpage.png",
         "imageheight": 36,
         "imagewidth": 120
     },
@@ -652,7 +665,7 @@
         "date": "22 Feb 2022",
         "datetime": "2022-02-22T19:03:41Z",
         "summary": "When a recent study from Columbia University reported that suicide and self-harm were nearly four times more likely in adults\u2026",
-        "image": "./press-images/dt_230119_adhd_brain_confused_800x450.png",
+        "image": "/press-images/dt_230119_adhd_brain_confused_800x450.png",
         "imageheight": 657,
         "imagewidth": 1185
     },
@@ -664,7 +677,7 @@
         "date": "18 Feb 2022",
         "datetime": "2022-02-18T00:00:00Z",
         "summary": "When a recent study from Columbia University reported that suicide and self-harm were nearly four times more likely in adults\u2026",
-        "image": "./press-images/dt_230119_adhd_brain_confused_800x450.png",
+        "image": "/press-images/dt_230119_adhd_brain_confused_800x450.png",
         "imageheight": 657,
         "imagewidth": 1185
     },
@@ -676,7 +689,7 @@
         "date": "11 Oct 2021",
         "datetime": "2021-10-11T20:13:41Z",
         "summary": "Key Takeaways A new study shows that receiving an autism diagnosis in adulthood rather than childhood can lead to lower quality\u2026",
-        "image": "./press-images/GettyImages-1136325345-ad331a79510f47558854475cc70fe874.png",
+        "image": "/press-images/GettyImages-1136325345-ad331a79510f47558854475cc70fe874.png",
         "imageheight": 400,
         "imagewidth": 600
     },
@@ -688,7 +701,7 @@
         "date": "16 Sep 2021",
         "datetime": "2021-09-16T11:41:46Z",
         "summary": "New research led by psychologists at Edge Hill University has placed a spotlight on the quality of life and mental health\u2026",
-        "image": "./press-images/PromotionForIndustryFocus_4_17212232124543721.png",
+        "image": "/press-images/PromotionForIndustryFocus_4_17212232124543721.png",
         "imageheight": 149,
         "imagewidth": 140
     },
@@ -700,7 +713,7 @@
         "date": "14 Sep 2021",
         "datetime": "2021-09-14T19:31:36Z",
         "summary": "Uma pesquisa realizada por psic\u00f3logos da Edge Hill University apontou que adultos podem desenvolver graves problemas emocionais\u2026",
-        "image": "./press-images/iStock-1203552631.png",
+        "image": "/press-images/iStock-1203552631.png",
         "imageheight": 420,
         "imagewidth": 630
     },
@@ -712,7 +725,7 @@
         "date": "14 Sep 2021",
         "datetime": "2021-09-14T12:04:06Z",
         "summary": "Credit: CC0 Public Domain New research led by psychologists at Edge Hill University has placed a spotlight on the quality of\u2026",
-        "image": "./press-images/autism.png",
+        "image": "/press-images/autism.png",
         "imageheight": 358,
         "imagewidth": 540
     },
@@ -724,7 +737,19 @@
         "date": "24 Nov 2020",
         "datetime": "2020-11-24T00:00:00Z",
         "summary": "\"You tend to like people more and become more prosocial if you engage in synchronous behavior with them,\" Sebanz says. Walking is an easy way to get in sync, but researchers have shown that it also works with other rhythmic activities, including finger-tapping, dancing, marching and drumming.",
-        "image": "./press-images/29Mag-Tip-01-superJumbo.png"
+        "image": "/press-images/29Mag-Tip-01-superJumbo.png",
+        "tags": ["featured"]
+    },
+    {
+        "id":"8624e9e4137cb1133bc92aac153bc4e5",
+        "title": "Moving in Sync Creates Surprising Social Bonds among People",
+        "url": "https://www.scientificamerican.com/article/moving-in-sync-creates-surprising-social-bonds-among-people/",
+        "publisher": "Scientific American",
+        "date": "1 Oct 2020",
+        "datetime": "2020-10-01T00:00:00Z",
+        "summary": "To save any of his marching bandmates, Steve Marx says, he would run into onrushing traffic with no hesitation. It's the kind of language often heard from former army buddies, not musicians, but Marx brings up the scenario to show the strength of his feelings about this group. The marching band director at Gettysburg College in Pennsylvania has been participating in musical ensembles for more than 20 years, since he was in high school, and says that “the sort of bonding that you form is extremely strong. It's like a family.” Everyone is in matching uniforms, musical instruments in hands, marching forward in perfect harmony, left leg, right leg, movements and sounds so synchronized that individuals blur into the greater group. The allure is not even that much about music, he admits. Marching, for him, is mostly about the sense of kinship.",
+        "image": "/press-images/scientific-american-img.png",
+        "tags": ["featured"]
     },
     {
         "id": "734f9f842a40e70b95ed0abf08d128a8",
@@ -734,7 +759,7 @@
         "date": "30 Sep 2020",
         "datetime": "2020-09-30T15:31:21Z",
         "summary": "\u2013 By Liam Cross, Lecturer in Psychology, Edge Hill University It\u2019s often said we feel a connection to those we are on the same\u2026",
-        "image": "./press-images/ForeignAffairs-logo-white-blue-Red-dot-B-300x99.png",
+        "image": "/press-images/ForeignAffairs-logo-white-blue-Red-dot-B-300x99.png",
         "imageheight": 99,
         "imagewidth": 300
     },
@@ -746,7 +771,7 @@
         "date": "30 Sep 2020",
         "datetime": "2020-09-30T14:55:25Z",
         "summary": "It\u2019s often said we feel a connection to those we are on the same path as or in sync with.",
-        "image": "./press-images/walkingAgainstWall.png",
+        "image": "/press-images/walkingAgainstWall.png",
         "imageheight": 400,
         "imagewidth": 600
     },
@@ -758,7 +783,7 @@
         "date": "03 Aug 2020",
         "datetime": "2020-08-03T15:02:30Z",
         "summary": "We sing, dance and even walk in time together, such motor coordination has been present throughout our history.",
-        "image": "./press-images/picture_1_0.png"
+        "image": "/press-images/picture_1_0.png"
     },
     {
         "id": "b135c8530844de9a46b8ba5f9ed97f88",
@@ -767,8 +792,9 @@
         "publisher": "The British Psychological Society",
         "date": "25 Mar 2020",
         "datetime": "2020-03-25T00:00:00Z",
-        "image": "./press-images/Screenshot 2024-06-03 at 18-35-16 Walk in my shoes BPS.png",
-        "imageAlt": "Image from The British Psychological Society Article"
+        "image": "/press-images/Screenshot 2024-06-03 at 18-35-16 Walk in my shoes BPS.png",
+        "imageAlt": "Image from The British Psychological Society Article",
+        "tags": ["featured"]
     },
     {
         "id": "36b9e88d89c207dac9fb0ccf178c0298",
@@ -778,7 +804,7 @@
         "date": "21 Jun 2018",
         "datetime": "2018-06-21T20:13:02Z",
         "summary": "Source: iStock Picture this: You and your romantic partner, best friend, or office mate have been bickering for days.",
-        "image": "./press-images/2024-07.png.png",
+        "image": "/press-images/2024-07.png.png",
         "imageheight": 295,
         "imagewidth": 225
     }

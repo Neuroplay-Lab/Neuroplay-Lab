@@ -8,12 +8,40 @@ const Press = () => {
         <>
             <TitleText title={"Press"} textStyles={"text-center mx-4"} />
             <section className="m-4 md:mx-8">
-                <TypingText title={"Articles"} textStyles={"m-4 text-3xl"} />
-                <div className="grid justify-center m-2 gap-4 md:grid-cols-2 lg:grid-cols-4">
-                    {pressArticles.map(
+                <TypingText title={"Featured Articles"} textStyles={"m-4 text-3xl"} />
+                <div className="grid m-2 gap-4 md:grid-cols-2 lg:grid-cols-3">
+                    {pressArticles.filter(
+                        (x) =>
+                            x.tags?.includes("featured")
+                    )
+                    .map(
                         ({ id, title, publisher, url, image, date }) => (
                             <ImageCard
                                 title={title}
+                                subtext={publisher + ", " + date}
+                                href={url}
+                                image={image}
+                                altTag={"Image from " + publisher + " article"}
+                                key={id}
+                                styles={"justify-self-center w-full"}
+                            />
+                        )
+                    )}
+                </div>
+            </section>
+            <span className="m-8 mt-12 w-1/2 mx-auto block border-b border-b-[#b0b0b0]"></span>
+            <section className="m-4 md:mx-8">
+                <TypingText title={"All Other Articles"} textStyles={"m-4 text-3xl"} />
+                <div className="grid justify-center m-2 gap-4 md:grid-cols-3 lg:grid-cols-5">
+                    {pressArticles.filter(
+                        (x) =>
+                            !x.tags?.includes("featured") &&
+                            !x.tags?.includes("hidden")
+                    )
+                    .map(
+                        ({ id, title, publisher, url, image, date }) => (
+                            <ImageCard
+                                title={title.length < 70 ? title : title.substring(0, 70) + "..."}
                                 subtext={publisher + ", " + date}
                                 href={url}
                                 image={image}
