@@ -1,10 +1,18 @@
 "use client";
 
 import { motion } from "framer-motion";
-// import { fadeIn } from "../utils/motion";
 import Image from "next/image";
+import Link from "next/link";
 
-const ExploreCard = ({ id, imgUrl, title, index, active, handleClick }) => (
+const ExploreCard = ({
+    id,
+    imgUrl,
+    title,
+    index,
+    active,
+    handleClick,
+    relevantPageLink,
+}) => (
     <motion.div
         // variants={fadeIn('right', 'spring', index * 0.5, 0.75)}
         className={`relative ${
@@ -13,6 +21,13 @@ const ExploreCard = ({ id, imgUrl, title, index, active, handleClick }) => (
       flex items-center justify-center transition-[flex] duration-[0.7s] ease-out-flex cursor-pointer lg:min-w-[f ] min-h-fit`}
         onClick={() => handleClick(id)}
     >
+        <Link
+            href={relevantPageLink ? relevantPageLink : ""}
+            className={
+                `${active === id ? "absolute z-10 bg-slate-400 bg-opacity-0 hover:bg-opacity-10 w-full h-full rounded-[24px]" : ""}
+                ${relevantPageLink ? "" : "pointer-events-none"}`
+            }
+        />
         <Image
             src={imgUrl}
             className="absolute w-full h-full object-cover rounded-[24px]"
@@ -29,6 +44,9 @@ const ExploreCard = ({ id, imgUrl, title, index, active, handleClick }) => (
                 <h2 className="md:text-[20px] font-semibold sm:text-[32px] text-xl text-white">
                     {title}
                 </h2>
+                <span className="text-secondary-white text-lg">
+                    Click to read more
+                </span>
             </div>
         )}
     </motion.div>
