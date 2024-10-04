@@ -5,7 +5,7 @@ import pressArticles from "./pressArticles.json";
 
 const Press = () => {
     return (
-        <>
+        <div>
             <TitleText title={"Press"} textStyles={"text-center mx-4"} />
             <section className="m-4 md:mx-8">
                 <TypingText title={"Featured Articles"} textStyles={"m-4 text-3xl"} />
@@ -63,7 +63,7 @@ const Press = () => {
                 </Link>{" "}
                 blog for some interesting posts!
             </p>
-        </>
+        </div>
     );
 };
 
