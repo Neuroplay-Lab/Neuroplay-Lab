@@ -5,6 +5,7 @@ import headerImg from "../../../public/crowd-2152653_960_720.jpg";
 import publications from "../../publications/publications.json";
 import Link from "next/link";
 import Publication from "../../publications/publication";
+import { Metadata } from "next";
 
 const SynchronyAndSocialCognition = () => {
     return (
@@ -189,6 +190,18 @@ const SynchronyAndSocialCognition = () => {
             </aside>
         </div>
     );
+};
+
+export const metadata: Metadata = {
+    title: "Synchrony",
+    description:
+        "Drs Gray Atherton and Liam Cross discuss the topic of Synchrony and Social Cognition and their research into this area of Psychology.",
+    openGraph: {
+        title: "Synchrony",
+        description:
+            "Drs Gray Atherton and Liam Cross discuss the topic of Synchrony and Social Cognition and their research into this area of Psychology.",
+        images: ["https://www.neuroplaylab.com/_next/static/media/crowd-2152653_960_720.57ea9171.jpg"],        
+    },
 };
 
 export default SynchronyAndSocialCognition;

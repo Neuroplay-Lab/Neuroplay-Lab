@@ -1,7 +1,7 @@
 import "./styles/globals.css";
-import type { Metadata } from "next";
 import localFont from "next/font/local";
 import { Navbar, Footer } from "./components";
+import { Metadata } from "next";
 
 const eudoxusSans = localFont({
     src: [
@@ -40,10 +40,6 @@ const eudoxusSans = localFont({
     fallback: ["sans-serif"],
 });
 
-export const metadata: Metadata = {
-    title: "Neuroplay Lab",
-};
-
 const RootLayout = ({ children }) => (
     <html lang="en" className={eudoxusSans.className}>
         <body className="bg-primary-black">
@@ -60,5 +56,32 @@ const RootLayout = ({ children }) => (
         </body>
     </html>
 );
+
+export const metadata: Metadata = {
+    metadataBase: new URL("https://www.neuroplaylab.com"),
+    keywords: [
+        "Liam Cross",
+        "Gray Atherton",
+        "Neuroplay",
+        "Psychologist",
+        "Researcher",
+        "Synchrony Research",
+        "Social Cognition Research",
+        "Autism Research",
+        "Anthropomorphism Research",
+        "Gamification Research",
+    ],
+    title: {
+        default: "Neuroplay Lab",
+        template: "%s | Neuroplay Lab",
+    },
+    openGraph: {
+        description:
+            "The research world of Dr Gray Atherton and Dr Liam Cross; Psychologists at the University of Plymouth, UK.",
+        images: [""],
+    },
+    description:
+        "Welcome to the research world of Dr Gray Atherton and Dr Liam Cross. We are Psychologists at the University of Plymouth, UK. We delve into various facets of social and embodied cognition; our keen interest lies in understanding autism spectrum disorder, examining social cognition and well-being enhancement strategies. We also undertake research in the area of Gamification, covering both modern board games, as well as a range of digital games, including the use of VR technology.",
+};
 
 export default RootLayout;

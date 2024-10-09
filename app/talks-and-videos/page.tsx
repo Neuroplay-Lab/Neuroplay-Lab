@@ -1,3 +1,4 @@
+import { Metadata } from "next";
 import { TitleText, TypingText } from "../components";
 
 const TalksAndVideos = () => {
@@ -76,14 +77,16 @@ const TalksAndVideos = () => {
                     textStyles={"mx-4 mb-6 font-semibold text-3xl"}
                 />
                 <div className="grid gap-4 lg:grid-cols-2 justify-center justify-items-center">
-                    <iframe
+                    {/* This video has been hidden/made private so won't appear on the site, kept here
+                    in case it is made public again in the future. */}
+                    {/* <iframe
                         className="max-w-full aspect-video"
                         width={560}
                         src="https://www.youtube.com/embed/aOoum0L7zBQ?si=xHnhnuT_MeVZFoB_"
                         title="Best of: Autism and Board Games"
                         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                         allowFullScreen
-                    ></iframe>
+                    ></iframe> */}
                     <iframe
                         className="max-w-full aspect-video"
                         width={560}
@@ -145,6 +148,17 @@ const TalksAndVideos = () => {
             </section>
         </>
     );
+};
+
+export const metadata: Metadata = {
+    title: "Talks",
+    description:
+        "A collection of talks given by Dr Gray Atherton and/or Dr Liam Cross on their research into the Psychology of Autism, Anthropomorphism, Gamification and Synchrony.",
+    openGraph: {
+        title: "Talks/Videos",
+        description:
+            "A collection of talks given by Dr Gray Atherton and/or Dr Liam Cross.",
+    },
 };
 
 export default TalksAndVideos;

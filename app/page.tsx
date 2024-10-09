@@ -1,4 +1,4 @@
-import { Intro, Explore, PrimaryResearch, Hero, AboutUs } from "./sections";
+import { Intro, Explore, PrimaryResearch, Hero } from "./sections";
 
 const Home = () => (
     <main className="overflow-hidden">
@@ -14,7 +14,6 @@ const Home = () => (
             </div>
             <Explore />
             <PrimaryResearch />
-            {/* <AboutUs /> */}
         </div>
     </main>
 );

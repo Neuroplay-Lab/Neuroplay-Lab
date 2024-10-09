@@ -7,6 +7,7 @@ import superImg from "../../../public/image.png";
 import publications from "../../publications/publications.json";
 import Link from "next/link";
 import Publication from "../../publications/publication";
+import { Metadata } from "next";
 
 const SynchronyAndSocialCognition = () => {
     return (
@@ -97,6 +98,18 @@ const SynchronyAndSocialCognition = () => {
             </aside>
         </div>
     );
+};
+
+export const metadata: Metadata = {
+    title: "Autism and Wellbeing",
+    description:
+        "Drs Gray Atherton and Liam Cross discuss the topic of Autism and Wellbeing and their research into this area of Psychology.",
+    openGraph: {
+        title: "Autism and Wellbeing",
+        description:
+            "Drs Gray Atherton and Liam Cross discuss the topic of Autism and Wellbeing and their research into this area of Psychology.",
+        images: ["/_next/static/media/autism-qol.0241ff30.jpg"],
+    },
 };
 
 export default SynchronyAndSocialCognition;

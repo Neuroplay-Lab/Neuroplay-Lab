@@ -1,6 +1,7 @@
 import { TitleText } from "../components";
 import publications from "./publications.json";
 import Publication from "./publication";
+import { Metadata } from "next";
 
 const Publications = () => {
     return (
@@ -43,6 +44,17 @@ const Publications = () => {
             </section>
         </>
     );
+};
+
+export const metadata: Metadata = {
+    title: "Publications",
+    description:
+        "A collation of published research papers authored by Drs Gray Atherton and Liam Cross.",
+    openGraph: {
+        title: "Publications",
+        description:
+            "Researched papers authored by Dr Gray Atherton and Dr Liam Cross.",
+    },
 };
 
 export default Publications;

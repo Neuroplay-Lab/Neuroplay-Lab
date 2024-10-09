@@ -2,6 +2,7 @@ import Link from "next/link";
 import { TitleText, TypingText } from "../components";
 import ImageCard from "../components/ImageCard";
 import pressArticles from "./pressArticles.json";
+import { Metadata } from "next";
 
 const Press = () => {
     return (
@@ -65,6 +66,15 @@ const Press = () => {
             </p>
         </div>
     );
+};
+
+export const metadata: Metadata = {
+    title: "Press",
+    description: "A collection of news articles featuring Dr Gray Atherton and Dr Liam Cross and their research work in the field of Psychology.",
+    openGraph: {
+        title: "Press",
+        description: "A collection of news articles featuring Dr Gray Atherton and Dr Liam Cross and their research work in the field of Psychology.",
+    },
 };
 
 export default Press;

@@ -4,6 +4,7 @@ import synchImg from "../../public/crowd-2152653_960_720.jpg";
 import anthImg from "../../public/planet-06.jpg";
 import autImg from "../../public/autism-qol.jpg";
 import gameImg from "../../public/image-1.png";
+import { Metadata } from "next";
 
 const ResearchTopics = () => {
     return (
@@ -51,6 +52,17 @@ const ResearchTopics = () => {
             </div>
         </>
     );
+};
+
+export const metadata: Metadata = {
+    title: "Research Topics",
+    description:
+        "Page containing links to the different research areas explored by Dr Gray Atherton and Dr Liam Cross; these areas being: Autism and Wellbeing, Anthropomorphism and Theory of Mind, Gamification, and Synchrony and Social Cognition.",
+    openGraph: {
+        title: "Press",
+        description:
+            "Links to the different research areas explored by Dr Gray Atherton and Dr Liam Cross.",
+    },
 };
 
 export default ResearchTopics;

@@ -1,6 +1,7 @@
 import Link from "next/link";
 import { TitleText } from "../components";
 import DividedListItem from "../components/DividedListItem";
+import { Metadata } from "next";
 
 const Contact = () => {
     return (
@@ -208,6 +209,16 @@ const Contact = () => {
             </div>
         </>
     );
+};
+
+export const metadata: Metadata = {
+    title: "Contact",
+    description:
+        "Contact information and contact form for Psychology Researchers Dr Gray Atherton and Dr Liam Cross.",
+    openGraph: {
+        description:
+            "Contact information and contact form for Psychology Researchers Dr Gray Atherton and Dr Liam Cross.",
+    },
 };
 
 export default Contact;

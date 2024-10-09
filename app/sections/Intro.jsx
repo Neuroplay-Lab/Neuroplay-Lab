@@ -22,11 +22,11 @@ const Intro = () => (
                     <>
                         Welcome to the research world of{" "}
                         <span className="font-extrabold text-white">
-                            Gray Atherton
+                            Dr Gray Atherton
                         </span>{" "}
                         and{" "}
                         <span className="font-extrabold text-white">
-                            Liam Cross
+                            Dr Liam Cross
                         </span>
                     </>
                 }
@@ -37,7 +37,7 @@ const Intro = () => (
                 variants={fadeIn("up", "tween", 0.2, 1)}
                 className="mt-8 font-normal sm:text-[32px] text-[20px] text-center text-secondary-white"
             >
-                We are psychologists at University of Plymouth, United Kingdom.
+                We are Psychologists at the University of Plymouth, United Kingdom.
                 We delve into various facets of social and embodied cognition,
                 exploring topics such as group dynamics, stereotypes, and
                 pro-social behavior. Our keen interest lies in understanding

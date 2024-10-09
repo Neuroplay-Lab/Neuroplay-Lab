@@ -1,6 +1,7 @@
 import Link from "next/link";
 import React from "react";
 import { TitleText } from "./components";
+import { Metadata } from "next";
 
 const NotFound = () => {
     return (
@@ -20,6 +21,12 @@ const NotFound = () => {
             </div>
         </>
     );
+};
+
+export const metadata: Metadata = {
+    title: "Page Not Found",
+    description:
+        "The page you are looking for does not exist.",
 };
 
 export default NotFound;
