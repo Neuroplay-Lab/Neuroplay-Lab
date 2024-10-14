@@ -8,7 +8,7 @@ import { StartSteps, TitleText, TypingText } from "../components";
 import { staggerContainer, fadeIn } from "../utils/motion";
 
 import Image from "next/image";
-import getStartedImg from "../../public/get-started.png";
+import getStartedImg from "../../public/get-started.webp";
 
 const PrimaryResearch = () => (
     <section className={`${styles.paddings} relative z-10`}>

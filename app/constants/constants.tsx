@@ -2,25 +2,25 @@ export const exploreWorlds = [
     // {
     //     id: "world-1",
     //     imgNo: 1,
-    //     imgUrl: "/planet-01.jpg",
+    //     imgUrl: "/planet-01.webp",
     //     title: "Group Dynamics & Processes",
     // },
     // {
     //     id: "world-2",
     //     imgNo: 2,
-    //     imgUrl: "/planet-02.jpg",
+    //     imgUrl: "/planet-02.webp",
     //     title: "Prejudice Discrimination & Stereotype",
     // },
     // {
     //     id: "world-3",
     //     imgNo: 3,
-    //     imgUrl: "/planet-03.jpg",
+    //     imgUrl: "/planet-03.webp",
     //     title: "Pro- And Anti-Social Behavior",
     // },
     // {
     //     id: "world-4",
     //     imgNo: 4,
-    //     imgUrl: "/planet-04.jpg",
+    //     imgUrl: "/planet-04.webp",
     //     title: "Self & Other Perceptions",
     // },
     {
@@ -38,21 +38,22 @@ export const exploreWorlds = [
     {
         id: "world-2",
         imgNo: 2,
-        imgUrl: "/planet-07.jpg",
+        imgUrl: "/planet-07.webp",
         title: "Autism",
         relevantPageLink: "/research-topics/autism-and-wellbeing",
     },
     {
         id: "world-3",
         imgNo: 3,
-        imgUrl: "/planet-06.jpg",
+        imgUrl: "/planet-06.webp",
         title: "Anthropomorphism",
-        relevantPageLink: "/research-topics/autism-anthropomorphism-and-theory-of-mind",
+        relevantPageLink:
+            "/research-topics/autism-anthropomorphism-and-theory-of-mind",
     },
     {
         id: "world-4",
         imgNo: 4,
-        imgUrl: "/Untitled design-2.png",
+        imgUrl: "/Untitled design-2.webp",
         title: "Gamification",
         relevantPageLink: "/research-topics/gamification",
     },

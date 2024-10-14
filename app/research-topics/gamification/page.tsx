@@ -1,6 +1,6 @@
 import Image from "next/image";
 import { TitleText } from "../../components";
-import headerImg from "../../../public/image-1.png";
+import headerImg from "../../../public/image-1.webp";
 
 import publications from "../../publications/publications.json";
 import Publication from "../../publications/publication";
@@ -78,8 +78,8 @@ export const metadata: Metadata = {
         title: "Gamification",
         description:
             "Drs Gray Atherton and Liam Cross discuss the topic of Gamification and their research in this area of Psychology.",
-        images: ["/_next/static/media/image-1.76d864b8.png"]
-        },
+        images: ["/_next/static/media/image-1.76d864b8.webp"],
+    },
 };
 
 export default SynchronyAndSocialCognition;

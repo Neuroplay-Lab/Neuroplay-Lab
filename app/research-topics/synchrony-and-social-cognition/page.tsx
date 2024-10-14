@@ -1,6 +1,6 @@
 import Image from "next/image";
 import { TitleText } from "../../components";
-import headerImg from "../../../public/crowd-2152653_960_720.jpg";
+import headerImg from "../../../public/crowd-2152653_960_720.webp";
 
 import publications from "../../publications/publications.json";
 import Link from "next/link";
@@ -200,7 +200,9 @@ export const metadata: Metadata = {
         title: "Synchrony",
         description:
             "Drs Gray Atherton and Liam Cross discuss the topic of Synchrony and Social Cognition and their research into this area of Psychology.",
-        images: ["https://www.neuroplaylab.com/_next/static/media/crowd-2152653_960_720.57ea9171.jpg"],        
+        images: [
+            "https://www.neuroplaylab.com/_next/static/media/crowd-2152653_960_720.57ea9171.webp",
+        ],
     },
 };
 

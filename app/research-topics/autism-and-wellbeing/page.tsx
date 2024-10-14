@@ -1,8 +1,8 @@
 import Image from "next/image";
 import { TitleText, TypingText } from "../../components";
-import headerImg from "../../../public/autism-qol-main.png";
-import gameImg from "../../../public/rpg-468917_960_720.jpg";
-import superImg from "../../../public/image.png";
+import headerImg from "../../../public/autism-qol-main.webp";
+import gameImg from "../../../public/rpg-468917_960_720.webp";
+import superImg from "../../../public/image.webp";
 
 import publications from "../../publications/publications.json";
 import Link from "next/link";
@@ -108,7 +108,7 @@ export const metadata: Metadata = {
         title: "Autism and Wellbeing",
         description:
             "Drs Gray Atherton and Liam Cross discuss the topic of Autism and Wellbeing and their research into this area of Psychology.",
-        images: ["/_next/static/media/autism-qol.0241ff30.jpg"],
+        images: ["/_next/static/media/autism-qol.0241ff30.webp"],
     },
 };
 

@@ -1,9 +1,9 @@
 import { TitleText } from "../components";
 import ImageCard from "../components/ImageCard";
-import synchImg from "../../public/crowd-2152653_960_720.jpg";
-import anthImg from "../../public/planet-06.jpg";
-import autImg from "../../public/autism-qol.jpg";
-import gameImg from "../../public/image-1.png";
+import synchImg from "../../public/crowd-2152653_960_720.webp";
+import anthImg from "../../public/planet-06.webp";
+import autImg from "../../public/autism-qol.webp";
+import gameImg from "../../public/image-1.webp";
 import { Metadata } from "next";
 
 const ResearchTopics = () => {

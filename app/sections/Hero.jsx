@@ -5,7 +5,7 @@ import { motion } from "framer-motion";
 import styles from "../styles";
 import { slideIn, staggerContainer } from "../utils/motion";
 import Image from "next/image";
-import heroImg from "../../public/hero-img.png";
+import heroImg from "../../public/hero-img.webp";
 
 const Hero = () => (
     <section className={`pt-8 sm:px-16 px-6 pb-0`}>

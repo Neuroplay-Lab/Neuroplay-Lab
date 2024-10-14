@@ -8,17 +8,16 @@ import { exploreWorlds } from "../constants/constants";
 import { fadeIn } from "../utils/motion";
 import { ExploreCard, TitleText } from "../components";
 
-import planetImg0 from "../../public/synchrony-walking-world.png";
-import planetImg1 from "../../public/social-cognition-world.png";
-import planetImg2 from "../../public/autism_child.png";
-import planetImg3 from "../../public/anthropomorphism.png";
-import planetImg4 from "../../public/gamification-world.png";
+import planetImg0 from "../../public/synchrony-walking-world.webp";
+import planetImg1 from "../../public/social-cognition-world.webp";
+import planetImg2 from "../../public/autism_child.webp";
+import planetImg3 from "../../public/anthropomorphism.webp";
+import planetImg4 from "../../public/gamification-world.webp";
 
 const Explore = () => {
-
     const exploreClick = (id) => {
         setActive(id);
-    }
+    };
 
     const [active, setActive] = useState("world-3");
 

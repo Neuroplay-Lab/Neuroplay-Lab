@@ -1,8 +1,8 @@
 import Image from "next/image";
 import { TitleText, TypingText } from "../../components";
-import headerImg from "../../../public/planet-06.jpg";
-import articleImg1 from "../../../public/anthro-1.png";
-import articleImg2 from "../../../public/anthro-2.png";
+import headerImg from "../../../public/planet-06.webp";
+import articleImg1 from "../../../public/anthro-1.webp";
+import articleImg2 from "../../../public/anthro-2.webp";
 
 import publications from "../../publications/publications.json";
 import Link from "next/link";
@@ -178,7 +178,7 @@ export const metadata: Metadata = {
         title: "Anthropomorphism",
         description:
             "Drs Gray Atherton and Liam Cross discuss the topic of Anthropomorphism and Theory of Mind, and their research into this area of Psychology.",
-        images: ["/_next/static/media/planet-06.8ea8009e.jpg"]
+        images: ["/_next/static/media/planet-06.8ea8009e.webp"],
     },
 };
 

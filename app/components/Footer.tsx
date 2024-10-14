@@ -4,14 +4,14 @@ import { motion } from "framer-motion";
 import styles from "../styles";
 import { footerVariants } from "../utils/motion";
 import Image from "next/image";
-import brainImg from "../../public/icons8-brain-64.png";
+import brainImg from "../../public/icons8-brain-64.webp";
 
 const Footer = () => (
     <motion.footer
         variants={footerVariants}
         initial="hidden"
         whileInView="show"
-        viewport={{once: true}}
+        viewport={{ once: true }}
         className={`${styles.xPaddings} py-8 relative overflow-x-clip`}
     >
         <div className={`${styles.innerWidth} mx-auto flex flex-col gap-8`}>
