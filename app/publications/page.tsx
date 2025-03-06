@@ -12,34 +12,36 @@ const Publications = () => {
             </p>
             <section className="grid justify-center">
                 <ul className="max-w-prose">
-                    {publications.map(
-                        ({
-                            title,
-                            url,
-                            id,
-                            author,
-                            journal,
-                            volume,
-                            number,
-                            pages,
-                            year,
-                            abstract,
-                        }) => (
-                            <Publication
-                                key={id + "_root"}
-                                title={title}
-                                url={url}
-                                id={id}
-                                author={author}
-                                journal={journal}
-                                volume={volume}
-                                number={number}
-                                pages={pages}
-                                year={year}
-                                abstract={abstract}
-                            />
-                        )
-                    )}
+                    {publications
+                        .filter((x) => !x.tags?.includes("hidden"))
+                        .map(
+                            ({
+                                title,
+                                url,
+                                id,
+                                author,
+                                journal,
+                                volume,
+                                number,
+                                pages,
+                                year,
+                                abstract,
+                            }) => (
+                                <Publication
+                                    key={id + "_root"}
+                                    title={title}
+                                    url={url}
+                                    id={id}
+                                    author={author}
+                                    journal={journal}
+                                    volume={volume}
+                                    number={number}
+                                    pages={pages}
+                                    year={year}
+                                    abstract={abstract}
+                                />
+                            )
+                        )}
                 </ul>
             </section>
         </>
