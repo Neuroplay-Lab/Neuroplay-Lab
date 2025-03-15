@@ -13,7 +13,7 @@ const Publications = () => {
             <section className="grid justify-center">
                 <ul className="max-w-prose">
                     {publications
-                        .filter((x) => !x.tags?.includes("hidden"))
+                        .filter((x) => !x.hidden?.valueOf() === true)
                         .map(
                             ({
                                 title,

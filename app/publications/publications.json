@@ -13,7 +13,6 @@
         "pub_year": 2025,
         "citation": "Journal of experimental child psychology 249, 106116, 2025",
         "journal": "Journal of experimental child psychology",
-"Tags"
         "volume": 249,
         "pages": 106116,
         "publisher": "Academic press",
@@ -23,7 +22,7 @@
         "id": "4af9c5cb94f7bd80d77f5382508cd64f",
         "title": "The wind in the willows effect: Does age affect human versus animal faux pas recognition?",
         "year": 2025,
-        "tags": ["hidden"],
+        "hidden": true,
         "url": "https://www.sciencedirect.com/science/article/pii/S002209652400256X",
         "author": [
             "Gray Atherton",
@@ -948,8 +947,7 @@
     },
     {
         "id": "b16bcd0542c6feacd5facefc4c8ada57",
-        "title": "What Am I Thinking? Theory of Mind Development in Autism",
-“tags”: [“hidden”],
+        "hidden": true,
         "year": 2014,
         "url": "https://uh-ir.tdl.org/bitstream/10657/1466/1/ATHERTON-THESIS-2014.pdf",
         "tags": ["autism"],
