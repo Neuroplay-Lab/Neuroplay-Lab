@@ -7,7 +7,7 @@
         "date": "27 Dec 2024",
         "datetime": "2024-12-27T14:01:01Z",
         "summary": "Kindergeschichten In Geschichten f\u00fcr Kinder spielen Tiere oft die Hauptrolle. Eine Studie zeigt nun, wie sehr diese Erz\u00e4hlweise\u2026",
-        "tags": ["hidden"]
+        "hidden": true
     },
     {
         "id": "7641ba1c01d4cd5c777eca03562bdbc9",
@@ -20,7 +20,7 @@
         "image": "/press-images/research-reveals-the-importance-of-using-human-like-animal-characters-in-children-s-books-for-social-development-1732902721115_1024.webp",
         "imageheight": 428,
         "imagewidth": 608,
-        "tags": ["hidden"]
+        "hidden": true
     },
     {
         "id": "ae8e8a83622d8face7f3007e6c14bef3",
@@ -45,7 +45,7 @@
         "image": "/press-images/bambini-animali-personaggi-libri.webp",
         "imageheight": 380,
         "imagewidth": 570,
-        "tags": ["hidden"]
+        "hidden": true
     },
     {
         "id": "307f01fd77bed5ac641bd9f96ed3d043",
@@ -58,7 +58,7 @@
         "image": "/press-images/logo3-light.webp",
         "imageheight": 40,
         "imagewidth": 52,
-        "tags": ["hidden"]
+        "hidden": true
     },
     {
         "id": "eea4b6851bf7f73494e89b5e0701947e",
@@ -155,7 +155,7 @@
         "image": "/press-images/iStock-664838266-1.webp",
         "imageheight": 380,
         "imagewidth": 570,
-        "tags": ["hidden"]
+        "hidden": true
     },
     {
         "id": "e63fdc88c637f013f49a201bb59ca3e6",
@@ -288,7 +288,7 @@
         "image": "/press-images/GoblinBardinBlumeLeonardoAI.webp",
         "imageheight": 512,
         "imagewidth": 512,
-        "tags": ["hidden"]
+        "hidden": true
     },
     {
         "id": "2d8b18041c650a7258972643054f33b3",
@@ -313,7 +313,7 @@
         "image": "/press-images/7d83b7d689ff0e8550d3e7984fc9797d.webp",
         "imageheight": 376,
         "imagewidth": 752,
-        "tags": ["hidden"]
+        "hidden": true
     },
     {
         "id": "72d0fefb57328dc3f77d89cc9fd58079",
@@ -326,7 +326,7 @@
         "image": "/press-images/7d83b7d689ff0e8550d3e7984fc9797d.webp",
         "imageheight": 376,
         "imagewidth": 752,
-        "tags": ["hidden"]
+        "hidden": true
     },
     {
         "id": "576b100a09d46c0b5b6f9c864bab842e",
@@ -339,7 +339,7 @@
         "image": "/press-images/logo-g.webp",
         "imageheight": 44,
         "imagewidth": 212,
-        "tags": ["hidden"]
+        "hidden": true
     },
     {
         "id": "43395b41a8b8a34be23c4032474dca4f",
@@ -373,7 +373,7 @@
         "date": "27 Aug 2024",
         "datetime": "2024-08-27T00:00:00Z",
         "summary": "Dungeons and Dragons ist ein ziemlich beliebtes Rollenspiel, das von Millionen Menschen weltweit gespielt wird - sowohl pers\u00f6nlic\u2026",
-        "tags": ["hidden"]
+        "hidden": true
     },
     {
         "id": "cefa7408da4c0bfa921aef6d137bf770",
@@ -386,7 +386,7 @@
         "image": "/press-images/404.c2da7c5.webp",
         "imageheight": 222,
         "imagewidth": 500,
-        "tags": ["hidden"]
+        "hidden": true
     },
     {
         "id": "d37bee3b65c2b5cf95a594a700fc9a0e",
@@ -531,7 +531,7 @@
         "image": "/press-images/Autismo-juegos-de-mesa-1140x570.webp",
         "imageheight": 570,
         "imagewidth": 1140,
-        "tags": ["hidden"]
+        "hidden": true
     },
     {
         "id": "06305c5dd102b8e5d6217af4e90a3e8a",
@@ -544,7 +544,7 @@
         "image": "/press-images/49f9222a7ec4f5f08bb68a156dbacb21.webp",
         "imageheight": 376,
         "imagewidth": 752,
-        "tags": ["hidden"]
+        "hidden": true
     },
     {
         "id": "c7fdbc1eaeaea94303d3fcc5ef821855",
@@ -557,7 +557,7 @@
         "image": "/press-images/49f9222a7ec4f5f08bb68a156dbacb21.webp",
         "imageheight": 376,
         "imagewidth": 752,
-        "tags": ["hidden"]
+        "hidden": true
     },
     {
         "id": "dff1b3896fd4c8a7b7b2dcc7d02ba6c4",
@@ -582,7 +582,7 @@
         "image": "/press-images/jeu-pion-plateau.webp",
         "imageheight": 658,
         "imagewidth": 1200,
-        "tags": ["hidden"]
+        "hidden": true
     },
     {
         "id": "5a1223e84a356a3061d949857bef08bc",
@@ -595,7 +595,7 @@
         "image": "/press-images/6fbba01a18f47b57afd603b366c86c8e_ce_1620x1080x150x0_cropped_510x340.webp",
         "imageheight": 444,
         "imagewidth": 666,
-        "tags": ["hidden"]
+        "hidden": true
     },
     {
         "id": "827a8dccce3f943207c4a12e3464f0f1",
@@ -608,7 +608,7 @@
         "image": "/press-images/00_m.webp",
         "imageheight": 315,
         "imagewidth": 560,
-        "tags": ["hidden"]
+        "hidden": true
     },
     {
         "id": "161adf395c1f913f04f2a639d70f2e45",
@@ -657,7 +657,7 @@
         "image": "/press-images/giochi-tavolo-1200x675.webp",
         "imageheight": 321,
         "imagewidth": 570,
-        "tags": ["hidden"]
+        "hidden": true
     },
     {
         "id": "a86779e12a96a2965a65e41165b6354a",
@@ -814,7 +814,7 @@
         "image": "/press-images/Autism-Concept_G_1335977829.webp",
         "imageheight": 405,
         "imagewidth": 720,
-        "tags": ["hidden"]
+        "hidden": true
     },
     {
         "id": "93380c8551c09506067c44e6ae2dcb82",
@@ -851,7 +851,7 @@
         "image": "/press-images/DDI_Neuro_Autism_Apr2024_720pxwide_F-290x1024.webp",
         "imageheight": 1024,
         "imagewidth": 290,
-        "tags": ["hidden"]
+        "hidden": true
     },
     {
         "id": "f050c2ecad804bc7a97412dc17d34d1e",
@@ -887,7 +887,7 @@
         "image": "/press-images/vignette-focus.webp",
         "imageheight": 350,
         "imagewidth": 700,
-        "tags": ["hidden"]
+        "hidden": true
     },
     {
         "id": "eeb244cb52edc11c0d00e856a9eeb490",
@@ -972,7 +972,7 @@
         "image": "/press-images/i648679.webp",
         "imageheight": 262,
         "imagewidth": 465,
-        "tags": ["hidden"]
+        "hidden": true
     },
     {
         "id": "e9ef9496700c9b54d10c5863809fe3be",
@@ -1068,7 +1068,7 @@
         "summary": "Credit: Liam Cross et al, Autism Research (2022). DOI: 10.1002/aur.2782 New research carried out by psychologists at Edge Hill\u2026",
         "imageheight": 428,
         "imagewidth": 625,
-        "tags": ["hidden"]
+        "hidden": true
     },
     {
         "id": "8ba2e1cfa66470071171f3f941ab43df",
@@ -1102,7 +1102,7 @@
         "date": "14 Jun 2022",
         "datetime": "2022-06-14T17:39:12Z",
         "summary": "Credit: Unsplash/CC0 Public Domain New research led by psychologists at Edge Hill University has shown that animal ownership\u2026",
-        "tags": ["hidden"]
+        "hidden": true
     },
     {
         "id": "a013e307c91b713a5a8c32213593ed80",
@@ -1139,7 +1139,7 @@
         "image": "/press-images/0_blonde-1867768_1920.webp",
         "imageheight": 448,
         "imagewidth": 673,
-        "tags": ["hidden"]
+        "hidden": true
     },
     {
         "id": "c931c48c541e1491490c66d5a34c2307",
@@ -1161,7 +1161,7 @@
         "date": "30 Apr 2022",
         "datetime": "2022-04-30T05:00:00Z",
         "summary": "",
-        "tags": ["hidden"]
+        "hidden": true
     },
     {
         "id": "6c7e39b139f5e985189a3f447d69c648",
@@ -1171,7 +1171,7 @@
         "date": "30 Apr 2022",
         "datetime": "2022-04-30T05:00:00Z",
         "summary": "",
-        "tags": ["hidden"]
+        "hidden": true
     },
     {
         "id": "e8b4db00028512ae92086f263a34e8af",
@@ -1184,7 +1184,7 @@
         "image": "/press-images/0_blonde-1867768_1920.webp",
         "imageheight": 448,
         "imagewidth": 673,
-        "tags": ["hidden"]
+        "hidden": true
     },
     {
         "id": "d62a45f0bfccf6179edd0123a7ce44b9",
@@ -1194,7 +1194,7 @@
         "date": "30 Apr 2022",
         "datetime": "2022-04-30T05:00:00Z",
         "summary": "",
-        "tags": ["hidden"]
+        "hidden": true
     },
     {
         "id": "33ce8ba0ba9f08a5f2ede2a6f59cba2c",
@@ -1204,7 +1204,7 @@
         "date": "30 Apr 2022",
         "datetime": "2022-04-30T05:00:00Z",
         "summary": "",
-        "tags": ["hidden"]
+        "hidden": true
     },
     {
         "id": "c37039f3205a3cec9da287e6085fa9b2",
@@ -1214,7 +1214,7 @@
         "date": "30 Apr 2022",
         "datetime": "2022-04-30T05:00:00Z",
         "summary": "",
-        "tags": ["hidden"]
+        "hidden": true
     },
     {
         "id": "236092e24e48f60686b3a67c8a2d79ba",
@@ -1224,7 +1224,7 @@
         "date": "30 Apr 2022",
         "datetime": "2022-04-30T05:00:00Z",
         "summary": "",
-        "tags": ["hidden"]
+        "hidden": true
     },
     {
         "id": "2cd7dccd9e4bf388752edb1ee2b12f19",
@@ -1234,7 +1234,7 @@
         "date": "30 Apr 2022",
         "datetime": "2022-04-30T05:00:00Z",
         "summary": "",
-        "tags": ["hidden"]
+        "hidden": true
     },
     {
         "id": "277e33b45b3ba2abd23e3eb2ee532305",
@@ -1259,7 +1259,7 @@
         "image": "/press-images/0_blonde-1867768_1920.webp",
         "imageheight": 448,
         "imagewidth": 673,
-        "tags": ["hidden"]
+        "hidden": true
     },
     {
         "id": "b25550cba2ddf60168138167ea14fe75",
@@ -1272,7 +1272,7 @@
         "image": "/press-images/0_blonde-1867768_1920.webp",
         "imageheight": 448,
         "imagewidth": 673,
-        "tags": ["hidden"]
+        "hidden": true
     },
     {
         "id": "c273beedadaa2b0d48ebd1d206c37be7",
@@ -1285,7 +1285,7 @@
         "image": "/press-images/0_blonde-1867768_1920.webp",
         "imageheight": 448,
         "imagewidth": 673,
-        "tags": ["hidden"]
+        "hidden": true
     },
     {
         "id": "1d5a2ee1e75d24b2a5c4604ef8087b43",
@@ -1310,7 +1310,7 @@
         "image": "/press-images/0_blonde-1867768_1920.webp",
         "imageheight": 448,
         "imagewidth": 673,
-        "tags": ["hidden"]
+        "hidden": true
     },
     {
         "id": "7dd8b9ab99fe92b69dbb34c3e0bc0b06",
@@ -1323,7 +1323,7 @@
         "image": "/press-images/0_people-1492052_1920.webp",
         "imageheight": 448,
         "imagewidth": 673,
-        "tags": ["hidden"]
+        "hidden": true
     },
     {
         "id": "86cbea3f76d42da3199ea462a628c420",
@@ -1336,7 +1336,7 @@
         "image": "/press-images/0_blonde-1867768_1920.webp",
         "imageheight": 448,
         "imagewidth": 673,
-        "tags": ["hidden"]
+        "hidden": true
     },
     {
         "id": "ed20292fcf4eefff951c7b8bf2137b13",
@@ -1349,7 +1349,7 @@
         "image": "/press-images/0_blonde-1867768_1920.webp",
         "imageheight": 448,
         "imagewidth": 673,
-        "tags": ["hidden"]
+        "hidden": true
     },
     {
         "id": "31aace048442b6a24698b1a160d215bd",
@@ -1362,7 +1362,7 @@
         "image": "/press-images/0_blonde-1867768_1920.webp",
         "imageheight": 448,
         "imagewidth": 673,
-        "tags": ["hidden"]
+        "hidden": true
     },
     {
         "id": "ed23b972ad773353c610d77f86e8428a",
@@ -1387,7 +1387,7 @@
         "image": "/press-images/0_blonde-1867768_1920.webp",
         "imageheight": 448,
         "imagewidth": 673,
-        "tags": ["hidden"]
+        "hidden": true
     },
     {
         "id": "f4d411aa4bc9a3df9a3526c90d0a929a",
@@ -1400,7 +1400,7 @@
         "image": "/press-images/0_blonde-1867768_1920.webp",
         "imageheight": 448,
         "imagewidth": 673,
-        "tags": ["hidden"]
+        "hidden": true
     },
     {
         "id": "a1c19fd47004dbc430b48cf581c5405a",
@@ -1413,7 +1413,7 @@
         "image": "/press-images/0_people-1492052_1920.webp",
         "imageheight": 448,
         "imagewidth": 673,
-        "tags": ["hidden"]
+        "hidden": true
     },
     {
         "id": "6f7cbe38328455c74a9ccd59106ba8f1",
@@ -1426,7 +1426,7 @@
         "image": "/press-images/0_blonde-1867768_1920.webp",
         "imageheight": 448,
         "imagewidth": 673,
-        "tags": ["hidden"]
+        "hidden": true
     },
     {
         "id": "2f7a17e7ed380e70798cecef8ff2d8d5",
@@ -1439,7 +1439,7 @@
         "image": "/press-images/0_blonde-1867768_1920.webp",
         "imageheight": 448,
         "imagewidth": 673,
-        "tags": ["hidden"]
+        "hidden": true
     },
     {
         "id": "8226b03de5949d35088e1d5e7afbc7ce",
@@ -1487,7 +1487,7 @@
         "summary": "Many women have to wait years for a diagnosis. Credit: Roman Kosolapov/Shutterstock Over the last decade or so, there\u2019s been an\u2026",
         "imageheight": 428,
         "imagewidth": 625,
-        "tags": ["hidden"]
+        "hidden": true
     },
     {
         "id": "fc516fd672787a051c2e3843b46354e2",
@@ -1500,7 +1500,7 @@
         "image": "/press-images/4d23dc_063df8cd79c04c2ca77cd272fcc503f5~mv2.webp",
         "imageheight": 368,
         "imagewidth": 706,
-        "tags": ["hidden"]
+        "hidden": true
     },
     {
         "id": "6dfb78e698b8b203b8eeeb29e65b6f00",
@@ -1597,7 +1597,7 @@
         "image": "/press-images/iStock-1203552631.webp",
         "imageheight": 420,
         "imagewidth": 630,
-        "tags": ["hidden"]
+        "hidden": true
     },
     {
         "id": "a9b93c970aa133677008c08849538035",
@@ -1686,7 +1686,7 @@
         "date": "30 Jan 2019",
         "datetime": "2019-01-30T15:56:53Z",
         "summary": "Theory of mind is complex and involves multiple neural-processes. A team has now developed a new test that looks at the\u2026",
-        "tags": ["hidden"]
+        "hidden": true
     },
     {
         "id": "36b9e88d89c207dac9fb0ccf178c0298",
