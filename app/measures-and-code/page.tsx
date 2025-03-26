@@ -56,6 +56,22 @@ const MeasuresAndCode = () => {
                         Automatic Imitation Task
                     </p>
                 </li>
+                <li className="p-4 border-b border-[#b0b0b0] grid items-center">
+                    <Link
+                        href="https://drive.google.com/drive/folders/1ub3A-7d8ujwjKQdPjouQsD5sbf-l86vi?usp=share_link"
+                        className="text-white underline text-lg"
+                    >
+                        GrooVR - VR Drumming Application
+                    </Link>
+                </li>
+                <li className="p-4 border-b border-[#b0b0b0] grid items-center">
+                    <Link
+                        href="https://github.com/Neuroplay-Lab/VR-Drumming"
+                        className="text-white underline text-lg"
+                    >
+                        GrooVR - VR Drumming Source Files
+                    </Link>
+                </li>
                 <li className="p-4 md:pt-10 md:col-span-2 lg:col-span-3">
                     <p className="text-secondary-white text-lg">
                         For the joystick coordination task, please contact Dr
