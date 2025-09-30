@@ -61,10 +61,10 @@ const Contact = () => {
                                 Gray Atherton:{" "}
                             </span>
                             <a
-                                href="mailto: gray.s.atherton@vanderbilt.edu"
+                                href="mailto: gray.atherton@plymouth.ac.uk"
                                 className="text-secondary-white underline hover:text-white"
                             >
-                                gray.s.atherton@vanderbilt.edu
+                                gray.atherton@plymouth.ac.uk
                             </a>
                         </p>
                         <p className="my-3">
