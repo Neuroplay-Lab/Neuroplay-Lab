@@ -53,7 +53,7 @@ const SynchronyAndSocialCognition = () => {
                 </h4>
                 <ul className="overflow-y-scroll overflow-x-clip lg:h-[90%]">
                     {publications
-                        .filter((x) => x.tags?.includes("gamification"))
+                        .filter((x) => !x.hidden?.valueOf() === true && x.tags?.includes("gamification"))
                         .map(({ title, url, id, abstract }) => (
                             <Publication
                                 key={id + "_root"}
@@ -61,7 +61,7 @@ const SynchronyAndSocialCognition = () => {
                                 url={url}
                                 id={id}
                                 abstract={abstract}
-                                extraStyles="mx-0 [&:not(:last-child)]:after:my-1 [&:not(:last-child)]:after:mt-5 mb-0"
+                                extraStyles="mx-6 md:mx-12 lg:mx-0 [&:not(:last-child)]:after:my-1 [&:not(:last-child)]:after:mt-5 mb-0"
                             />
                         ))}
                 </ul>
