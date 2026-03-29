@@ -82,7 +82,8 @@ const SynchronyAndSocialCognition = () => {
                         .filter(
                             (x) =>
                                 x.tags?.includes("autism") &&
-                                x.tags?.includes("wellbeing")
+                                x.tags?.includes("wellbeing") &&
+                                !x.hidden?.valueOf() === true
                         )
                         .map(({ title, url, id, abstract }) => (
                             <Publication
@@ -91,7 +92,7 @@ const SynchronyAndSocialCognition = () => {
                                 url={url}
                                 id={id}
                                 abstract={abstract}
-                                extraStyles="mx-0 [&:not(:last-child)]:after:my-1 [&:not(:last-child)]:after:mt-5 mb-0"
+                                extraStyles="mx-6 md:mx-12 lg:mx-0 [&:not(:last-child)]:after:my-1 [&:not(:last-child)]:after:mt-5 mb-0"
                             />
                         ))}
                 </ul>

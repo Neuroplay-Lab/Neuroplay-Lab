@@ -25,7 +25,7 @@ const Hero = () => (
                 <Image
                     src={heroImg}
                     alt="hero_cover"
-                    className="w-full h-[375px] object-cover rounded-tl-[100px] rounded-b-lg z-10 relative"
+                    className="w-full h-[400px] object-cover rounded-tl-[100px] rounded-b-lg z-10 relative"
                     priority
                 />
             </motion.div>

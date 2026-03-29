@@ -39,6 +39,7 @@ const Publications = () => {
                                     pages={pages}
                                     year={year}
                                     abstract={abstract}
+                                    extraStyles="mx-12"
                                 />
                             )
                         )}
