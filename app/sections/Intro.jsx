@@ -35,7 +35,7 @@ const Intro = () => (
 
             <motion.p
                 variants={fadeIn("up", "tween", 0.2, 1)}
-                className="mt-8 font-normal sm:text-[32px] text-[20px] text-center text-secondary-white"
+                className="mt-8 sm:text-[32px] lg:text-xl text-center text-secondary-white"
             >
                 We are Psychologists at the University of Plymouth, United Kingdom.
                 We delve into various facets of social and embodied cognition,

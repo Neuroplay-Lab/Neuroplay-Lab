@@ -1,3 +1,4 @@
+import RollingWellBanner from "./components/RollingWellBanner";
 import { Intro, Explore, PrimaryResearch, Hero } from "./sections";
 
 const Home = () => (
@@ -5,6 +6,7 @@ const Home = () => (
         <div className="relative">
             <Intro />
             <Hero />
+            <RollingWellBanner />
             <div className="gradient-03 -z-10" />
             <div className="relative right-72 -z-10">
                 <div className="gradient-02 z-0" />
