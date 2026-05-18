@@ -144,7 +144,7 @@ export default function RollingWellBanner() {
                   {[
                     { icon: "📅", text: "29–30 July 2026" },
                     { icon: "📍", text: "The Amelia Scott, Tunbridge Wells" },
-                    { icon: "🎟️", text: "£12 per day" },
+                    { icon: "🎟️", text: "£15 per day" },
                   ].map((d) => (
                     <span key={d.text} style={{ fontSize: "0.75rem", color: "#5a4a30", display: "flex", gap: 4, alignItems: "center" }}>
                       <span>{d.icon}</span>
@@ -176,7 +176,7 @@ export default function RollingWellBanner() {
                       lineHeight: 1,
                     }}>
                       {days}
-                      <span style={{ fontSize: "0.65rem", fontWeight: 600, color: "#7a6a50" }}>days</span>
+                      <span style={{ fontSize: "0.65rem", fontWeight: 600, color: "#7a6a50" }}> days</span>
                     </div>
                     <div style={{ fontSize: "0.65rem", color: "#7a6a50", marginTop: 4, textTransform: "uppercase", letterSpacing: "0.1em", fontWeight: 600 }}>
                       Until the conference

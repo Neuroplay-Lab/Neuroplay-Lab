@@ -16,7 +16,7 @@
         "diff": "^8.0.3",
         "eslint-config-next": "13.0.3",
         "framer-motion": "^7.10.3",
-        "next": "^16.1.5",
+        "next": "^16.2.6",
         "nodemailer": "^8.0.4",
         "npm": "^11.5.2",
         "react": "^18.3.1",
