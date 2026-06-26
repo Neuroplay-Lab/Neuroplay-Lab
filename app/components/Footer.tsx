@@ -31,7 +31,7 @@ const Footer = () => (
                         />
                     </div>
                     <p className="font-normal text-xs text-white opacity-50">
-                        Copyright © 2024 {""} Neuroplay Lab. All rights
+                        Copyright © 2026 {""} Neuroplay Lab. All rights
                         reserved.
                     </p>
                 </div>
