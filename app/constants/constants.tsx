@@ -45,17 +45,17 @@ export const exploreWorlds = [
     {
         id: "world-3",
         imgNo: 3,
-        imgUrl: "/planet-06.webp",
-        title: "Anthropomorphism",
-        relevantPageLink:
-            "/research-topics/autism-anthropomorphism-and-theory-of-mind",
+        imgUrl: "/Untitled design-2.webp",
+        title: "Gamification",
+        relevantPageLink: "/research-topics/gamification",
     },
     {
         id: "world-4",
         imgNo: 4,
-        imgUrl: "/Untitled design-2.webp",
-        title: "Gamification",
-        relevantPageLink: "/research-topics/gamification",
+        imgUrl: "/planet-06.webp",
+        title: "Anthropomorphism",
+        relevantPageLink:
+            "/research-topics/autism-anthropomorphism-and-theory-of-mind",
     },
 ];
 
@@ -69,12 +69,15 @@ export const aboutGray = [
     {
         title: "Background",
         subtitle:
-            "I have a BSc in Child Development from Vanderbilt University, a MEd in Counselling Psychology from the University of Houston, and a PhD in Educational Psychology and Individual Differences from the University of Houston, focusing on special populations.",
+            "I have a BSc in Child Development from Vanderbilt University, an MEd in Counselling Psychology from the University of Houston, and a PhD in Educational Psychology and Individual Differences from the University of Houston, with a focus on special populations. I was also awarded the U.S. Department of Education FEEAR Fellowship which supported research appointments at Sunway University, Malaysia, where I investigated cross-cultural presentations of autistic traits.",
     },
     {
         title: "Research Interests",
-        subtitle:
-            "I am interested in understanding how neurodiverse people perceive the social world. Specifically, I explore individual differences in social processing, finding parallels between autistic individuals and the general population. My focus is on uncovering the strengths inherent in neurodiversity to challenge stigma surrounding developmental conditions like autism. I also investigate anthropomorphism, or the attribution of human traits to non-human entities, and its relationship to social processing in autism. To explore this, I'm developing virtual and augmented reality techniques for anthropomorphic experiences. Additionally, I study human-animal interactions and their benefits for neurodiverse populations. My broader research interest lies in embodied social processing, particularly how movement influences self-perception and social interactions. I'm exploring this through modern board games, investigating how joint action and attention during gaming can positively impact mental health.",
+        subtitle: [
+            "I study how neurodivergent people experience the social world, with a focus on gaming as a space for connection, skill building, and wellbeing. Through initiatives such as Rolling Well, I use modern tabletop games to create inclusive environments where people can explore social interaction in engaging and supportive ways.",
+            "My research examines individual differences in social processing, highlighting the strengths of neurodiversity and using gaming to challenge deficit based views of autism. I am also interested in anthropomorphism and use virtual and augmented reality to create immersive, game like experiences for exploring social interaction.",
+            "More broadly, I explore embodied social processing and how shared activity in games can support communication, mental health, and community.",
+        ],
     },
 ];
 
@@ -82,12 +85,15 @@ export const aboutLiam = [
     {
         title: "Background",
         subtitle:
-            "I have a BSc in Psychology from Lancaster University and a PhD in Psychology from Leeds Beckett University. My doctoral research focused on understanding the impact of Coordinated Rhythmic Movement on interpersonal relations and group dynamics.",
+            "I have a BSc in Psychology from Lancaster University and a PhD in Psychology from Leeds Beckett University, focusing on how Coordinated Rhythmic Movement affects interpersonal relations and group dynamics, My broader research portfolio investigates diverse social and cognitive phenomena. I have previously worked at Lancaster University, Sunway University and Central European University.",
     },
     {
         title: "Research Interests",
-        subtitle:
-            "My research interests encompass a diverse range of topics within psychology. I am particularly intrigued by the effects of Coordinated Rhythmic Movement on interpersonal relations and group dynamics, exploring how activities such as dancing, singing, or walking in synchrony influence affiliation, cooperation, and conformity among participants, ultimately shaping social identity. Additionally, I and investigate nonverbal cues to deception and the impact of specific statistical co-occurrences of language in media on attitudes towards immigration. Furthermore, I examine the effects of sexualized and violent video games on stereotypes and prejudice, and I explore whether theory of mind deficits in individuals with Autism Spectrum Disorder can be mitigated by altering stimuli from human to cartoon and animal representations.",
+        subtitle: [
+            "My research focuses on games as a rich context for understanding social behaviour, using large scale behavioural datasets to generate insights that can directly inform designers and practitioners. I examine how interaction patterns in games shape cooperation, identity, and group dynamics, with particular interest in coordinated movement, communication, and shared attention.",
+            "I also study how game content and structure influence attitudes and social perception, including work on stereotypes, prejudice, and representation. Alongside this, I explore how alternative character forms, such as cartoon or non human avatars, can support social understanding in neurodivergent populations.",
+            "Across these areas, my aim is to use data driven approaches to develop evidence based guidance for creating more inclusive, effective, and socially meaningful gaming experiences.",
+        ]
     },
 ];
 

@@ -23,7 +23,6 @@ const Navbar = () => {
             document.body.classList.remove("w-[100%]");
             document.body.classList.remove("h-[100dvh]");
         }
-        console.log(!isOpen);
         toggleIsOpen(!isOpen);
     };
 
@@ -36,13 +35,16 @@ const Navbar = () => {
             className={`${styles.xPaddings} py-8 sm:pr-8 z-20 relative`}
         >
             <div
-                className={`${styles.innerWidth} mx-auto flex justify-between gap-8`}
+                className={`${styles.innerWidth} mx-auto flex justify-between gap-12`}
             >
-                <h2 className="font-extrabold min-w-fit text-[24px] leading-[30.24px] text-white uppercase">
-                    Neuroplay Lab
+                {/* Brand name — shrinks gracefully on small screens */}
+                <h2 className="font-extrabold whitespace-nowrap text-[clamp(0.75rem,1.5vw,1.5rem)] leading-tight text-white uppercase self-center">
+                    Dr Gray Atherton and Dr Liam Cross
                 </h2>
-                <div className="flex items-center gap-8 md:show lg:hidden">
-                    <button onClick={handleMenuClick}>
+
+                {/* Hamburger — visible below lg */}
+                <div className="flex items-center lg:hidden">
+                    <button onClick={handleMenuClick} aria-label="Open menu">
                         <Image
                             src={menuBarSvg}
                             alt="menu"
@@ -52,51 +54,31 @@ const Navbar = () => {
                         />
                     </button>
                 </div>
-                <div className="items-center gap-2 min-[1050px]:gap-4 hidden min-[1320px]:gap-8 text-sm min-[1133px]:text-base lg:flex xl:text-lg text-white">
-                    <Link href="/" className="hover:text-secondary-white">
-                        Home
-                    </Link>
-                    <Link
-                        href="/about-us"
-                        className="hover:text-secondary-white"
-                    >
-                        About Us
-                    </Link>
-                    <Link
-                        href="/contact"
-                        className="hover:text-secondary-white"
-                    >
-                        Contact
-                    </Link>
-                    <Link href="/press" className="hover:text-secondary-white">
-                        Press
-                    </Link>
-                    <Link
-                        href="/talks-and-videos"
-                        className="hover:text-secondary-white"
-                    >
-                        Talks/Videos
-                    </Link>
-                    <Link
-                        href="/publications"
-                        className="hover:text-secondary-white"
-                    >
-                        Publications
-                    </Link>
-                    <Link
-                        href="/measures-and-code"
-                        className="hover:text-secondary-white"
-                    >
-                        Measures and Code
-                    </Link>
-                    <Link
-                        href="/research-topics"
-                        className="hover:text-secondary-white"
-                    >
-                        Research Topics
-                    </Link>
+
+                {/* Desktop nav — hidden below lg */}
+                <div className="hidden lg:flex items-center gap-[clamp(0.5rem,1vw,2rem)] text-white text-[clamp(0.8rem,1.05vw,1.1rem)]">
+                    {[
+                        { href: "/", label: "Home" },
+                        { href: "/about-us", label: "About Us" },
+                        { href: "/contact", label: "Contact" },
+                        { href: "/press", label: "Press" },
+                        { href: "/talks-and-videos", label: "Talks/Videos" },
+                        { href: "/publications", label: "Publications" },
+                        { href: "/measures-and-code", label: "Measures & Code" },
+                        { href: "/research-topics", label: "Research Topics" },
+                    ].map(({ href, label }) => (
+                        <Link
+                            key={href}
+                            href={href}
+                            className="hover:text-secondary-white whitespace-nowrap"
+                        >
+                            {label}
+                        </Link>
+                    ))}
                 </div>
             </div>
+
+            {/* Mobile menu */}
             <AnimatePresence>
                 {isOpen && (
                     <motion.div
@@ -106,79 +88,26 @@ const Navbar = () => {
                         animate="animate"
                         exit="exit"
                     >
-                        <motion.div className="grid items-center">
-                            <Link
-                                href="/"
-                                className="text-white hover:text-gray-300"
-                                onClick={handleMenuClick}
-                            >
-                                Home
-                            </Link>
-                        </motion.div>
-                        <motion.div className="grid items-center">
-                            <Link
-                                href="/about-us"
-                                scroll
-                                className="text-white hover:text-gray-300"
-                                onClick={handleMenuClick}
-                            >
-                                About Us
-                            </Link>
-                        </motion.div>
-                        <motion.div className="grid items-center">
-                            <Link
-                                href="/contact"
-                                className="text-white hover:text-gray-300"
-                                onClick={handleMenuClick}
-                            >
-                                Contact
-                            </Link>
-                        </motion.div>
-                        <motion.div className="grid items-center">
-                            <Link
-                                href="/press"
-                                className="text-white hover:text-gray-300"
-                                onClick={handleMenuClick}
-                            >
-                                Press
-                            </Link>
-                        </motion.div>
-                        <motion.div className="grid items-center">
-                            <Link
-                                href="/talks-and-videos"
-                                className="text-white hover:text-gray-300"
-                                onClick={handleMenuClick}
-                            >
-                                Talks/Videos
-                            </Link>
-                        </motion.div>
-                        <motion.div className="grid items-center">
-                            <Link
-                                href="/publications"
-                                className="text-white hover:text-gray-300"
-                                onClick={handleMenuClick}
-                            >
-                                Publications
-                            </Link>
-                        </motion.div>
-                        <motion.div className="grid items-center">
-                            <Link
-                                href="/measures-and-code"
-                                className="text-white hover:text-gray-300"
-                                onClick={handleMenuClick}
-                            >
-                                Measures and Code
-                            </Link>
-                        </motion.div>
-                        <motion.div className="grid items-center">
-                            <Link
-                                href="/research-topics"
-                                className="text-white hover:text-gray-300"
-                                onClick={handleMenuClick}
-                            >
-                                Research Topics
-                            </Link>
-                        </motion.div>
+                        {[
+                            { href: "/", label: "Home" },
+                            { href: "/about-us", label: "About Us", scroll: true },
+                            { href: "/contact", label: "Contact" },
+                            { href: "/press", label: "Press" },
+                            { href: "/talks-and-videos", label: "Talks/Videos" },
+                            { href: "/publications", label: "Publications" },
+                            { href: "/measures-and-code", label: "Measures and Code" },
+                            { href: "/research-topics", label: "Research Topics" },
+                        ].map(({ href, label }) => (
+                            <motion.div key={href} className="grid items-center">
+                                <Link
+                                    href={href}
+                                    className="text-white hover:text-gray-300"
+                                    onClick={handleMenuClick}
+                                >
+                                    {label}
+                                </Link>
+                            </motion.div>
+                        ))}
                         <div className="absolute top-[-32px] max-h-[15vh] w-[50%] inset-0 gradient-01 -z-10" />
                         <div className="absolute top-40 left-9 max-h-[15vh] w-[50%] inset-0 gradient-01 -z-10" />
                         <div className="absolute top-96 left-24 max-h-[15vh] w-[50%] inset-0 gradient-01 -z-10" />

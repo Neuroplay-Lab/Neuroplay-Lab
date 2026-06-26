@@ -1,7 +1,7 @@
 'use client';
 
 import { motion } from 'framer-motion';
-import { textContainer, textVariant2 } from '../utils/motion';
+import { textContainer, textVariant2, textVariant3 } from '../utils/motion';
 
 export const TypingText = ({ title, textStyles }) => (
   <motion.p
@@ -37,4 +37,25 @@ export const TitleText = ({ title, textStyles }) => (
   >
     {title}
   </motion.h2>
+);
+
+export const MainTitleText = ({ title, textStyles, subtext }) => (
+  <div>
+    <motion.h1
+      variants={textVariant3(0.1)}
+      initial="hidden"
+      whileInView="show"
+      className={`mt-[8px] font-bold text-5xl md:text-6xl lg:text-7xl text-white ${textStyles}`}
+    >
+      {title}
+    </motion.h1>
+    <motion.p
+      variants={textVariant3(0.3)}
+      initial="hidden"
+      whileInView="show"
+      className="text-lg md:text-xl mt-3 text-white font-light"
+    >
+      {subtext}
+    </motion.p>
+  </div>
 );
