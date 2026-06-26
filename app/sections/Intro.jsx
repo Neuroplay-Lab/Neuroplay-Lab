@@ -1,10 +1,12 @@
 "use client";
 
 import { motion } from "framer-motion";
-import { TitleText } from "../components";
+import { MainTitleText } from "../components";
 
 import styles from "../styles";
-import { fadeIn, staggerContainer } from "../utils/motion";
+import { fadeIn, slideIn, staggerContainer } from "../utils/motion";
+import heroImg from "../../public/hero-img.webp";
+import Image from "next/image";
 
 const Intro = () => (
     <section className={`${styles.paddings} relative z-10`}>
@@ -17,36 +19,44 @@ const Intro = () => (
             viewport={{ once: false, amount: 0.25 }}
             className={`${styles.innerWidth} mx-auto ${styles.flexCenter} flex-col`}
         >
-            <TitleText
+            <MainTitleText
                 title={
                     <>
-                        Welcome to the research world of{" "}
-                        <span className="font-extrabold text-white">
-                            Dr Gray Atherton
-                        </span>{" "}
-                        and{" "}
-                        <span className="font-extrabold text-white">
-                            Dr Liam Cross
-                        </span>
+                        Neuroplay Lab
                     </>
                 }
-                textStyles="text-center max-w-[1200px]"
+                textStyles="text-center"
+                subtext="Advancing research in play, cognition, and neurodiversity"
             />
 
-            <motion.p
-                variants={fadeIn("up", "tween", 0.2, 1)}
-                className="mt-8 sm:text-[32px] lg:text-xl text-center text-secondary-white"
-            >
-                We are Psychologists at the University of Plymouth, United Kingdom.
-                We delve into various facets of social and embodied cognition,
-                exploring topics such as group dynamics, stereotypes, and
-                pro-social behavior. Our keen interest lies in understanding
-                autism spectrum disorder, examining social cognition and
-                well-being enhancement strategies. We also undertake research in
-                the area of Gamification, covering both modern board games, as
-                well as a range of digital games, including the use of VR
-                technology.
-            </motion.p>
+            <div className="flex flex-col lg:flex-row gap-8 items-start">
+                <div className="flex-1">
+                    <motion.p
+                        variants={fadeIn("up", "tween", 0.2, 1)}
+                        className="mt-14 text-base sm:text-lg text-center text-secondary-white"
+                    >
+                        We are psychologists at the University of Plymouth, UK, exploring how play, games, and imagination shape cognition, behaviour, and social connection. Our research focuses on neurodiversity, aiming to understand variations in social experience and leverage gaming to enhance wellbeing, inclusion, and belonging.
+                    </motion.p>
+                    <motion.p
+                        variants={fadeIn("up", "tween", 0.3, 1)}
+                        className="mt-14 text-base sm:text-lg text-center text-secondary-white"
+                    >
+                        From tabletop board games to virtual reality, we examine how structured play can bring people together and support cognitive and social development. To achieve this, our lab utilizes a rigorous mixed-methods approach—bridging experimental laboratory research with real-world, community-based studies. Committed to creating meaningful change, we actively collaborate with industry partners to translate our findings into real-world applications that foster social good and support neurodivergent communities.
+                    </motion.p>
+                </div>
+                <motion.div
+                    variants={slideIn("right", "tween", 0.2, 1)}
+                    className="relative flex-shrink-0 w-[300px] mt-8 self-center"
+                >
+                    <div className="absolute w-full h-[300px] hero-gradient rounded-tl-[100px] z-[0] -top-[20px]" />
+                    <Image
+                        src={heroImg}
+                        alt="hero_cover"
+                        className="w-full h-auto object-cover rounded-tl-[100px] rounded-b-lg z-10 relative"
+                        priority
+                    />
+                </motion.div>
+            </div>
         </motion.div>
     </section>
 );

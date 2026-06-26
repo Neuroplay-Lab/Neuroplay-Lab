@@ -5,7 +5,7 @@ const Home = () => (
     <main className="overflow-hidden">
         <div className="relative">
             <Intro />
-            <Hero />
+            {/* <Hero /> */}
             <RollingWellBanner />
             <div className="gradient-03 -z-10" />
             <div className="relative right-72 -z-10">
