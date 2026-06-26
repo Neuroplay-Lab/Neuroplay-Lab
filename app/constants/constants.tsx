@@ -45,17 +45,17 @@ export const exploreWorlds = [
     {
         id: "world-3",
         imgNo: 3,
-        imgUrl: "/planet-06.webp",
-        title: "Anthropomorphism",
-        relevantPageLink:
-            "/research-topics/autism-anthropomorphism-and-theory-of-mind",
+        imgUrl: "/Untitled design-2.webp",
+        title: "Gamification",
+        relevantPageLink: "/research-topics/gamification",
     },
     {
         id: "world-4",
         imgNo: 4,
-        imgUrl: "/Untitled design-2.webp",
-        title: "Gamification",
-        relevantPageLink: "/research-topics/gamification",
+        imgUrl: "/planet-06.webp",
+        title: "Anthropomorphism",
+        relevantPageLink:
+            "/research-topics/autism-anthropomorphism-and-theory-of-mind",
     },
 ];
 

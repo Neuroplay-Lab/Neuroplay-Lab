@@ -11,8 +11,8 @@ import { ExploreCard, TitleText } from "../components";
 import planetImg0 from "../../public/synchrony-walking-world.webp";
 import planetImg1 from "../../public/social-cognition-world.webp";
 import planetImg2 from "../../public/autism_child.webp";
-import planetImg3 from "../../public/anthropomorphism.webp";
-import planetImg4 from "../../public/gamification-world.webp";
+import planetImg3 from "../../public/gamification-world.webp";
+import planetImg4 from "../../public/anthropomorphism.webp";
 
 const Explore = () => {
     const exploreClick = (id) => {
@@ -32,12 +32,7 @@ const Explore = () => {
     return (
         <section className={`${styles.paddings}`} id="explore">
             <TitleText
-                title={
-                    <>
-                        We are interested in <br className="md:block hidden" />{" "}
-                        exploring...
-                    </>
-                }
+                title={"Research Topics"}
                 textStyles="text-center"
             />
             <motion.div
