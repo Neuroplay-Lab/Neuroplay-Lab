@@ -8,6 +8,18 @@ import Image from "next/image";
 import menuBarSvg from "../../public/three-horizontal-lines-icon.svg";
 import { useState } from "react";
 
+const navLinks = [
+    { href: "/", label: "Home" },
+    { href: "/about-us", label: "About Us" },
+    { href: "/contact", label: "Contact" },
+    { href: "/consultancy", label: "Consultancy" },
+    { href: "/press", label: "Press" },
+    { href: "/publications", label: "Publications" },
+    { href: "/talks-and-videos", label: "Talks/Videos" },
+    { href: "/measures-and-code", label: "Measures & Code" },
+    { href: "/research-topics", label: "Research Topics" },
+];
+
 const Navbar = () => {
     const [isOpen, toggleIsOpen] = useState(false);
 
@@ -32,17 +44,17 @@ const Navbar = () => {
             initial="hidden"
             whileInView="show"
             viewport={{ once: true }}
-            className={`${styles.xPaddings} py-8 sm:pr-8 z-20 relative`}
+            className={`${styles.xPaddings} py-6 sm:pr-8 z-20 relative`}
         >
-            <div
-                className={`${styles.innerWidth} mx-auto flex justify-between gap-12`}
-            >
-                {/* Brand name — shrinks gracefully on small screens */}
-                <h2 className="font-extrabold whitespace-nowrap text-[clamp(0.75rem,1.5vw,1.5rem)] leading-tight text-white uppercase self-center">
+            {/* Centred container — matches the 2xl:max-w-[1280px] innerWidth cap */}
+            <div className="2xl:max-w-[1280px] w-full mx-auto flex items-center justify-between gap-6">
+
+                {/* Brand name */}
+                <h2 className="font-extrabold whitespace-nowrap text-[clamp(0.7rem,1.2vw,1.1rem)] leading-tight text-white uppercase self-center flex-shrink-0">
                     Dr Gray Atherton and Dr Liam Cross
                 </h2>
 
-                {/* Hamburger — visible below lg */}
+                {/* Hamburger — visible below xl */}
                 <div className="flex items-center lg:hidden">
                     <button onClick={handleMenuClick} aria-label="Open menu">
                         <Image
@@ -55,18 +67,9 @@ const Navbar = () => {
                     </button>
                 </div>
 
-                {/* Desktop nav — hidden below lg */}
-                <div className="hidden lg:flex items-center gap-[clamp(0.5rem,1vw,2rem)] text-white text-[clamp(0.8rem,1.05vw,1.1rem)]">
-                    {[
-                        { href: "/", label: "Home" },
-                        { href: "/about-us", label: "About Us" },
-                        { href: "/contact", label: "Contact" },
-                        { href: "/press", label: "Press" },
-                        { href: "/talks-and-videos", label: "Talks/Videos" },
-                        { href: "/publications", label: "Publications" },
-                        { href: "/measures-and-code", label: "Measures & Code" },
-                        { href: "/research-topics", label: "Research Topics" },
-                    ].map(({ href, label }) => (
+                {/* Desktop nav — hidden below xl */}
+                <div className="hidden lg:flex items-center flex-wrap justify-end gap-y-1 gap-x-[clamp(0.4rem,0.7vw,1.25rem)] text-white text-[clamp(0.77rem,0.88vw,0.95rem)]">
+                    {navLinks.map(({ href, label }) => (
                         <Link
                             key={href}
                             href={href}
@@ -88,16 +91,7 @@ const Navbar = () => {
                         animate="animate"
                         exit="exit"
                     >
-                        {[
-                            { href: "/", label: "Home" },
-                            { href: "/about-us", label: "About Us", scroll: true },
-                            { href: "/contact", label: "Contact" },
-                            { href: "/press", label: "Press" },
-                            { href: "/talks-and-videos", label: "Talks/Videos" },
-                            { href: "/publications", label: "Publications" },
-                            { href: "/measures-and-code", label: "Measures and Code" },
-                            { href: "/research-topics", label: "Research Topics" },
-                        ].map(({ href, label }) => (
+                        {navLinks.map(({ href, label }) => (
                             <motion.div key={href} className="grid items-center">
                                 <Link
                                     href={href}

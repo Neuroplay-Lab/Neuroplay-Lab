@@ -17,6 +17,10 @@ export default function sitemap(): MetadataRoute.Sitemap {
             lastModified: new Date(),
         },
         {
+            url: "https://www.neuroplaylab.com/consultancy",
+            lastModified: new Date(),
+        },
+        {
             url: "https://www.neuroplaylab.com/press",
             lastModified: new Date(),
         },

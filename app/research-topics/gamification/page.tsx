@@ -18,17 +18,13 @@ const SynchronyAndSocialCognition = () => {
                     src={headerImg}
                     alt="Close up of board game pieces on a table during a game"
                     className="p-3 md:max-w-xl self-center"
+                    sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
                 />
                 <p className="my-2">
-                    Games are one of the social building blocks of early
-                    development. As well as improving cognitive skills like
-                    planning, inhibition control and maths games teach us
-                    cooperation and joint attention and help us sharpen our
-                    theory of mind skills (like strategizing and bluffing). Our
-                    work mainly focuses on how games also improve social skills
-                    and how this can benefit autistic people. We are interested
-                    not only in the effects of gaming but the reasons why
-                    certain people may be drawn to the hobby.
+                    Games are a core part of early social development. Tabletop role playing games and board games support a wide range of cognitive skills, including planning, inhibition control, and numerical reasoning, while also fostering cooperation, shared attention, and perspective taking through activities such as strategising and bluffing.
+                </p>
+                <p className="my-2">
+                    Our work focuses on how these forms of play can support social development and wellbeing, particularly for autistic and otherwise neurodivergent people. We are interested not only in the social benefits of gaming, but also in understanding why different people are drawn to tabletop games and how these environments can be designed to be more inclusive, accessible, and meaningful for diverse communities.
                 </p>
                 <iframe
                     className="max-w-full aspect-video p-3 border-y border-[#b0b0b0] my-3 self-center md:p-5"
