@@ -3,6 +3,7 @@ import { TitleText } from "../../components";
 import headerImg from "../../../public/crowd-2152653_960_720.webp";
 
 import publications from "../../publications/publications.json";
+import VideoLinks from "../../talks-and-videos/video-links.json";
 import Link from "next/link";
 import Publication from "../../publications/publication";
 import { Metadata } from "next";
@@ -19,6 +20,7 @@ const SynchronyAndSocialCognition = () => {
                     src={headerImg}
                     alt="A crowd of people walking together in synchrony"
                     className="p-3 md:max-w-xl self-center"
+                    sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 25vw"
                 />
                 <p className="my-2">
                     People regularly move in time with one another. We sing,
@@ -45,14 +47,17 @@ const SynchronyAndSocialCognition = () => {
                     becomes more salient, thus leading to a range of pro-group
                     consequences.
                 </p>
-                <iframe
+                {VideoLinks.filter((video) => video.topic === "Synchrony").map((video, index) =>
+                    (<iframe
                     className="max-w-full aspect-video p-3 border-y border-[#b0b0b0] my-3 self-center md:p-5"
                     width={750}
-                    src="https://www.youtube.com/embed/9sTUw5QLarU"
-                    title="[AGTN] How Moving Together Binds Us Together - Dr. Liam Cross"
+                    src={video.src}
+                    title={video.title}
                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                     allowFullScreen
-                />
+                    key={index + "_video"}
+                />))}
+                
                 <p className="my-2">
                     Our work shows that it’s{" "}
                     <Link
@@ -63,7 +68,7 @@ const SynchronyAndSocialCognition = () => {
                     >
                         not only strict in-phase synchrony
                     </Link>
-                    that’s capable of having pro-social effects but also other
+                    that's capable of having pro-social effects but also other
                     forms of coordination and even{" "}
                     <Link
                         href={

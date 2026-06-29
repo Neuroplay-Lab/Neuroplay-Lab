@@ -5,6 +5,7 @@ import headerImg from "../../../public/image-1.webp";
 import publications from "../../publications/publications.json";
 import Publication from "../../publications/publication";
 import { Metadata } from "next";
+import VideoLinks from "../../talks-and-videos/video-links.json";
 
 const SynchronyAndSocialCognition = () => {
     return (
@@ -26,22 +27,16 @@ const SynchronyAndSocialCognition = () => {
                 <p className="my-2">
                     Our work focuses on how these forms of play can support social development and wellbeing, particularly for autistic and otherwise neurodivergent people. We are interested not only in the social benefits of gaming, but also in understanding why different people are drawn to tabletop games and how these environments can be designed to be more inclusive, accessible, and meaningful for diverse communities.
                 </p>
-                <iframe
+                {VideoLinks.filter((video) => video.topic === "Gamification").map((video, index) =>
+                    (<iframe
                     className="max-w-full aspect-video p-3 border-y border-[#b0b0b0] my-3 self-center md:p-5"
                     width={750}
-                    src="https://www.youtube.com/embed/P3Fpc2mpE0s"
-                    title="Board Gaming on the Spectrum - Liam Cross, Edge Hill University, UK"
+                    src={video.src}
+                    title={video.title}
                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                     allowFullScreen
-                />
-                <iframe
-                    className="max-w-full aspect-video p-3 border-y border-[#b0b0b0] my-3 self-center md:p-5"
-                    width={750}
-                    src="https://www.youtube.com/embed/pGyHYireQCs"
-                    title="EDUCATORS‘ DAY - Asmodee Research: Boardgames as an education and care practice (EN) | SPIEL 2022"
-                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                    allowFullScreen
-                />
+                    key={index + "_gamification_video"}
+                />))}
             </main>
             <aside className="px-8 py-4 lg:bg-slate-400 lg:bg-opacity-10 lg:max-h-screen sticky top-0">
                 <h4 className="text-white italic font-medium mb-3 ml-3 lg:my-6">

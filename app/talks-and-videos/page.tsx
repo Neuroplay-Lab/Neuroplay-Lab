@@ -1,5 +1,6 @@
 import { Metadata } from "next";
 import { TitleText, TypingText } from "../components";
+import VideoLinks from "./video-links.json";
 
 const TalksAndVideos = () => {
     return (
@@ -19,30 +20,16 @@ const TalksAndVideos = () => {
                     textStyles={"mx-4 mb-6 font-semibold text-3xl"}
                 />
                 <div className="grid gap-4 lg:grid-cols-2 justify-center justify-items-center">
-                    <iframe
+                    {VideoLinks.filter((video) => video.topic === "Autism").map((video, index) =>
+                    (<iframe
                         className="max-w-full aspect-video"
                         width={560}
-                        src="https://www.youtube.com/embed/V-wcTCVh-oc?si=h1jKF6KrD6FsAZDo"
-                        title="Pet Ownership and Autism"
+                        src={video.src}
+                        title={video.title}
                         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                         allowFullScreen
-                    ></iframe>
-                    <iframe
-                        className="max-w-full aspect-video"
-                        width={560}
-                        src="https://www.youtube.com/embed/_9ctfGPeEIY?si=v9f0aBHuqGQbscDK"
-                        title="How Age – and Age of Diagnosis – Affect Quality of Life"
-                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                        allowFullScreen
-                    ></iframe>
-                    <iframe
-                        className="max-w-full aspect-video"
-                        width={560}
-                        src="https://www.youtube.com/embed/sD20xIDp-Jc?si=1IzQ6j1J_wFRnmJK"
-                        title="Gender and Autism"
-                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                        allowFullScreen
-                    ></iframe>
+                        key={index + "_autism_video"}
+                    ></iframe>))}
                 </div>
             </section>
             <span className="m-8 mt-12 w-1/2 mx-auto block border-b border-b-[#b0b0b0]"></span>
@@ -52,22 +39,16 @@ const TalksAndVideos = () => {
                     textStyles={"mx-4 mb-6 font-semibold text-3xl"}
                 />
                 <div className="grid gap-4 lg:grid-cols-2 justify-center justify-items-center">
-                    <iframe
+                    {VideoLinks.filter((video) => video.topic === "Anthropomorphism").map((video, index) =>
+                    (<iframe
                         className="max-w-full aspect-video"
                         width={560}
-                        src="https://www.youtube.com/embed/h7Q9r5cMdy4?si=ZVAGo9ysYg0Z3mP1"
-                        title="Anthropomorphism and Autism"
+                        src={video.src}
+                        title={video.title}
                         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                         allowFullScreen
-                    ></iframe>
-                    <iframe
-                        className="max-w-full aspect-video"
-                        width={560}
-                        src="https://www.youtube.com/embed/4vCBwvieryw?si=ssOrvTsK_lv7Rv3P"
-                        title="Anthropomorphism and Autism"
-                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                        allowFullScreen
-                    ></iframe>
+                        key={index + "_anthropomorphism_video"}
+                    ></iframe>))}
                 </div>
             </section>
             <span className="m-8 mt-12 w-1/2 mx-auto block border-b border-b-[#b0b0b0]"></span>
@@ -87,38 +68,16 @@ const TalksAndVideos = () => {
                         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                         allowFullScreen
                     ></iframe> */}
-                    <iframe
+                    {VideoLinks.filter((video) => video.topic === "Gamification").map((video, index) =>
+                    (<iframe
                         className="max-w-full aspect-video"
                         width={560}
-                        src="https://www.youtube.com/embed/uJHCDN_oXZw?si=0cD15e7cxQzLmbfB"
-                        title="Autism and Board Games"
+                        src={video.src}
+                        title={video.title}
                         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                         allowFullScreen
-                    ></iframe>
-                    <iframe
-                        className="max-w-full aspect-video"
-                        width={560}
-                        src="https://www.youtube.com/embed/sETDcjN08b8?si=j6j7E4coU5c9DGrj"
-                        title="Mandi Hutchinson's interview of Drs Liam Cross and Gray Atherton"
-                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                        allowFullScreen
-                    ></iframe>
-                    <iframe
-                        className="max-w-full aspect-video"
-                        width={560}
-                        src="https://www.youtube.com/embed/P3Fpc2mpE0s?si=mtvKTucNdt7KGJ4k"
-                        title="Board Gaming on the Spectrum"
-                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                        allowFullScreen
-                    ></iframe>
-                    <iframe
-                        className="max-w-full aspect-video"
-                        width={560}
-                        src="https://www.youtube.com/embed/pGyHYireQCs?si=fC1iTyh9kqHAS7Or"
-                        title="EDUCATORS‘ DAY - Asmodee Research: Boardgames as an education and care practice (EN) | SPIEL 2022"
-                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                        allowFullScreen
-                    ></iframe>
+                        key={index + "_gamification_video"}
+                    ></iframe>))}
                 </div>
             </section>
             <span className="m-8 mt-12 w-1/2 mx-auto block border-b border-b-[#b0b0b0]"></span>
@@ -128,22 +87,16 @@ const TalksAndVideos = () => {
                     textStyles={"mx-4 mb-6 font-semibold text-3xl"}
                 />
                 <div className="grid gap-4 lg:grid-cols-2 justify-center justify-items-center">
-                    <iframe
+                    {VideoLinks.filter((video) => video.topic === "Synchrony").map((video, index) =>
+                    (<iframe
                         className="max-w-full aspect-video"
                         width={560}
-                        src="https://www.youtube.com/embed/9sTUw5QLarU?si=i06RhPAcegnVa6FY"
-                        title="How Moving Together Binds Us Together - Dr. Liam Cross"
+                        src={video.src}
+                        title={video.title}
                         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                         allowFullScreen
-                    ></iframe>
-                    <iframe
-                        className="max-w-full aspect-video"
-                        width={560}
-                        src="https://www.youtube.com/embed/KOLQowzoHBA?si=YT7qZy-HjYChkGnu"
-                        title="An open access virtual reality drumming application for fostering pro-sociality - Liam Cross"
-                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                        allowFullScreen
-                    ></iframe>
+                        key={index + "_synchrony_video"}
+                    ></iframe>))}
                 </div>
             </section>
         </>

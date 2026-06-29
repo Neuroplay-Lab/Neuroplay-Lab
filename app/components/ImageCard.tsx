@@ -8,9 +8,10 @@ interface Props {
     image?: StaticImageData | string;
     altTag?: string;
     styles?: string;
+    sizes?: string;
 }
 
-const ImageCard = ({ title, subtext, href, image, altTag, styles }: Props) => {
+const ImageCard = ({ title, subtext, href, image, altTag, styles, sizes }: Props) => {
     return (
         <>
             <Link
@@ -28,6 +29,7 @@ const ImageCard = ({ title, subtext, href, image, altTag, styles }: Props) => {
                             className="w-full"
                             fill
                             style={{ objectFit: "cover" }}
+                            sizes={sizes}
                         />
                     )}
                 </div>

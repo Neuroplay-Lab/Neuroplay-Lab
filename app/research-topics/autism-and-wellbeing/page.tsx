@@ -5,6 +5,7 @@ import gameImg from "../../../public/rpg-468917_960_720.webp";
 import superImg from "../../../public/image.webp";
 
 import publications from "../../publications/publications.json";
+import VideoLinks from "../../talks-and-videos/video-links.json";
 import Link from "next/link";
 import Publication from "../../publications/publication";
 import { Metadata } from "next";
@@ -21,6 +22,7 @@ const SynchronyAndSocialCognition = () => {
                     src={headerImg}
                     alt="2 images showing a puppy being kissed in the bathtub and a couple with arms linked whilst holding hands"
                     className="p-3 md:max-w-xl self-center"
+                    sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 25vw"
                 />
                 <p className="my-2">
                     Much of our research aims to improve social outcomes for
@@ -32,14 +34,16 @@ const SynchronyAndSocialCognition = () => {
                     non-human, has explored how human-animal contact can benefit
                     autistic people.
                 </p>
-                <iframe
+                {VideoLinks.filter((video) => video.topic === "Autism").map((video, index) =>
+                    (<iframe
                     className="max-w-full aspect-video p-3 border-y border-[#b0b0b0] my-3 self-center md:p-5"
                     width={560}
-                    src="https://www.youtube.com/embed/V-wcTCVh-oc?si=Pmfb7qnmZ6-2uQR_"
-                    title="Pet Ownership and Autism"
+                    src={video.src}
+                    title={video.title}
                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                     allowFullScreen
-                />
+                    key={index}
+                />))}
                 <TypingText
                     title={"Current Projects"}
                     textStyles={"mx-8 my-4 text-3xl"}
@@ -48,6 +52,7 @@ const SynchronyAndSocialCognition = () => {
                     src={gameImg}
                     alt="A close up of 3 20-sided dice"
                     className="p-3 md:max-w-lg self-center"
+                    sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 25vw"
                 />
                 <p className="my-2">
                     We are exploring hobbies that may be particularly engaging
@@ -65,6 +70,7 @@ const SynchronyAndSocialCognition = () => {
                     src={superImg}
                     alt="A man and woman in superhero cosplay"
                     className="p-3 md:max-w-lg self-center"
+                    sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 25vw"
                 />
                 <p className="my-2">
                     We are also exploring autistic people’s special interests
