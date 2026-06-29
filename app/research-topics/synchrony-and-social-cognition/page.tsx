@@ -1,4 +1,3 @@
-import Image from "next/image";
 import { TitleText } from "../../components";
 import headerImg from "../../../public/crowd-2152653_960_720.webp";
 
@@ -7,6 +6,7 @@ import VideoLinks from "../../talks-and-videos/video-links.json";
 import Link from "next/link";
 import Publication from "../../publications/publication";
 import { Metadata } from "next";
+import StylizedImage from "../../components/StylizedImage";
 
 const SynchronyAndSocialCognition = () => {
     return (
@@ -16,11 +16,13 @@ const SynchronyAndSocialCognition = () => {
                     title={"Synchrony and Social Cognition"}
                     textStyles={"text-center mx-2 mb-2 text-4xl leading-snug"}
                 />
-                <Image
-                    src={headerImg}
-                    alt="A crowd of people walking together in synchrony"
-                    className="p-3 md:max-w-xl self-center"
-                    sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 25vw"
+                <StylizedImage
+                    imageProps={{
+                        src: headerImg,
+                        alt:"A crowd of people walking together in synchrony",
+                        sizes:"(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 25vw",
+                    }}
+                    className= "md:max-w-xl self-center"
                 />
                 <p className="my-2">
                     People regularly move in time with one another. We sing,

@@ -1,4 +1,3 @@
-import Image from "next/image";
 import { TitleText, TypingText } from "../../components";
 import headerImg from "../../../public/autism-qol-main.webp";
 import gameImg from "../../../public/rpg-468917_960_720.webp";
@@ -9,8 +8,9 @@ import VideoLinks from "../../talks-and-videos/video-links.json";
 import Link from "next/link";
 import Publication from "../../publications/publication";
 import { Metadata } from "next";
+import StylizedImage from "../../components/StylizedImage";
 
-const SynchronyAndSocialCognition = () => {
+const AutismAndWellbeing = () => {
     return (
         <div className="grid lg:grid-cols-4">
             <main className="p-2 text-secondary-white flex flex-col md:p-6 lg:col-span-3">
@@ -18,11 +18,13 @@ const SynchronyAndSocialCognition = () => {
                     title={"Autism and Wellbeing"}
                     textStyles={"text-center mx-2 mb-2 text-4xl leading-snug"}
                 />
-                <Image
-                    src={headerImg}
-                    alt="2 images showing a puppy being kissed in the bathtub and a couple with arms linked whilst holding hands"
-                    className="p-3 md:max-w-xl self-center"
-                    sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 25vw"
+                <StylizedImage
+                    imageProps={{
+                        src: headerImg,
+                        alt: "2 images showing a puppy being kissed in the bathtub and a couple with arms linked whilst holding hands",
+                        sizes: "(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 25vw"
+                    }}
+                    className=" md:max-w-xl self-center"
                 />
                 <p className="my-2">
                     Much of our research aims to improve social outcomes for
@@ -48,11 +50,13 @@ const SynchronyAndSocialCognition = () => {
                     title={"Current Projects"}
                     textStyles={"mx-8 my-4 text-3xl"}
                 />
-                <Image
-                    src={gameImg}
-                    alt="A close up of 3 20-sided dice"
-                    className="p-3 md:max-w-lg self-center"
-                    sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 25vw"
+                <StylizedImage
+                    imageProps={{
+                        src: gameImg,
+                        alt: "A close up of 3 20-sided dice",
+                        sizes: "(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 25vw",
+                    }}
+                    className= "md:max-w-lg self-center"
                 />
                 <p className="my-2">
                     We are exploring hobbies that may be particularly engaging
@@ -66,11 +70,14 @@ const SynchronyAndSocialCognition = () => {
                     </Link>{" "}
                     for more information).
                 </p>
-                <Image
-                    src={superImg}
-                    alt="A man and woman in superhero cosplay"
-                    className="p-3 md:max-w-lg self-center"
-                    sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 25vw"
+                <StylizedImage
+                    imageProps={{
+                        src: superImg,
+                        alt:"A man and woman in superhero cosplay",
+                        sizes:"(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 25vw",
+                    }}
+                    className="md:max-w-lg self-center"
+                    paddingClasses="pr-2 pb-2"
                 />
                 <p className="my-2">
                     We are also exploring autistic people’s special interests
@@ -119,4 +126,4 @@ export const metadata: Metadata = {
     },
 };
 
-export default SynchronyAndSocialCognition;
+export default AutismAndWellbeing;

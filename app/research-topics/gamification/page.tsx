@@ -1,4 +1,3 @@
-import Image from "next/image";
 import { TitleText } from "../../components";
 import headerImg from "../../../public/image-1.webp";
 
@@ -6,6 +5,7 @@ import publications from "../../publications/publications.json";
 import Publication from "../../publications/publication";
 import { Metadata } from "next";
 import VideoLinks from "../../talks-and-videos/video-links.json";
+import StylizedImage from "../../components/StylizedImage";
 
 const SynchronyAndSocialCognition = () => {
     return (
@@ -15,11 +15,13 @@ const SynchronyAndSocialCognition = () => {
                     title={"Gamification"}
                     textStyles={"text-center mx-2 mb-2 text-4xl leading-snug"}
                 />
-                <Image
-                    src={headerImg}
-                    alt="Close up of board game pieces on a table during a game"
-                    className="p-3 md:max-w-xl self-center"
-                    sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+                <StylizedImage
+                    imageProps={{
+                        src: headerImg,
+                        alt: "A close up of a board game with a player moving a piece",
+                        sizes: "(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 25vw"
+                    }}
+                    className="md:max-w-xl self-center"
                 />
                 <p className="my-2">
                     Games are a core part of early social development. Tabletop role playing games and board games support a wide range of cognitive skills, including planning, inhibition control, and numerical reasoning, while also fostering cooperation, shared attention, and perspective taking through activities such as strategising and bluffing.

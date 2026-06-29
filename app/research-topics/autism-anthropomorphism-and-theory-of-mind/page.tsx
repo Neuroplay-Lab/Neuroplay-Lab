@@ -9,6 +9,7 @@ import VideoLinks from "../../talks-and-videos/video-links.json";
 import Link from "next/link";
 import Publication from "../../publications/publication";
 import { Metadata } from "next";
+import StylizedImage from "../../components/StylizedImage";
 
 const SynchronyAndSocialCognition = () => {
     return (
@@ -18,11 +19,13 @@ const SynchronyAndSocialCognition = () => {
                     title={"Autism, Anthropomorphism and Theory of Mind"}
                     textStyles={"text-center mx-2 mb-2 text-3xl leading-snug"}
                 />
-                <Image
-                    src={headerImg}
-                    alt="A dog wearing a smart buisness suit"
-                    className="p-3 md:max-w-xl self-center"
-                    sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 25vw"
+                <StylizedImage
+                    imageProps={{
+                        src: headerImg,
+                        alt: "A dog wearing a smart buisness suit",
+                        sizes: "(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 25vw"
+                    }}
+                    className= "md:max-w-xl self-center"
                 />
                 <TypingText
                     title="Seeing More Than Human"
