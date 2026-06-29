@@ -111,6 +111,7 @@
     "citation": "Discover psychology, 2025",
     "journal": "Discover psychology",
     "publisher": "Discover",
+    "hidden": true,
     "abstract": "Metaphors and myths: using the board game dixit to understand the autistic lived experience \n- university of plymouth skip to main navigation skip to search skip to main content \nuniversity of plymouth home university of plymouth logo help & faq home researchers \nresearch units research outputs projects theses datasets activities prizes media stories \nsearch by expertise, name or affiliation metaphors and myths: using the board game dixit to \nunderstand the autistic lived experience gray atherton, emily dawson, liam cross school \nof psychology research output: contribution to journal \u203a article \u203a peer-review overview \noriginal language english journal discover psychology publication status accepted/in \npress - 24 mar 2025 embargoed document manuscript accepted author manuscript, 48.1 \nkb embargo ends: 31/12/99 cite this apa author bibtex harvard standard ris vancouver \u2026"
   },
   {
@@ -235,7 +236,7 @@
     "abstract": "Tabletop role-playing games (TTRPGs) are increasingly used in therapeutic and educational settings to improve the well-being of autistic people. This study investigated the potential of TTRPGs to provide a safe space where autistic adults could develop relationships with others while also engaging in character and world-building. Eight autistic adults were split into two groups and taken through a 6-week online Dungeons and Dragons campaign run by one of the researchers. Semi-structured interviews were then conducted to discuss how participants felt interacting in and out of the TTRPG. Several key themes were identified as important aspects of why autistic people could benefit from role-playing environments. The analysis showed that the participants felt a strong level of enjoyment from engaging in tabletop role-playing and, in many ways, experienced better social interactions during the TTRPG...",
     "year": 2024,
     "url": "https://researchportal.plymouth.ac.uk/en/publications/a-critical-hit-dungeons-and-dragons-as-a-buff-for-autistic-people",
-    "tags": ["autism"],
+    "tags": ["autism", "gamification"],
     "author": ["Gray Atherton", "Rhys Hathaway", "Ingela Visuri", "Liam Cross"],
     "pub_year": 2024,
     "citation": "Autism, 2024",
