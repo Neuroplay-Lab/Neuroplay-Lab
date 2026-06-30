@@ -24,6 +24,7 @@ const ResearchTopics = () => {
                     altTag="A crowd of people walking together in synchrony"
                     image={synchImg}
                     styles="w-full"
+                    sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 25vw"
                 />
                 <ImageCard
                     title="Autism, Anthropomorphism and Theory of Mind"
@@ -32,6 +33,7 @@ const ResearchTopics = () => {
                     altTag="A dog wearing a smart buisness suit"
                     image={anthImg}
                     styles="w-full"
+                    sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 25vw"
                 />
                 <ImageCard
                     title="Autism and Wellbeing"
@@ -40,6 +42,7 @@ const ResearchTopics = () => {
                     altTag="A couple with linked arms and holding hands"
                     image={autImg}
                     styles="w-full"
+                    sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 25vw"
                 />
                 <ImageCard
                     title="Gamification"
@@ -48,6 +51,7 @@ const ResearchTopics = () => {
                     altTag="Close up of board game pieces on a table during a game"
                     image={gameImg}
                     styles="w-full"
+                    sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 25vw"
                 />
             </div>
         </>

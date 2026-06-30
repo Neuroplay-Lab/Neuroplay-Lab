@@ -5,9 +5,11 @@ import articleImg1 from "../../../public/anthro-1.webp";
 import articleImg2 from "../../../public/anthro-2.webp";
 
 import publications from "../../publications/publications.json";
+import VideoLinks from "../../talks-and-videos/video-links.json";
 import Link from "next/link";
 import Publication from "../../publications/publication";
 import { Metadata } from "next";
+import StylizedImage from "../../components/StylizedImage";
 
 const SynchronyAndSocialCognition = () => {
     return (
@@ -17,10 +19,13 @@ const SynchronyAndSocialCognition = () => {
                     title={"Autism, Anthropomorphism and Theory of Mind"}
                     textStyles={"text-center mx-2 mb-2 text-3xl leading-snug"}
                 />
-                <Image
-                    src={headerImg}
-                    alt="A dog wearing a smart buisness suit"
-                    className="p-3 md:max-w-xl self-center"
+                <StylizedImage
+                    imageProps={{
+                        src: headerImg,
+                        alt: "A dog wearing a smart buisness suit",
+                        sizes: "(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 25vw"
+                    }}
+                    className= "md:max-w-xl self-center"
                 />
                 <TypingText
                     title="Seeing More Than Human"
@@ -141,6 +146,16 @@ const SynchronyAndSocialCognition = () => {
                     <Image src={articleImg1} alt="" />
                     <Image src={articleImg2} alt="" />
                 </div>
+                {VideoLinks.filter((video) => video.topic === "Anthropomorphism").map((video, index) =>
+                    (<iframe
+                    className="max-w-full aspect-video p-3 border-y border-[#b0b0b0] my-3 self-center md:p-5"
+                    width={560}
+                    src={video.src}
+                    title={video.title}
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    allowFullScreen
+                    key={index}
+                />))}
             </main>
             <aside className="px-8 py-4 lg:bg-slate-400 lg:bg-opacity-10 lg:max-h-screen sticky top-0">
                 <h4 className="text-white italic font-medium mb-3 ml-3 lg:my-6">

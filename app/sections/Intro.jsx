@@ -7,6 +7,7 @@ import styles from "../styles";
 import { fadeIn, slideIn, staggerContainer } from "../utils/motion";
 import heroImg from "../../public/hero-img.webp";
 import Image from "next/image";
+import StylizedImage from "../components/StylizedImage";
 
 const Intro = () => (
     <section className={`${styles.paddings} relative z-10`}>
@@ -48,12 +49,15 @@ const Intro = () => (
                     variants={slideIn("right", "tween", 0.2, 1)}
                     className="relative flex-shrink-0 w-[300px] mt-8 self-center"
                 >
-                    <div className="absolute w-full h-[300px] hero-gradient rounded-tl-[100px] z-[0] -top-[20px]" />
-                    <Image
-                        src={heroImg}
-                        alt="hero_cover"
+                    <StylizedImage
+                        imageProps={{
+                            src: heroImg,
+                            alt: "hero_cover",
+                            priority: true,
+                        }}
                         className="w-full h-auto object-cover rounded-tl-[100px] rounded-b-lg z-10 relative"
-                        priority
+                        paddingClasses="pt-6"
+                        alternateRounding="rounded-tl-[100px] rounded-b-lg"
                     />
                 </motion.div>
             </div>

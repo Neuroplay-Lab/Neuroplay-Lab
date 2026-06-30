@@ -10,6 +10,7 @@ import { staggerContainer, fadeIn } from "../utils/motion";
 import Image from "next/image";
 import grImg from "../../public/gray.webp";
 import liImg from "../../public/liam.webp";
+import StylizedImage from "../components/StylizedImage";
 
 const PersonSection = ({ name, img, altText, features, direction }) => (
     <motion.div
@@ -36,13 +37,12 @@ const PersonSection = ({ name, img, altText, features, direction }) => (
                 initial="hidden"
                 whileInView="show"
             >
-                <div className="absolute w-full h-full hero-gradient rounded-xl -z-[1]" />
-                {/* <div className="absolute w-full h-[10px] hero-gradient rounded-tl-[100px] rounded-tr-[100px] z-[0] -top-[10px]" /> */}
-                {/* <div className="absolute h-full w-[10px] hero-gradient rounded-bl-[100px] z-[0]" /> */}
-                <Image
-                    src={img}
-                    alt={altText}
-                    className="w-full rounded-xl object-cover pl-2 pt-2"
+                <StylizedImage
+                    imageProps={{
+                        src: img,
+                        alt: altText,
+                        className: "w-full rounded-xl object-cover pl-2 pt-2",
+                    }}
                 />
             </motion.div>
 

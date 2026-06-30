@@ -1,5 +1,44 @@
 [
   {
+    "id": "37d8cb6e47f7a40e5f133f5de0b036d4",
+    "title": "Finding Our Tempo: Exploring Embodied Synchrony Through Full-Body Play in Children",
+    "year": 2026,
+    "url": "https://doi.org/10.1145/3731459.3773303",
+    "tags": ["synchrony"],
+    "author": ["Sena Beste Ercan", "Belén González Mateo", "Olga Galí Pérez", "Gray Atherton", "Liam Cross", "Narcís Parés"],
+    "pub_year": 2026,
+    "citation": "TEI 2026 - Proceedings of 20th International Conference on Tangible, Embedded, and Embodied Interaction, 2026",
+    "journal": "TEI 2026 - Proceedings of 20th International Conference on Tangible, Embedded, and Embodied Interaction",
+    "publisher": "Association for Computing Machinery",
+    "abstract": "This study advances the design of timing-sensitive, full-body interactive experiences supporting both collaboration and individual agency in childrens group play. We investigate how temporal structuring within an improved version of a full-body interactive system influences behavioral and perceived synchrony among children aged 9-10. Prior research has often focused on dyads, required human facilitation, or neglected relationship between perceived and actual synchrony. Addressing these gaps, we conducted a multi-user study comparing synchronous and asynchronous interaction modes using system-logged behavioral data and self-reports. Results demonstrate the synchronous condition fosters higher user performance, tighter temporal coordination, and stronger perceptions of shared movement. In contrast, the asynchronous mode effectively disrupts unintended coordination, showing how timing design shapes interaction dynamics. Notably, identical movements are perceived as less uniform without temporal alignment. These findings highlight the potential of embodied systems to scaffold or inhibit synchrony through intentional design, supporting richer social engagement and inclusive group play."
+  },
+  {
+    "id": "a5ed8aaa15d71654f3f15a17cecde035",
+    "title": "Species-dependent gazing behavior of emotional facial expressions in dogs (Canis familiaris) and adult humans (Homo sapiens).",
+    "year": 2026,
+    "url": "https://doi.org/10.1037/com0000433",
+    "tags": ["anthropomorphism"],
+    "author": ["Heini Törnqvist", "Gray Atherton", "Liam Cross", "Sanni Somppi", "Jarkko Hautala", "Miiamaaria V. Kujala"],
+    "pub_year": 2026,
+    "citation": "Journal of Comparative Psychology, 2026",
+    "journal": "Journal of Comparative Psychology",
+    "publisher": "American Psychological Association",
+    "abstract": "Emotional expressions play an important part in social communication of dogs and humans, but comparative studies between dogs and humans are rare. In addition, little is known about how emotions are perceived across species and how attention is divided among different parts of faces. Here, we compared the gazing behavior of dogs and adult humans toward emotional dog and human facial expressions. Dogs mostly gazed at the eye and nose areas, whereas the humans focus also included the mouth area. The gazing behavior of both species was affected by the facial expressions and species presented, and they gazed at emotional more than neutral stimuli. Dogs and humans demonstrated attentional bias toward angry and happy eyes of their own species, which highlights the ecological salience of the species and the importance of eyes in reading conspecifics emotional expressions. For both species, mouths of aggressive dogs were gazed at more than those of angry humans, whereas mouths of happy humans were gazed at more than happy dog mouths. Thus, the mouth area provides important emotional cues for recognizing emotions across species, suggesting the ecological salience of facial expressions connecting to the subcortical visual pathway across mammalian species."
+  },
+  {
+    "id": "cac8701098af3da803684e17e5f3ffcc",
+    "title": "Together in Sync: Assessing Prosocial Behavior with a Full-Body Interactive Mixed Reality Experience",
+    "year": 2026,
+    "url": "https://ieeexplore.ieee.org/document/11458023",
+    "tags": ["synchrony"],
+    "author": ["Sena Beste Ercan", "Belen Gonzalez", "Olga Gali", "Gray Atherton", "Liam Cross", "Narcis Pares"],
+    "pub_year": 2026,
+    "citation": "IEEE Transactions on Visualization and Computer Graphics, 2026",
+    "journal": "IEEE Transactions on Visualization and Computer Graphics",
+    "publisher": "IEEE Computer Society",
+    "abstract": "This study investigates how interpersonal synchrony (IPS) in full-body interactive Mixed Reality (MR) environments can shape children's prosocial behavior. We introduce DragonIce 2.0, a two-part MR game designed to induce synchronous or asynchronous group activity and assess their impact on prosocial behavior. To examine changes in affiliation (team belonging and peer liking) and collaboration (overt joint actions), we conducted a comparative study with children aged 9-10, using both system logs and self-report measures. The results highlight the importance of context, task structure, and perceived coordination in shaping social outcomes, offering insights into how interaction dynamics shape social engagement in immersive settings. This work contributes a novel approach for studying prosociality in ecologically valid, technology-mediated settings by combining playful, immersive interaction with controlled manipulation of group synchrony. Our findings inform the design of inclusive MR experiences that support social connection, collaboration, and group engagement among children."
+  },
+  {
     "id": "a710cf22f1b606818862bb5aa5a6407b",
     "title": "A Path Out: Using Video Games to Reduce Prejudice Towards Refugees",
     "year": 2025,
@@ -111,6 +150,7 @@
     "citation": "Discover psychology, 2025",
     "journal": "Discover psychology",
     "publisher": "Discover",
+    "hidden": true,
     "abstract": "Metaphors and myths: using the board game dixit to understand the autistic lived experience \n- university of plymouth skip to main navigation skip to search skip to main content \nuniversity of plymouth home university of plymouth logo help & faq home researchers \nresearch units research outputs projects theses datasets activities prizes media stories \nsearch by expertise, name or affiliation metaphors and myths: using the board game dixit to \nunderstand the autistic lived experience gray atherton, emily dawson, liam cross school \nof psychology research output: contribution to journal \u203a article \u203a peer-review overview \noriginal language english journal discover psychology publication status accepted/in \npress - 24 mar 2025 embargoed document manuscript accepted author manuscript, 48.1 \nkb embargo ends: 31/12/99 cite this apa author bibtex harvard standard ris vancouver \u2026"
   },
   {
@@ -235,7 +275,7 @@
     "abstract": "Tabletop role-playing games (TTRPGs) are increasingly used in therapeutic and educational settings to improve the well-being of autistic people. This study investigated the potential of TTRPGs to provide a safe space where autistic adults could develop relationships with others while also engaging in character and world-building. Eight autistic adults were split into two groups and taken through a 6-week online Dungeons and Dragons campaign run by one of the researchers. Semi-structured interviews were then conducted to discuss how participants felt interacting in and out of the TTRPG. Several key themes were identified as important aspects of why autistic people could benefit from role-playing environments. The analysis showed that the participants felt a strong level of enjoyment from engaging in tabletop role-playing and, in many ways, experienced better social interactions during the TTRPG...",
     "year": 2024,
     "url": "https://researchportal.plymouth.ac.uk/en/publications/a-critical-hit-dungeons-and-dragons-as-a-buff-for-autistic-people",
-    "tags": ["autism"],
+    "tags": ["autism", "gamification"],
     "author": ["Gray Atherton", "Rhys Hathaway", "Ingela Visuri", "Liam Cross"],
     "pub_year": 2024,
     "citation": "Autism, 2024",
