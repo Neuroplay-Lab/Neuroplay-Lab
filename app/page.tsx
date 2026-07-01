@@ -1,5 +1,5 @@
 import RollingWellBanner from "./components/RollingWellBanner";
-import { Intro, Explore, PrimaryResearch, Hero } from "./sections";
+import { Intro, Explore, PrimaryResearch } from "./sections";
 
 const Home = () => (
     <main className="overflow-hidden">
