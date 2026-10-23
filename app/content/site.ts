@@ -99,6 +99,6 @@ export const currentWork = [
   { client: "Boardovea", text: "Exploring mindfulness in a puzzle game." },
   {
     client: "FIRAH (French Institute of Disability Research)",
-    text: "Writing a white paper on the benefits of games for autistic children.",
+    text: "Creating a white paper on the benefits of games for autistic children.",
   },
 ];
