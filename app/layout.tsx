@@ -32,7 +32,7 @@ export const viewport: Viewport = { themeColor: "#F4EEDF" };
 
 export const metadata: Metadata = {
   metadataBase: new URL(site.url),
-  title: { default: "Neuroplay Lab | Board games and neurodivergence", template: "%s | Neuroplay Lab" },
+  title: { default: "Neuroplay Lab | Board games and Neurodivergence", template: "%s | Neuroplay Lab" },
   description: site.description,
   icons: { icon: "/icon.png" },
   openGraph: {
