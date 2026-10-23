@@ -2,6 +2,7 @@ import Image from "next/image";
 import type { Metadata } from "next";
 import { services, currentWork } from "../content/site";
 import EnquiryForm from "./EnquiryForm";
+import Link from "next/link";
 
 export const metadata: Metadata = {
   title: "Work with us",
@@ -59,6 +60,9 @@ export default function WorkWithUs() {
               write and consult as ADHD and autistic academics, so our advice draws on our own
               experience as well as the research literature.
             </p>
+            <p className="mt-8">
+              <a href="/team" className="btn-secondary text-lg">Meet the team</a>
+            </p>
           </div>
         </div>
       </section>
@@ -66,32 +70,29 @@ export default function WorkWithUs() {
       {/* W3 Case study */}
       <section className="section">
         <div className="container-page">
-          <h2 className="text-3xl sm:text-4xl">Dixit Access+ with Asmodee</h2>
-          <div className="mt-8 grid gap-8 md:grid-cols-[1fr_1.3fr]">
-            {/* TODO: replace with the Dixit Access+ box image */}
-            <div className="card flex aspect-[4/3] items-center justify-center bg-paper p-6 text-center text-ink-soft">
-              Box image to come
-            </div>
-            <div className="space-y-5">
-              <p className="prose-body">
-                We co-designed an accessible edition of Dixit for Asmodee&apos;s Access+ line of
-                disability-friendly games.
-              </p>
-              {/* TODO: supply the brief, what changed as a result, and a client testimonial */}
-              <p className="prose-body">The brief and what changed as a result will be added here.</p>
+            <h2 className="text-3xl sm:text-4xl">Dixit Access+ with Asmodee</h2>
+            <div className="mt-8 grid gap-8 md:grid-cols-[1fr_1.3fr]">
+              <Image className="card flex items-center justify-center bg-paper p-6 text-center text-ink-soft" src={"/games/dixit-access+-box.webp"} width={1024} height={1024} alt={""} />
+              <div className="space-y-5">
+                <p className="prose-body">
+                  We co-designed an accessible edition of Dixit for Asmodee&apos;s Access+ line of
+                  disability-friendly games.
+                </p>
+                {/* TODO: supply the brief, what changed as a result, and a client testimonial */}
+              <p className="prose-body hidden">The brief and what changed as a result will be added here.</p>
             </div>
           </div>
 
           <h3 className="mt-14 text-2xl">Current work</h3>
           <ul className="mt-4 grid gap-4 sm:grid-cols-2">
-            {currentWork.map((w) => (
+              {currentWork.map((w) => (
               <li key={w.client} className="rounded-xl border-2 border-ink bg-paper p-5">
-                <p className="font-bold">{w.client}</p>
-                <p className="mt-1 text-ink-soft">{w.text}</p>
-              </li>
-            ))}
-          </ul>
-        </div>
+                  <p className="font-bold">{w.client}</p>
+                  <p className="mt-1 text-ink-soft">{w.text}</p>
+                </li>
+              ))}
+            </ul>
+          </div>
       </section>
 
       {/* W4 Enquiry */}

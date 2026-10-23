@@ -4,7 +4,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { useEffect, useState } from "react";
-import { nav, ctaLink, pressKit } from "../content/site";
+import { nav, ctaLink } from "../content/site";
 
 export default function SiteHeader() {
   const path = usePathname();
@@ -35,9 +35,6 @@ export default function SiteHeader() {
               {n.label}
             </Link>
           ))}
-          <Link href={pressKit.href} className="text-sm font-medium text-ink-soft underline underline-offset-4 hover:text-ink">
-            {pressKit.label}
-          </Link>
           <Link href={ctaLink.href} className="btn-primary btn-sm">
             {ctaLink.label}
           </Link>
@@ -57,7 +54,7 @@ export default function SiteHeader() {
       {open && (
         <nav id="mobile-menu" aria-label="Main" className="border-t-2 border-ink bg-paper lg:hidden">
           <ul className="container-page flex flex-col gap-1 py-4 text-lg">
-            {[...nav, ctaLink, pressKit].map((n) => (
+            {[...nav, ctaLink].map((n) => (
               <li key={n.href}>
                 <Link
                   href={n.href}

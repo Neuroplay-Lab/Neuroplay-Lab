@@ -25,7 +25,7 @@ export const ctaLink = { href: "/work-with-us", label: "Work with us" };
 export const pressKit = { href: "/news/press-kit", label: "Press kit" };
 
 export const proof = [
-  { text: "20+ peer-reviewed papers on tabletop gaming for social good", tone: "bg-green" },
+  { text: "+60 peer-reviewed research papers, covering topics such as: understanding autism, building social skills and reducing prejudice through gameplay", tone: "bg-green" },
   { text: "An open dataset of more than 1,500 board gamers", tone: "bg-pink" },
   {
     text: "Covered by Newsweek, Forbes, the New York Times Magazine and Scientific American",
@@ -79,7 +79,7 @@ export const services = [
   },
   {
     title: "Language that matches the science",
-    text: "We help you name mechanics and components so the terms you use mean what the research means by them.",
+    text: "We help you name mechanics and components, so the terms you use match what the research means by them.",
   },
   {
     title: "Defensible marketing and packaging",
