@@ -1,20 +1,32 @@
-/** @type {import('tailwindcss').Config} */
+/** Brand tokens. Hex values are read from the supplied artwork; replace with the
+ *  official values if the designer has them. */
 module.exports = {
-  content: [
-    './app/**/*.{html,js,jsx,ts,tsx}',
-    './components/**/*.{html,js,jsx,ts,tsx}',
-    './sections/**/*.{html,js,jsx,ts,tsx}',
-    './styles/**/*.{js,jsx,ts,tsx}',
-  ],
-  mode: 'jit',
+  content: ["./app/**/*.{js,jsx,ts,tsx}"],
   theme: {
     extend: {
       colors: {
-        'primary-black': '#1A232E',
-        'secondary-white': '#c7c7c7',
+        cream: "#F4EEDF", // page background (from the business-card cream)
+        paper: "#FBF8F0", // raised surfaces
+        sand: "#EDE4D0", // bands and dividers
+        ink: "#1A1613", // text, outlines, hard shadows
+        "ink-soft": "#4A423B", // secondary text
+        green: { DEFAULT: "#00FFA5", soft: "#66FFB3", deep: "#006B45" }, // deep = green for text on cream
+        pink: "#FF92E3",
+        purple: { DEFAULT: "#9B5CF6", deep: "#5B2BC4" },
+        blue: "#0AAEFF",
+        sky: "#62DDFF",
+        lavender: "#D6A8FF",
+        red: "#FF2D3A",
       },
-      transitionTimingFunction: {
-        'out-flex': 'cubic-bezier(0.05, 0.6, 0.4, 0.9)',
+      fontFamily: {
+        sans: ["var(--font-body)", "system-ui", "sans-serif"],
+        serif: ["var(--font-display)", "Georgia", "serif"],
+      },
+      boxShadow: {
+        // Hard, blur-free offsets echo the wordmark's drop shadow
+        "hard-sm": "2px 2px 0 0 #1A1613",
+        hard: "4px 4px 0 0 #1A1613",
+        "hard-lg": "7px 7px 0 0 #1A1613",
       },
     },
   },

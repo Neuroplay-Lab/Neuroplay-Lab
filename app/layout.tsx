@@ -1,89 +1,61 @@
 import "./styles/globals.css";
 import localFont from "next/font/local";
-import { Navbar, Footer } from "./components";
-import { Metadata } from "next";
+import { Alegreya } from "next/font/google";
+import type { Metadata, Viewport } from "next";
+import SiteHeader from "./components/SiteHeader";
+import SiteFooter from "./components/SiteFooter";
+import { site } from "./content/site";
 
-const eudoxusSans = localFont({
-    src: [
-        {
-            path: "./fonts/Eudoxus-Sans-font/EudoxusSans-Bold.woff2",
-            weight: "700",
-            style: "normal",
-        },
-        {
-            path: "./fonts/Eudoxus-Sans-font/EudoxusSans-ExtraBold.woff2",
-            weight: "800",
-            style: "normal",
-        },
-        {
-            path: "./fonts/Eudoxus-Sans-font/EudoxusSans-Light.woff2",
-            weight: "300",
-            style: "normal",
-        },
-        {
-            path: "./fonts/Eudoxus-Sans-font/EudoxusSans-ExtraLight.woff2",
-            weight: "200",
-            style: "normal",
-        },
-        {
-            path: "./fonts/Eudoxus-Sans-font/EudoxusSans-Medium.woff2",
-            weight: "500",
-            style: "normal",
-        },
-        {
-            path: "./fonts/Eudoxus-Sans-font/EudoxusSans-Regular.woff2",
-            weight: "400",
-            style: "normal",
-        },
-    ],
-    display: "swap",
-    fallback: ["sans-serif"],
+// Body: Eudoxus Sans (already in the repo, OFL licence)
+const body = localFont({
+  src: [
+    { path: "./fonts/Eudoxus-Sans-font/EudoxusSans-Regular.woff2", weight: "400" },
+    { path: "./fonts/Eudoxus-Sans-font/EudoxusSans-Medium.woff2", weight: "500" },
+    { path: "./fonts/Eudoxus-Sans-font/EudoxusSans-Bold.woff2", weight: "700" },
+    { path: "./fonts/Eudoxus-Sans-font/EudoxusSans-ExtraBold.woff2", weight: "800" },
+  ],
+  variable: "--font-body",
+  display: "swap",
+  fallback: ["system-ui", "sans-serif"],
 });
 
-const RootLayout = ({ children }) => (
-    <html lang="en" className={eudoxusSans.className}>
-        <body className="bg-primary-black">
-            {/* <div className="overflow-hidden"> */}
-            <Navbar />
-            <div className="absolute w-[50%] max-h-[15vh] inset-0 gradient-01 -z-10" />
+// Headings: a warm serif chosen to sit beside the hand-lettered wordmark.
+// ASSUMPTION: the business cards use a similar humanist serif; swap in the real face if known.
+const display = Alegreya({
+  subsets: ["latin"],
+  weight: ["700", "800"],
+  variable: "--font-display",
+  display: "swap",
+});
 
-            {children}
-            <Footer />
-            <div className="relative w-full overflow-x-clip">
-                <div className="footer-gradient -z-10" />
-            </div>
-            {/* </div> */}
-        </body>
-    </html>
-);
+export const viewport: Viewport = { themeColor: "#F4EEDF" };
 
 export const metadata: Metadata = {
-    metadataBase: new URL("https://www.neuroplaylab.com"),
-    keywords: [
-        "Liam Cross",
-        "Gray Atherton",
-        "Psychologist",
-        "Psychology",
-        "Researcher",
-        "Synchrony",
-        "Social Cognition",
-        "Autism",
-        "Anthropomorphism",
-        "Gamification",
-        "Research",
-        "Portfolio",
-    ],
-    title: {
-        default: "Neuroplay Lab",
-        template: "%s | Neuroplay Lab",
-    },
-    openGraph: {
-        description:
-            "The research world of Dr Gray Atherton and Dr Liam Cross; Psychologists at the University of Plymouth, UK.",
-        images: [""],
-    },
-    description:
-        "Welcome to the research world of Dr Gray Atherton and Dr Liam Cross. We are Psychologists at the University of Plymouth, UK. We delve into various facets of social and embodied cognition; our keen interest lies in understanding autism spectrum disorder, examining social cognition and well-being enhancement strategies. We also undertake research in the area of Gamification, covering both modern board games, as well as a range of digital games, including the use of VR technology.",
+  metadataBase: new URL(site.url),
+  title: { default: "Neuroplay Lab | Board games and Neurodivergence", template: "%s | Neuroplay Lab" },
+  description: site.description,
+  icons: { icon: "/icon.png" },
+  openGraph: {
+    siteName: site.name,
+    description: site.description,
+    images: ["/brand/logo-tagline.webp"], // TODO: replace with a 1200x630 share image
+  },
 };
 
-export default RootLayout;
+export default function RootLayout({ children }: { children: React.ReactNode }) {
+  return (
+    <html lang="en" className={`${body.variable} ${display.variable}`}>
+      <body>
+        <a
+          href="#main"
+          className="sr-only focus:not-sr-only focus:fixed focus:left-3 focus:top-3 focus:z-50 focus:rounded-lg focus:border-2 focus:border-ink focus:bg-paper focus:px-4 focus:py-2 focus:font-bold"
+        >
+          Skip to content
+        </a>
+        <SiteHeader />
+        <main id="main">{children}</main>
+        <SiteFooter />
+      </body>
+    </html>
+  );
+}
