@@ -14,7 +14,7 @@ export default function UnderConstruction({ title, note }: Props) {
   return (
     <section className="section">
       <div className="container-page">
-        <div className="card mx-auto grid max-w-3xl items-center gap-8 bg-sky p-8 sm:grid-cols-[1fr_1.5fr] sm:p-10">
+        <div className="card mx-auto grid max-w-3xl items-center gap-8 bg-lavender p-8 sm:grid-cols-[1fr_1.5fr] sm:p-10">
           <Image
             src="/brand/mark.webp"
             alt=""
