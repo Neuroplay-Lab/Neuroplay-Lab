@@ -29,6 +29,11 @@
   .btn-secondary { @apply btn bg-paper text-ink; }
   .btn-sm { @apply px-4 py-2 text-sm; }
 
+  .link-chip {
+    @apply rounded-full border-2 border-ink bg-paper px-3 py-1 text-sm font-semibold text-ink;
+    @apply transition-colors hover:bg-sand;
+  }
+
   .prose-body { @apply max-w-prose text-lg leading-relaxed text-ink-soft; }
   .link { @apply font-semibold text-purple-deep underline underline-offset-4 hover:text-ink; }
 }
