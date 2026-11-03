@@ -58,8 +58,8 @@ export const topics: Topic[] = [
     tone: "bg-green",
     image: { src: "/research-topic-banners/board-game.webp", alt: "A group of people playing a board game" },
     intro: [
-      "Games are one of the social building blocks of early development. As well as improving skills like planning and inhibition control, they teach cooperation and joint attention and help us sharpen theory of mind skills such as strategising and bluffing.",
-      "Our work focuses on how games improve social skills and how this can benefit autistic people. We are also interested in why certain people are drawn to the hobby in the first place.",
+      "Games are one of the core social building blocks of early development. As well as improving skills like planning and inhibition control, they teach cooperation and joint attention and help us sharpen theory of mind skills such as strategising and bluffing.",
+      "Our work focuses on how tabletop role-playing games and board games improve social skills, and how this can benefit autistic and otherwise neurodivergent people. We are also interested in exploring why it is that certain people are drawn to the hobby in the first place; and how environments can be designed to be more inclusive, accessible, and meaningful for diverse communities.",
       "We study the board gaming community directly, including an open dataset of more than 1,500 board gamers, and have developed a qualitative research method that uses the game Dixit.",
     ],
     // TODO (client): add 3-5 plain-language key findings for this topic, each with a link to the paper.
@@ -67,6 +67,8 @@ export const topics: Topic[] = [
     videos: [
       { id: "P3Fpc2mpE0s", title: "Board Gaming on the Spectrum - Liam Cross, Edge Hill University, UK" },
       { id: "pGyHYireQCs", title: "EDUCATORS' DAY - Asmodee Research: Boardgames as an education and care practice | SPIEL 2022" },
+      { id: "uJHCDN_oXZw", title: "Full presentation: Autism and board games, presentation by Drs Liam Cross and Gray Atherton" },
+      { id: "sETDcjN08b8", title: "Full Mandi Hutchinson's interview of Drs Liam Cross and Gray Atherton about autism and board games" },
     ],
     match: (t) => t.includes("gamification"),
     next: "consultancy",
@@ -116,7 +118,10 @@ export const topics: Topic[] = [
         ],
       },
     ],
-    videos: [{ id: "9sTUw5QLarU", title: "How Moving Together Binds Us Together - Dr. Liam Cross" }],
+    videos: [
+      { id: "9sTUw5QLarU", title: "How Moving Together Binds Us Together - Dr. Liam Cross" },
+      { id: "KOLQowzoHBA", title: "An open access virtual reality application for fostering pro-sociality - Dr. Liam Cross" },
+    ],
     match: (t) => t.includes("synchrony") || t.includes("social"),
     next: "academic",
   },
@@ -138,7 +143,11 @@ export const topics: Topic[] = [
         ],
       },
     ],
-    videos: [{ id: "V-wcTCVh-oc", title: "Pet Ownership and Autism" }],
+    videos: [
+      { id: "V-wcTCVh-oc", title: "Pet Ownership and Autism" },
+      { id: "_9ctfGPeEIY", title: "How Age - and Age of Diagnosis - Affect Quality of Life" },
+      { id: "sD20xIDp-Jc", title: "Gender and Autism" },
+    ],
     match: (t) => t.includes("autism") && t.includes("wellbeing"),
     next: "academic",
   },
