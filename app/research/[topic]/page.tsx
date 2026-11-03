@@ -24,8 +24,8 @@ export default async function TopicPage({ params }: Props) {
   if (!topic) notFound();
 
   const pubs = publicationsFor(topic);
-  const featured = pubs.filter((p) => p.featured).slice(0, 4);
-  const rest = pubs.filter((p) => !featured.includes(p));
+  const featured = pubs.filter((p) => p.featured);
+  const rest = pubs.filter((p) => !featured.includes(p)).slice(0, 5);
   const press = pressFor(topic);
   const others = topics.filter((t) => t.slug !== topic.slug);
 
@@ -131,7 +131,7 @@ export default async function TopicPage({ params }: Props) {
             )}
             <p className="mt-6">
               <Link href={`/research/publications?topic=${topic.slug}`} className="btn-secondary btn-sm">
-                See this topic in the full publications list
+                See all papers on this topic in the full publications list
               </Link>
             </p>
           </div>
