@@ -14,7 +14,10 @@ export default function RollingWell() {
     <>
       <section className="section pb-8">
         <div className="container-page">
-          <nav aria-label="Breadcrumb" className="text-sm"><Link href="/news" className="link">News and press</Link></nav>
+          <nav aria-label="Breadcrumb" className="text-sm"><Link href="/news" className="link-chip">
+            <span aria-hidden="true">←</span>
+            News and press
+          </Link></nav>
           <h1 className="mt-4 text-4xl leading-[1.08] sm:text-5xl lg:text-6xl">Rolling Well</h1>
           <p className="prose-body mt-6">{rw.what}</p>
           <p className="mt-6">
@@ -55,7 +58,7 @@ export default function RollingWell() {
                   <span className="block font-semibold">{e.dates}, {e.venue}</span>
                   <span className="text-ink-soft">{e.note}</span>
                 </span>
-                <a href={e.href} rel="noopener noreferrer" className="link">Programme</a>
+                <a href={e.href} rel="noopener noreferrer" className="link-chip">Programme</a>
               </li>
             ))}
           </ul>

@@ -12,7 +12,10 @@ export default function Talks() {
     <>
       <section className="section pb-6">
         <div className="container-page">
-          <nav aria-label="Breadcrumb" className="text-sm"><Link href="/news" className="link">News and press</Link></nav>
+          <nav aria-label="Breadcrumb" className="text-sm"><Link href="/news" className="link-chip">
+            <span aria-hidden="true">←</span>
+            News and press
+          </Link></nav>
           <h1 className="mt-4 text-4xl leading-[1.08] sm:text-5xl">Talks and videos</h1>
           <p className="prose-body mt-4">
             Talks we have given on board games, autism, synchrony and anthropomorphism.
@@ -39,9 +42,6 @@ export default function Talks() {
                   {(t.venue || t.date) && (
                     <p className="text-sm text-ink-soft">{[t.venue, t.date].filter(Boolean).join(", ")}</p>
                   )}
-                  <p className="mt-1 text-sm">
-                    <a href={`https://www.youtube.com/watch?v=${t.id}`} rel="noopener noreferrer" className="link">Watch on YouTube</a>
-                  </p>
                 </li>
               ))}
             </ul>

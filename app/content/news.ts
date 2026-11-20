@@ -103,7 +103,7 @@ export const talkGroups: { heading: string; talks: Talk[] }[] = [
 // ---- Rolling Well (N4) ----
 export const rollingWell = {
   site: "https://rollingwell.org.uk",
-  what: "Rolling Well is a conference on gaming for health and wellbeing. It brings together researchers, practitioners and community organisers to explore tabletop role-playing games in wellbeing-focused contexts. Gray Atherton and Liam Cross co-organise it.",
+  what: "Rolling Well is a conference on gaming for health and wellbeing. It brings together researchers, practitioners and community organisers to explore tabletop role-playing games in wellbeing-focused contexts.",
   editions: [
     { year: 2026, dates: "29–30 July 2026", venue: "The Amelia Scott, Tunbridge Wells", href: "https://rollingwell.org.uk", note: "Programme and speakers on the Rolling Well site" },
   ],
