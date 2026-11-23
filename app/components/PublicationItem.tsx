@@ -1,8 +1,9 @@
-import type { Publication } from "../content/research";
+import { doiFor, type Publication } from "../content/research";
 
 export default function PublicationItem({ p, badge }: { p: Publication; badge?: string }) {
+  const doi = doiFor(p);
   const meta = [
-    p.journal,
+    p.journal ?? p.conference ?? p.citation,
     [p.volume, p.number ? `(${p.number})` : ""].filter(Boolean).join(""),
     p.pages ? `${p.pages}` : "",
   ]
@@ -24,14 +25,14 @@ export default function PublicationItem({ p, badge }: { p: Publication; badge?: 
       </h3>
       {meta && <p className="mt-1 text-ink-soft">{meta}</p>}
       <p className="mt-2 flex flex-wrap gap-x-5 gap-y-1 text-sm">
-        {p.doi && (
-          <a className="link-chip" href={`https://doi.org/${p.doi}`} rel="noopener noreferrer">DOI</a>
+        {doi && (
+          <a className="link-chip" href={`https://doi.org/${doi}`} rel="noopener noreferrer">DOI</a>
         )}
         <a className="link-chip" href={p.url} rel="noopener noreferrer">Read the paper</a>
       </p>
       {p.abstract && (
         <details className="mt-3 max-w-prose">
-          <summary className="link-chip list-inside w-fit cursor-pointer">Abstract</summary>
+          <summary className="link-chip list-inside w-fit cursor-pointer text-sm font-semibold">Abstract</summary>
           <p className="mt-2 text-ink-soft">{p.abstract}</p>
         </details>
       )}

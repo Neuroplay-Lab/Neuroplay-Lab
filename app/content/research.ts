@@ -16,7 +16,9 @@ export type Publication = {
   abstract?: string;
   tags?: string[];
   hidden?: boolean;
-  doi?: string; // optional: bare DOI, e.g. "10.1234/abcd"
+  conference?: string;
+  citation?: string; // Scholar-style citation; used only when there is no journal or conference
+  doi?: string; // optional: bare DOI. If absent, one is extracted from the URL where possible
   featured?: boolean; // optional: flag the 3-4 papers to read first
 };
 
@@ -143,12 +145,13 @@ export const topics: Topic[] = [
         ],
       },
     ],
-    videos: [
+videos: [
       { id: "V-wcTCVh-oc", title: "Pet Ownership and Autism" },
       { id: "_9ctfGPeEIY", title: "How Age - and Age of Diagnosis - Affect Quality of Life" },
       { id: "sD20xIDp-Jc", title: "Gender and Autism" },
     ],
-    match: (t) => t.includes("autism") && t.includes("wellbeing"),
+    // Was autism AND wellbeing, which matched only 2 papers. Autism alone matches 23.
+    match: (t) => t.includes("autism") || t.includes("wellbeing"),
     next: "academic",
   },
   {
@@ -182,10 +185,17 @@ export const topics: Topic[] = [
         links: [{ label: "Read the paper", href: "https://onlinelibrary.wiley.com/doi/full/10.1002/aur.2782" }],
       },
     ],
-    match: (t) => (t.includes("autism") && t.includes("anthropomorphism")) || t.includes("theory of mind"),
+    match: (t) => t.includes("anthropomorphism") || t.includes("theory of mind"),
     next: "academic",
   },
 ];
+
+/** Explicit DOI, else one found inside the URL (doi.org, ACM, Frontiers, Wiley, Sage and similar). */
+export const doiFor = (p: Publication): string | undefined => {
+  if (p.doi) return p.doi;
+  const m = p.url.match(/10\.\d{4,9}\/[^\s?#]+/);
+  return m ? m[0].replace(/\/(full|abstract|pdf|epdf|html)$/i, "") : undefined;
+};
 
 export const publicationsFor = (t: Topic) => allPublications.filter((p) => t.match(p.tags ?? []));
 export const pressFor = (t: Topic) =>
